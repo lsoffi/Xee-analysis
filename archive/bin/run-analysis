@@ -1,0 +1,4 @@
+#!/bin/zsh
+project_root="${0:A:h:h}"
+export MPLCONFIGDIR="$project_root/work/mpl-cache"
+exec "$project_root/bin/python" "$project_root/scripts/current/run_analysis.py" "$@"

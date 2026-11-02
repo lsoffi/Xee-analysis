@@ -1,0 +1,5 @@
+class RooDataHist
+entries 450
+sumWeights 1967902.508158935
+weighted 1
+observable mass min 6 max 12 bins 450 unit 

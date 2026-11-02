@@ -1,0 +1,390 @@
+{
+  "points": [
+    {
+      "region": "low",
+      "mass": 6.0,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 6.1,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 6.2,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 6.3,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 6.4,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 6.5,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 6.6,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 6.7,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 6.8,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 6.9,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 7.0,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 7.1,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 7.2,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 7.3,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 7.4,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 7.5,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 7.6,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 7.7,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 7.8,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 7.9,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 8.0,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 8.1,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 8.2,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 8.3,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 8.4,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 8.5,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 8.6,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 8.7,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 8.8,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 8.9,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 9.0,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 9.1,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 9.2,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 9.3,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 9.4,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 9.5,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 9.6,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 9.7,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 9.8,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 9.9,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 10.0,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 10.1,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 10.2,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 10.3,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 10.4,
+      "degree": 6
+    },
+    {
+      "region": "low",
+      "mass": 10.5,
+      "degree": 6
+    },
+    {
+      "region": "high",
+      "mass": 9.1,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 9.2,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 9.3,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 9.4,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 9.5,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 9.6,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 9.7,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 9.8,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 9.9,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 10.0,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 10.1,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 10.2,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 10.3,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 10.4,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 10.5,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 10.6,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 10.7,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 10.8,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 10.9,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 11.0,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 11.1,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 11.2,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 11.3,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 11.4,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 11.5,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 11.6,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 11.7,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 11.8,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 11.9,
+      "degree": 4
+    },
+    {
+      "region": "high",
+      "mass": 12.0,
+      "degree": 4
+    }
+  ],
+  "CR_degree": 4,
+  "continuity": "C0",
+  "signal": "original parametric DCB",
+  "Ymean": "floating",
+  "Ysigma_tails": "fixed MC",
+  "completed_statistical_validation": false
+}

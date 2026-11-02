@@ -1,0 +1,82 @@
+--- original/src/GoodnessOfFit.cc
++++ diagnostic/src/GoodnessOfFit.cc
+@@ -29,6 +29,9 @@
+ 
+ #include <numeric>
+ #include <memory>
++#include <map>
++#include <limits>
++#include "../interface/ProfilingTools.h"
+ 
+ 
+ #include <Math/MinimizerOptions.h>
+@@ -194,7 +197,7 @@
+   }
+   CascadeMinimizer minimn(*nominal_nll, CascadeMinimizer::Unconstrained);
+  // minimn.setStrategy(minimizerStrategy_);
+-  minimn.minimize(verbose-2);
++  const bool nominalMinimizeOk = minimn.minimize(verbose-2);
+   // This test is a special case where we are comparing the likelihoods of two
+   // different models and so we can't re-zero the NLL with respect to the
+   // initial parameters.
+@@ -206,6 +209,60 @@
+     utils::setModelParameters(setParametersForEval_, w->allVars());
+   }
+   double nll_nominal = nominal_nll->getVal();
++
++  // Optional diagnostics only: record the NOMINAL state before saturated fitting.
++  // Values live in map nodes, whose addresses remain stable for TTree branches.
++  // No additional minimization, Hesse, parameter reset or likelihood term is used.
++  if (runtimedef::get("GOF_TRACK_NOMINAL")) {
++    static std::map<std::string, double> nominalDiagnostics;
++    auto record = [&](const std::string &name, double value) {
++      const std::string branch = "gof_nominal_" + name;
++      auto inserted = nominalDiagnostics.emplace(branch, value);
++      if (inserted.second) {
++        Combine::addBranch(branch.c_str(), &inserted.first->second,
++                           (branch + "/D").c_str());
++      } else {
++        inserted.first->second = value;
++      }
++    };
++    record("minimize_ok", nominalMinimizeOk ? 1. : 0.);
++    record("nll", nll_nominal);
++    for (RooAbsArg *arg : w->allVars()) {
++      const std::string name = arg->GetName();
++      const bool isNuisance = mc_s->GetNuisanceParameters() &&
++                             mc_s->GetNuisanceParameters()->find(name.c_str());
++      if (name == "r" || name.rfind("local_", 0) == 0 || isNuisance ||
++          name.rfind("CMS_", 0) == 0 || name.rfind("Ymean_", 0) == 0) {
++        if (auto *value = dynamic_cast<RooRealVar *>(arg)) record(name, value->getVal());
++      }
++    }
++    for (RooAbsArg *arg : w->allCats()) {
++      const std::string name = arg->GetName();
++      if (name.rfind("pdfindex_", 0) == 0) {
++        if (auto *category = dynamic_cast<RooCategory *>(arg)) record(name, category->getIndex());
++      }
++    }
++    // save() serializes the existing minimizer state; it does not fit or run Hesse.
++    // freezeDisassociatedParams performs a final fit of the selected family in
++    // this runtime. Also record an explicit numerical-state consistency check.
++    std::unique_ptr<RooFitResult> nominalResult(minimn.save());
++    record("fitresult_available", nominalResult ? 1. : 0.);
++    record("status", nominalResult ? nominalResult->status() : -999.);
++    record("edm", nominalResult ? nominalResult->edm() : std::numeric_limits<double>::quiet_NaN());
++    record("covQual", nominalResult ? nominalResult->covQual() : -999.);
++    double maxDifference = 0.;
++    if (nominalResult) {
++      for (RooAbsArg *arg : nominalResult->floatParsFinal()) {
++        auto *value = dynamic_cast<RooRealVar *>(arg);
++        auto *current = w->var(arg->GetName());
++        if (value && current) maxDifference = std::max(maxDifference, std::abs(value->getVal() - current->getVal()));
++      }
++    } else {
++      maxDifference = std::numeric_limits<double>::quiet_NaN();
++    }
++    record("fitresult_state_max_abs_difference", maxDifference);
++  }
++
+ 
+   if (setParametersForFit_ != "") {
+     utils::setModelParameters(setParametersForFit_, w->allVars());

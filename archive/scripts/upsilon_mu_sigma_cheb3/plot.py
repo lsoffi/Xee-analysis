@@ -1,0 +1,29 @@
+from pathlib import Path
+import json,hashlib,csv
+import numpy as np
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+R=Path('runs/20261030_upsilon_mu_sigma_cheb3');A=json.loads((R/'results.json').read_text());eras=['2022','2022EE','2023','2023BPix'];validation=[]
+for a in A:
+ p=a['parameters'];coef=[1]+[p[f'cheb_c{i}']['value'] for i in [1,2,3]];roots=np.polynomial.chebyshev.chebroots(np.polynomial.chebyshev.chebder(coef));pts=[-1,1]+[v.real for v in roots if abs(v.imag)<1e-8 and abs(v.real)<1];a['continuum_min']=float(min(np.polynomial.chebyshev.chebval(pts,coef)));a['usable_intervals']=a['reliable_errors'] and not any(n in a['boundaries'] for n in ['upsilon_mu','upsilon_sigma','N_upsilon1s']);validation.append(dict(tag=a['tag'],continuum_min=a['continuum_min'],status=a['status'],covQual=a['covQual'],profile_failed=a['profile_failed'],boundaries=a['boundaries']))
+for k in [1.5,2,3]:
+ fig=plt.figure(figsize=(13,12));gs=fig.add_gridspec(4,2,height_ratios=[3,1,3,1],hspace=.65)
+ for j,era in enumerate(eras):
+  ax=fig.add_subplot(gs[2*(j//2),j%2]);res=fig.add_subplot(gs[2*(j//2)+1,j%2],sharex=ax);a=next(a for a in A if a['era']==era and a['multiplier']==k);xx=np.array([p['mass'] for p in a['data']]);yy=np.array([p['events'] for p in a['data']]);ax.errorbar(xx,yy,yerr=np.sqrt(yy),fmt='.',color='black',label='Dati',ms=4)
+  for key,label,color in [('total','Totale','tab:red'),('Y1','Upsilon(1S)','tab:blue'),('Y2','Upsilon(2S)','tab:purple'),('continuum','Chebyshev grado 3','tab:green')]:ax.plot(xx,a['curves'][key],label=label,color=color)
+  p=a['parameters'];ax.set_title(f"{era}: mu={p['upsilon_mu']['value']:.4f}, sigma={p['upsilon_sigma']['value']:.4f} GeV\nstatus={a['status']}, covQual={a['covQual']}"+(' — misura non affidabile' if not a['usable_intervals'] else ''),fontsize=10);ax.set_ylabel('Eventi / 13.33 MeV');ax.set_ylim(0,1.25*max(yy+np.sqrt(yy)));ax.legend(fontsize=8,ncol=2,loc='upper right');ax.grid(alpha=.2);total=np.array(a['curves']['total']);res.axhline(0,color='gray');res.plot(xx,(yy-total)/np.sqrt(np.maximum(total,1e-12)),'.',color='black');res.set_ylabel('(D-F)/sqrt(F)',fontsize=8);res.set_xlabel('m [GeV]');res.grid(alpha=.2)
+ fig.suptitle(f"Chebyshev 3 + Upsilon(1S) + Upsilon(2S) | finestra +/-{k:g} sigma MC\n{a['range'][0]:.3f}–{a['range'][1]:.3f} GeV; mu/sigma 1S liberi, code MC fisse",fontsize=14);fig.subplots_adjust(top=.88,bottom=.06);fig.savefig(R/f'fits_k{k:g}.png',dpi=140);fig.savefig(R/f'fits_k{k:g}.pdf');plt.close(fig)
+rows=[]
+for a in A:
+ p=a['parameters'];rows.append(dict(tag=a['tag'],era=a['era'],window=a['multiplier'],mu=p['upsilon_mu']['value'],sigma=p['upsilon_sigma']['value'],status=a['status'],covQual=a['covQual'],profile_failed=a['profile_failed'],boundaries=';'.join(a['boundaries']),continuum_min=a['continuum_min']))
+with (R/'parameters.csv').open('w') as f:w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+(R/'validation.json').write_text(json.dumps(dict(fits=validation,source_unchanged=hashlib.sha256(Path(A[0]['source']).read_bytes()).hexdigest()==A[0]['source_sha256']),indent=2))
+html='<meta charset="utf-8"><style>body{font:17px system-ui;max-width:1300px;margin:30px auto}img{width:100%}</style><h1>Upsilon: Chebyshev grado 3</h1><p>12 fit, quattro ere e tre finestre. Mu/sigma 1S liberi, code MC fisse; Y2 shape fissa. Il fit totale può descrivere i dati senza determinare univocamente le componenti. Nessun fit costituisce qui una misura validata di mu/sigma.</p><a href="REPORT.md">Report</a> · <a href="parameters.csv">Parametri</a>'
+for k in [1.5,2,3]:html+=f'<h2>Finestra ±{k} sigma</h2><a href="fits_k{k:g}.pdf">PDF</a><img src="fits_k{k:g}.png">'
+(R/'index.html').write_text(html)
+lines=['# Fit locale Upsilon con Chebyshev 3','','12 fit Combine MultiDimFit: 4 ere, finestre comuni ±1.5/2/3 sigma MC, binning originale. Nessun cambiamento alla baseline della ricerca.','', 'DCB Upsilon1S: mu e sigma liberi, code MC fisse. Upsilon2S: shape fissa; scala libera [0,10] originale. Yield Upsilon1S e continuo liberi [0,3N]. Chebyshev con c1 in [-2,2], c2/c3 in [-1,1], base rimappata a [-1,1] su ciascuna finestra come nei precedenti fit locali. Positivita imposta agli estremi e punti stazionari. Nessuna prior gaussiana. Constraint di supporto auto-normalizzata (RooWrapperPdf), per evitare integrale numerico nullo dell’indicatore. DCB integrate nei bin; Chebyshev valutato ai centri come nella likelihood binned Combine.','', 'Tre inizializzazioni aggiuntive per tutti i fit, confronto tramite la stessa NLL estesa senza offset. Per k2/2022EE e k3/2022 ulteriori tre tentativi con strategia 0. Risultato con NLL minore fra tentativi status 0/1, poi MINOS. Tentativi e log conservati. Non certifica un minimo globale.','', '## Risultati e limiti','6/12 risultati hanno status 0/covQual 3. Dieci hanno problemi MINOS o covarianza; i due restanti hanno sigma al limite inferiore di 0.02 GeV. Nella finestra più stretta 2023 il yield Upsilon1S tende a zero e mu/sigma perdono identificabilita. Il grado 3 può riprodurre il picco nel continuo: un buon aspetto della curva totale non assicura una misura di mu/sigma. Non usare gli errori grezzi nel JSON come intervalli validati. Nessun nuovo toy bias/coverage o GoF calibrata.','', '|Fit|mu|sigma|status/cov|MINOS problematico|Bordi|','|---|---|---|---|---|---|']
+for a in A:
+ p=a['parameters'];lines.append(f"|{a['tag']}|{p['upsilon_mu']['value']:.5f}|{p['upsilon_sigma']['value']:.5f}|{a['status']}/{a['covQual']}|{a['profile_failed']}|{', '.join(a['boundaries'])}|")
+lines+=['','Plot con componenti e residui (D-F)/sqrt(F), solo diagnostici; nessun p-value GoF attribuito. File originali verificati immutati. L’esercizio non permette di stabilire un range minimo affidabile con tutti questi parametri liberi.'];(R/'REPORT.md').write_text('\n'.join(lines)+'\n')
+print([(v['tag'],v['continuum_min']) for v in validation])

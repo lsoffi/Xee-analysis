@@ -1,0 +1,38 @@
+{
+  "status": "definitive_configuration_by_user",
+  "date": "2026-10-30",
+  "range_GeV": [
+    9.093333333333334,
+    10.506666666666668
+  ],
+  "bins": 106,
+  "continuum": {
+    "family": "Chebyshev",
+    "degree": 4,
+    "coefficients": "floating independently per era and independent of SR"
+  },
+  "upsilon": {
+    "components": [
+      "upsilon1s",
+      "upsilon2s"
+    ],
+    "mu": "floating independently per resonance and era; shared between SR and CR",
+    "mu_bounds_GeV": "original MC mean +/-0.2",
+    "sigma": "fixed original MC",
+    "tails": "fixed original MC",
+    "normalizations": "floating; shared SR/CR via shape integrals",
+    "normalization_scale_bounds": [
+      0,
+      10
+    ]
+  },
+  "meaning": "Freeze configuration, not fitted background parameters or normalizations",
+  "pending_checks": [
+    "Profile likelihood for mu and normalizations",
+    "Multistart and toy minimizer robustness",
+    "Bias and coverage of normalization intervals under alternative backgrounds",
+    "Higher-statistics GoF and per-era residuals"
+  ],
+  "selection_policy": "Do not reopen CR range/function selection; pending checks remain separate",
+  "reference_run": "runs/20261030_cr_degree4_mu"
+}

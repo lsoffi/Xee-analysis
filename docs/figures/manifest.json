@@ -1,0 +1,32 @@
+[
+  {
+    "figure": "fit_c0_low_7p5.png",
+    "source": "runs/20261031_separate_sr_c0_limits/fits/low/m7.5/fit_full_log.png",
+    "sha256": "9fda65ed6f8f3372c1e2097001b429e9d95a62005247af8e71b0175707e4eb76"
+  },
+  {
+    "figure": "limits_c0.png",
+    "source": "runs/20261031_separate_sr_c0_limits/limits.png",
+    "sha256": "d4b3bc4f61a514f233e959348d7ca7c3ed106c61f1cb5162a21ba6aa9a90e6c8"
+  },
+  {
+    "figure": "pvalues_c0.png",
+    "source": "runs/20261031_separate_sr_c0_limits/pvalues.png",
+    "sha256": "3fe57057810b0b622e9541fa1ddc26e95bfb02bd3e67c2b60b516f2691ce81df"
+  },
+  {
+    "figure": "profiles_c0.png",
+    "source": "runs/20261102_upsilon_c0_profiles/profiles.png",
+    "sha256": "2a29f16ababe3a3effd71a660c5f0c49c0b05d5cae6851f5020affa20fb5404a"
+  },
+  {
+    "figure": "bias_historical.png",
+    "source": "runs/20261030_upper_bias_cheb5_toys/bias_normalized.png",
+    "sha256": "297c991850ecfe18c127a8062b5fefc540909c18bbc33914749c4febd1d69474"
+  },
+  {
+    "figure": "gof_historical.png",
+    "source": "runs/20261030_gof_profiled_combined/gof_vs_mass.png",
+    "sha256": "1a212799d7b5bbf748dd591a8e88921a414bdc4e6b43546ae9e4766308bda9f9"
+  }
+]

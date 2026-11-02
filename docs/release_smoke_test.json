@@ -1,0 +1,22 @@
+{
+  "scope": "No minimization. Syntax, imported input hashes, parameter structure, physical C0, prediction closure and optional original-model parity.",
+  "models": [
+    {
+      "side": "low",
+      "data_events": 314857,
+      "coefficients": 40,
+      "C0max": 1.2754602540683002e-11,
+      "original_prediction_max_absolute_difference": 0.0
+    },
+    {
+      "side": "high",
+      "data_events": 52105,
+      "coefficients": 32,
+      "C0max": 1.2758609198195759e-11,
+      "original_prediction_max_absolute_difference": 0.0
+    }
+  ],
+  "syntax": true,
+  "summary_conventions": true,
+  "passed": true
+}

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+XEE_REPO="$(cd "$(dirname "$0")/.." && pwd)"
+if [[ -n "${XEE_PLOT_PYTHON:-}" ]]; then exec "$XEE_PLOT_PYTHON" "$@"; fi
+exec "$XEE_REPO/.venv-plots/bin/python" "$@"

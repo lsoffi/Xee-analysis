@@ -1,0 +1,2116 @@
+{
+  "status": "completed_with_flags",
+  "updated_at_utc": "2026-10-30T22:03:59.476924+00:00",
+  "counts": {
+    "target": 1600,
+    "generated_toys": 3200,
+    "generated_cells": 32,
+    "selected_toy_ids": [
+      1,
+      50
+    ],
+    "completed": 1600,
+    "valid": 1518,
+    "invalid": 82,
+    "pending_upgrade": 0,
+    "protocol_counts": {
+      "two_fixed_anchors_v2": 1600
+    },
+    "strict_valid": 1201,
+    "interval_valid": 1201,
+    "profile_controls": 28,
+    "profiles_total": 56,
+    "any_flags": 413,
+    "complete_cells": 32,
+    "target_cells": 32
+  },
+  "summaries": [
+    {
+      "mass": 10.5,
+      "injection": "r0",
+      "rtrue": 0.0,
+      "n": 50,
+      "target": 50,
+      "n_valid": 48,
+      "n_invalid": 2,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 39,
+      "n_finite": 50,
+      "n_hesse_valid": 38,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 48,
+        "mean": 5.733095582866426,
+        "sd": 11.100965341922018,
+        "se": 1.6022863321058458,
+        "median": 2.5010379576773767
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 5.627231457362909,
+        "sd": 10.884671642297425,
+        "se": 1.5393250258514848,
+        "median": 2.543439897554811
+      },
+      "pull": {
+        "n": 38,
+        "mean": 0.7622443183920045,
+        "sd": 0.7226862252498109,
+        "se": 0.11723518649165068,
+        "median": 0.7847648785038794
+      },
+      "normalized_bias": {
+        "value": 0.5164501830499184,
+        "se": 0.10059339340304028,
+        "ci95": [
+          0.4195299956159745,
+          0.8366467046364179
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "Hesse_covariance_not_full_quality": 11,
+        "multistart_no_converged_anchor": 2,
+        "simultaneous_fit_invalid": 2,
+        "interval_invalid": 11,
+        "one_anchor_numerically_invalid": 1
+      },
+      "n_CR_invalid": 0,
+      "n_r_boundary": 0
+    },
+    {
+      "mass": 10.5,
+      "injection": "rExpected",
+      "rtrue": 18.544921875,
+      "n": 50,
+      "target": 50,
+      "n_valid": 44,
+      "n_invalid": 6,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 28,
+      "n_finite": 50,
+      "n_hesse_valid": 30,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 44,
+        "mean": 7.253309145150316,
+        "sd": 18.038991011529014,
+        "se": 2.7194802173561525,
+        "median": 0.039598857842914725
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 13.193453164114583,
+        "sd": 26.716942824407393,
+        "se": 3.778346288742348,
+        "median": 0.44704045245744517
+      },
+      "pull": {
+        "n": 30,
+        "mean": -0.7807849445850737,
+        "sd": 2.032097597992184,
+        "se": 0.37100856449079467,
+        "median": -0.16099011881987105
+      },
+      "normalized_bias": {
+        "value": 0.4020906236116315,
+        "se": 0.12523127983639365,
+        "ci95": [
+          0.14826742378696198,
+          0.6390315941765502
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 1,
+        "hesse68": 49
+      },
+      "flags": {
+        "Hesse_covariance_not_full_quality": 15,
+        "multistart_no_converged_anchor": 4,
+        "simultaneous_fit_invalid": 6,
+        "interval_invalid": 22,
+        "r_at_boundary": 4,
+        "interval_at_boundary": 7,
+        "CR_fit_invalid": 2,
+        "one_anchor_numerically_invalid": 1
+      },
+      "n_CR_invalid": 2,
+      "n_r_boundary": 4
+    },
+    {
+      "mass": 10.6,
+      "injection": "r0",
+      "rtrue": 0.0,
+      "n": 50,
+      "target": 50,
+      "n_valid": 50,
+      "n_invalid": 0,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 42,
+      "n_finite": 50,
+      "n_hesse_valid": 40,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 50,
+        "mean": 0.7218587810456879,
+        "sd": 6.1838602515208025,
+        "se": 0.8745299035520617,
+        "median": -0.4633027312239413
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 0.7218587810456879,
+        "sd": 6.1838602515208025,
+        "se": 0.8745299035520617,
+        "median": -0.4633027312239413
+      },
+      "pull": {
+        "n": 40,
+        "mean": -0.20861231089475796,
+        "sd": 0.8591919075003904,
+        "se": 0.13585016874429706,
+        "median": -0.4840065012629672
+      },
+      "normalized_bias": {
+        "value": 0.11673271252663908,
+        "se": 0.13972319558180155,
+        "ci95": [
+          -0.20309967566205353,
+          0.35381205388400927
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "Hesse_covariance_not_full_quality": 10,
+        "interval_invalid": 8
+      },
+      "n_CR_invalid": 0,
+      "n_r_boundary": 0
+    },
+    {
+      "mass": 10.6,
+      "injection": "rExpected",
+      "rtrue": 17.822265625,
+      "n": 50,
+      "target": 50,
+      "n_valid": 40,
+      "n_invalid": 10,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 21,
+      "n_finite": 50,
+      "n_hesse_valid": 26,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 40,
+        "mean": 13.748756014211008,
+        "sd": 22.701081786795385,
+        "se": 3.589356189801916,
+        "median": 5.713656606493146
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 25.71488198579701,
+        "sd": 33.62145300344949,
+        "se": 4.754791482416789,
+        "median": 18.855825938331606
+      },
+      "pull": {
+        "n": 26,
+        "mean": -0.8741625689668004,
+        "sd": 2.6005834091021014,
+        "se": 0.510016367297587,
+        "median": -0.011870185635628083
+      },
+      "normalized_bias": {
+        "value": 0.60564320869538,
+        "se": 0.13866574801241885,
+        "ci95": [
+          0.3605481683635325,
+          0.8943298468943756
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "interval_invalid": 29,
+        "Hesse_covariance_not_full_quality": 14,
+        "interval_at_boundary": 14,
+        "multistart_no_converged_anchor": 9,
+        "simultaneous_fit_invalid": 10,
+        "r_at_boundary": 9,
+        "CR_fit_invalid": 2
+      },
+      "n_CR_invalid": 2,
+      "n_r_boundary": 9
+    },
+    {
+      "mass": 10.7,
+      "injection": "r0",
+      "rtrue": 0.0,
+      "n": 50,
+      "target": 50,
+      "n_valid": 49,
+      "n_invalid": 1,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 44,
+      "n_finite": 50,
+      "n_hesse_valid": 44,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 49,
+        "mean": -2.29535276140005,
+        "sd": 5.678434036995241,
+        "se": 0.8112048624278916,
+        "median": -0.6079761852029852
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": -2.2558122971651273,
+        "sd": 5.627142454148027,
+        "se": 0.7957981176061562,
+        "median": -0.5997103296492223
+      },
+      "pull": {
+        "n": 44,
+        "mean": -0.3668434013516028,
+        "sd": 0.6393415960261021,
+        "se": 0.0963843721311617,
+        "median": -0.5068830663439219
+      },
+      "normalized_bias": {
+        "value": -0.40422284496847694,
+        "se": 0.09864058402546956,
+        "ci95": [
+          -0.6042130931758849,
+          -0.2201367084049643
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "interval_invalid": 6,
+        "Hesse_covariance_not_full_quality": 5,
+        "multistart_no_converged_anchor": 1,
+        "simultaneous_fit_invalid": 1
+      },
+      "n_CR_invalid": 0,
+      "n_r_boundary": 0
+    },
+    {
+      "mass": 10.7,
+      "injection": "rExpected",
+      "rtrue": 9.4873046875,
+      "n": 50,
+      "target": 50,
+      "n_valid": 46,
+      "n_invalid": 4,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 37,
+      "n_finite": 50,
+      "n_hesse_valid": 38,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 46,
+        "mean": 6.371684964641074,
+        "sd": 17.291064882159375,
+        "se": 2.549428430226824,
+        "median": -1.8889872004922892
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 11.285048437813147,
+        "sd": 26.15957368633003,
+        "se": 3.699522389310627,
+        "median": -0.8275524840786215
+      },
+      "pull": {
+        "n": 38,
+        "mean": -1.2124600434375776,
+        "sd": 3.2135170267519864,
+        "se": 0.5213012989076099,
+        "median": -0.2560423697430314
+      },
+      "normalized_bias": {
+        "value": 0.3684958102965231,
+        "se": 0.11412856581918382,
+        "ci95": [
+          0.12725977938467786,
+          0.5835626255481867
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "interval_invalid": 13,
+        "Hesse_covariance_not_full_quality": 8,
+        "CR_fit_invalid": 1,
+        "simultaneous_fit_invalid": 4,
+        "multistart_no_converged_anchor": 3,
+        "r_at_boundary": 3,
+        "interval_at_boundary": 4
+      },
+      "n_CR_invalid": 1,
+      "n_r_boundary": 3
+    },
+    {
+      "mass": 10.8,
+      "injection": "r0",
+      "rtrue": 0.0,
+      "n": 50,
+      "target": 50,
+      "n_valid": 50,
+      "n_invalid": 0,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 45,
+      "n_finite": 50,
+      "n_hesse_valid": 45,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 50,
+        "mean": -2.464385536970095,
+        "sd": 5.990397832125133,
+        "se": 0.847170185820175,
+        "median": -0.8827057436122998
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": -2.464385536970095,
+        "sd": 5.990397832125133,
+        "se": 0.847170185820175,
+        "median": -0.8827057436122998
+      },
+      "pull": {
+        "n": 45,
+        "mean": -0.687865970037208,
+        "sd": 0.6017062106593424,
+        "se": 0.0896970659678732,
+        "median": -0.6751925736653204
+      },
+      "normalized_bias": {
+        "value": -0.4113892943393775,
+        "se": 0.098285229320189,
+        "ci95": [
+          -0.7597144938750582,
+          -0.32927701861169983
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 3,
+        "hesse68": 47
+      },
+      "flags": {
+        "interval_invalid": 5,
+        "Hesse_covariance_not_full_quality": 5
+      },
+      "n_CR_invalid": 0,
+      "n_r_boundary": 0
+    },
+    {
+      "mass": 10.8,
+      "injection": "rExpected",
+      "rtrue": 7.1728515625,
+      "n": 50,
+      "target": 50,
+      "n_valid": 50,
+      "n_invalid": 0,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 39,
+      "n_finite": 50,
+      "n_hesse_valid": 39,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 50,
+        "mean": 3.7905476268128018,
+        "sd": 11.872933649897504,
+        "se": 1.6790863792840942,
+        "median": -0.922298985554999
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 3.7905476268128018,
+        "sd": 11.872933649897504,
+        "se": 1.6790863792840942,
+        "median": -0.922298985554999
+      },
+      "pull": {
+        "n": 39,
+        "mean": -0.9384768324090231,
+        "sd": 2.401462448288974,
+        "se": 0.3845417482767579,
+        "median": -0.3329792804385296
+      },
+      "normalized_bias": {
+        "value": 0.319259564534459,
+        "se": 0.10396710351501298,
+        "ci95": [
+          0.08652121295278312,
+          0.49768937553059633
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 3,
+        "hesse68": 47
+      },
+      "flags": {
+        "Hesse_covariance_not_full_quality": 11,
+        "interval_invalid": 11,
+        "interval_at_boundary": 1
+      },
+      "n_CR_invalid": 0,
+      "n_r_boundary": 0
+    },
+    {
+      "mass": 10.9,
+      "injection": "r0",
+      "rtrue": 0.0,
+      "n": 50,
+      "target": 50,
+      "n_valid": 50,
+      "n_invalid": 0,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 48,
+      "n_finite": 50,
+      "n_hesse_valid": 48,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 50,
+        "mean": -2.094802950639237,
+        "sd": 4.5371490883540515,
+        "se": 0.6416497775259024,
+        "median": -1.1124019131102392
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": -2.094802950639237,
+        "sd": 4.5371490883540515,
+        "se": 0.6416497775259024,
+        "median": -1.1124019131102392
+      },
+      "pull": {
+        "n": 48,
+        "mean": -0.37831788071800504,
+        "sd": 0.6974895865448696,
+        "se": 0.10067395013716031,
+        "median": -0.5236879252001885
+      },
+      "normalized_bias": {
+        "value": -0.4617002681300852,
+        "se": 0.09223631248273823,
+        "ci95": [
+          -0.6447188505084236,
+          -0.28771174880956585
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "interval_invalid": 2,
+        "Hesse_covariance_not_full_quality": 2
+      },
+      "n_CR_invalid": 0,
+      "n_r_boundary": 0
+    },
+    {
+      "mass": 10.9,
+      "injection": "rExpected",
+      "rtrue": 7.4462890625,
+      "n": 50,
+      "target": 50,
+      "n_valid": 48,
+      "n_invalid": 2,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 34,
+      "n_finite": 50,
+      "n_hesse_valid": 36,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 48,
+        "mean": 6.553878295274799,
+        "sd": 20.569376322445837,
+        "se": 2.968933739206705,
+        "median": -1.4350805372181363
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 6.214171043801381,
+        "sd": 20.21572363591533,
+        "se": 2.85893505390978,
+        "median": -1.4350805372181363
+      },
+      "pull": {
+        "n": 36,
+        "mean": -0.7769701204345086,
+        "sd": 1.5826012156266487,
+        "se": 0.2637668692711081,
+        "median": -0.5260523971115506
+      },
+      "normalized_bias": {
+        "value": 0.31862309253018223,
+        "se": 0.08644922722431382,
+        "ci95": [
+          0.12869529346215774,
+          0.47516084216959203
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "interval_invalid": 16,
+        "Hesse_covariance_not_full_quality": 13,
+        "multistart_no_converged_anchor": 1,
+        "simultaneous_fit_invalid": 2,
+        "CR_fit_invalid": 1,
+        "interval_at_boundary": 3
+      },
+      "n_CR_invalid": 1,
+      "n_r_boundary": 0
+    },
+    {
+      "mass": 11.0,
+      "injection": "r0",
+      "rtrue": 0.0,
+      "n": 50,
+      "target": 50,
+      "n_valid": 50,
+      "n_invalid": 0,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 50,
+      "n_finite": 50,
+      "n_hesse_valid": 50,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 50,
+        "mean": -0.31965184798363977,
+        "sd": 3.636913488540063,
+        "se": 0.5143372380671003,
+        "median": 0.425185711940268
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": -0.31965184798363977,
+        "sd": 3.636913488540063,
+        "se": 0.5143372380671003,
+        "median": 0.425185711940268
+      },
+      "pull": {
+        "n": 50,
+        "mean": 0.17512380973979064,
+        "sd": 0.8078687692585791,
+        "se": 0.11424989701031431,
+        "median": 0.43643379303427093
+      },
+      "normalized_bias": {
+        "value": -0.08789096825944986,
+        "se": 0.14066303485466747,
+        "ci95": [
+          -0.28668952578886786,
+          0.25932546541714013
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {},
+      "n_CR_invalid": 0,
+      "n_r_boundary": 0
+    },
+    {
+      "mass": 11.0,
+      "injection": "rExpected",
+      "rtrue": 8.5498046875,
+      "n": 50,
+      "target": 50,
+      "n_valid": 47,
+      "n_invalid": 3,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 39,
+      "n_finite": 50,
+      "n_hesse_valid": 40,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 47,
+        "mean": 3.281998465862594,
+        "sd": 11.443943466325715,
+        "se": 1.6692707164179863,
+        "median": -1.3176327353854145
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 6.7905780020065745,
+        "sd": 20.680719329029035,
+        "se": 2.9246953754744274,
+        "median": -0.6418886033816733
+      },
+      "pull": {
+        "n": 40,
+        "mean": -0.3847014417584993,
+        "sd": 1.0981550396671242,
+        "se": 0.17363355746703335,
+        "median": -0.030111767330651438
+      },
+      "normalized_bias": {
+        "value": 0.286789119110909,
+        "se": 0.10816062727799156,
+        "ci95": [
+          0.057590647632045425,
+          0.47354572972329617
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "interval_invalid": 11,
+        "Hesse_covariance_not_full_quality": 7,
+        "interval_at_boundary": 3,
+        "CR_fit_invalid": 1,
+        "simultaneous_fit_invalid": 3,
+        "multistart_no_converged_anchor": 2,
+        "r_at_boundary": 2
+      },
+      "n_CR_invalid": 1,
+      "n_r_boundary": 2
+    },
+    {
+      "mass": 11.1,
+      "injection": "r0",
+      "rtrue": 0.0,
+      "n": 50,
+      "target": 50,
+      "n_valid": 48,
+      "n_invalid": 2,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 44,
+      "n_finite": 50,
+      "n_hesse_valid": 44,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 48,
+        "mean": 1.823118278139823,
+        "sd": 4.3262732066615035,
+        "se": 0.6244437501134712,
+        "median": 0.7574779221598771
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": -2.2498064529637833,
+        "sd": 20.59628513742337,
+        "se": 2.9127545775847534,
+        "median": 0.7451819060667053
+      },
+      "pull": {
+        "n": 44,
+        "mean": 0.6014071034052773,
+        "sd": 0.6565504528990121,
+        "se": 0.09897870491836042,
+        "median": 0.6503495689384593
+      },
+      "normalized_bias": {
+        "value": 0.4214061828856819,
+        "se": 0.11264815318754585,
+        "ci95": [
+          0.3178656566374698,
+          0.7409207124963817
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "interval_invalid": 6,
+        "Hesse_covariance_not_full_quality": 4,
+        "multistart_no_converged_anchor": 2,
+        "simultaneous_fit_invalid": 2,
+        "r_at_boundary": 2,
+        "interval_at_boundary": 2
+      },
+      "n_CR_invalid": 0,
+      "n_r_boundary": 2
+    },
+    {
+      "mass": 11.1,
+      "injection": "rExpected",
+      "rtrue": 8.7158203125,
+      "n": 50,
+      "target": 50,
+      "n_valid": 48,
+      "n_invalid": 2,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 38,
+      "n_finite": 50,
+      "n_hesse_valid": 39,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 48,
+        "mean": 4.7122936738376495,
+        "sd": 13.136720184746869,
+        "se": 1.896122233733099,
+        "median": 0.6332573769343819
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 4.75681378988509,
+        "sd": 12.889917066936702,
+        "se": 1.822909553392631,
+        "median": 0.7910857706826313
+      },
+      "pull": {
+        "n": 39,
+        "mean": -0.40659523790596414,
+        "sd": 1.3639205386806126,
+        "se": 0.21840207779576642,
+        "median": 0.037224710389181494
+      },
+      "normalized_bias": {
+        "value": 0.35871158154903265,
+        "se": 0.095103698677031,
+        "ci95": [
+          0.16282830288659098,
+          0.5294667918219395
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "Hesse_covariance_not_full_quality": 11,
+        "interval_invalid": 12,
+        "interval_at_boundary": 2,
+        "multistart_no_converged_anchor": 2,
+        "simultaneous_fit_invalid": 2,
+        "CR_fit_invalid": 1
+      },
+      "n_CR_invalid": 1,
+      "n_r_boundary": 0
+    },
+    {
+      "mass": 11.2,
+      "injection": "r0",
+      "rtrue": 0.0,
+      "n": 50,
+      "target": 50,
+      "n_valid": 50,
+      "n_invalid": 0,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 47,
+      "n_finite": 50,
+      "n_hesse_valid": 47,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 50,
+        "mean": 1.3834373951336667,
+        "sd": 3.2435937304044056,
+        "se": 0.45871342443662505,
+        "median": 0.6806188608923236
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 1.3834373951336667,
+        "sd": 3.2435937304044056,
+        "se": 0.45871342443662505,
+        "median": 0.6806188608923236
+      },
+      "pull": {
+        "n": 47,
+        "mean": 0.5580579947381635,
+        "sd": 0.6695669990255322,
+        "se": 0.09766638462013003,
+        "median": 0.6409287382877431
+      },
+      "normalized_bias": {
+        "value": 0.4265137714892494,
+        "se": 0.10695831459746741,
+        "ci95": [
+          0.23176137472200847,
+          0.6580426245449709
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "interval_invalid": 3,
+        "Hesse_covariance_not_full_quality": 3
+      },
+      "n_CR_invalid": 0,
+      "n_r_boundary": 0
+    },
+    {
+      "mass": 11.2,
+      "injection": "rExpected",
+      "rtrue": 7.6806640625,
+      "n": 50,
+      "target": 50,
+      "n_valid": 45,
+      "n_invalid": 5,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 24,
+      "n_finite": 50,
+      "n_hesse_valid": 24,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 45,
+        "mean": 10.547461251354253,
+        "sd": 20.458589956215878,
+        "se": 3.0497865243928763,
+        "median": 1.9545925725445876
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 13.140688243197294,
+        "sd": 25.49661175314083,
+        "se": 3.6057654135853014,
+        "median": 2.126225481009346
+      },
+      "pull": {
+        "n": 24,
+        "mean": -0.3239420861169765,
+        "sd": 1.5735317579873995,
+        "se": 0.3211958250944765,
+        "median": 0.14705597374446366
+      },
+      "normalized_bias": {
+        "value": 0.5155517205206827,
+        "se": 0.08697982892068239,
+        "ci95": [
+          0.36290003848365976,
+          0.7060769897244142
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "Hesse_covariance_not_full_quality": 22,
+        "interval_invalid": 26,
+        "interval_at_boundary": 5,
+        "CR_fit_invalid": 1,
+        "simultaneous_fit_invalid": 5,
+        "multistart_no_converged_anchor": 4,
+        "r_at_boundary": 2
+      },
+      "n_CR_invalid": 1,
+      "n_r_boundary": 2
+    },
+    {
+      "mass": 11.3,
+      "injection": "r0",
+      "rtrue": 0.0,
+      "n": 50,
+      "target": 50,
+      "n_valid": 50,
+      "n_invalid": 0,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 49,
+      "n_finite": 50,
+      "n_hesse_valid": 49,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 50,
+        "mean": 0.5079914198773772,
+        "sd": 2.6590516396207597,
+        "se": 0.3760466891802094,
+        "median": 0.4759032032224386
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 0.5079914198773772,
+        "sd": 2.6590516396207597,
+        "se": 0.3760466891802094,
+        "median": 0.4759032032224386
+      },
+      "pull": {
+        "n": 49,
+        "mean": 0.32817420258497615,
+        "sd": 0.709422528632394,
+        "se": 0.10134607551891342,
+        "median": 0.4289189998866456
+      },
+      "normalized_bias": {
+        "value": 0.19104232964419907,
+        "se": 0.16691940554074422,
+        "ci95": [
+          -0.07273385565886896,
+          0.559762610875256
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "interval_invalid": 1,
+        "Hesse_covariance_not_full_quality": 1
+      },
+      "n_CR_invalid": 0,
+      "n_r_boundary": 0
+    },
+    {
+      "mass": 11.3,
+      "injection": "rExpected",
+      "rtrue": 6.9970703125,
+      "n": 50,
+      "target": 50,
+      "n_valid": 50,
+      "n_invalid": 0,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 36,
+      "n_finite": 50,
+      "n_hesse_valid": 40,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 50,
+        "mean": 9.078741860794526,
+        "sd": 17.61679267627754,
+        "se": 2.491390712830671,
+        "median": -0.2484410247011981
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 9.078741860794526,
+        "sd": 17.61679267627754,
+        "se": 2.491390712830671,
+        "median": -0.2484410247011981
+      },
+      "pull": {
+        "n": 40,
+        "mean": -0.09961723220617943,
+        "sd": 1.1563131716396406,
+        "se": 0.18282916554172401,
+        "median": -0.006277959505705302
+      },
+      "normalized_bias": {
+        "value": 0.5153458990875108,
+        "se": 0.08794121291699798,
+        "ci95": [
+          0.3628768127260297,
+          0.700359581103328
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "interval_invalid": 14,
+        "interval_at_boundary": 5,
+        "Hesse_covariance_not_full_quality": 10
+      },
+      "n_CR_invalid": 0,
+      "n_r_boundary": 0
+    },
+    {
+      "mass": 11.4,
+      "injection": "r0",
+      "rtrue": 0.0,
+      "n": 50,
+      "target": 50,
+      "n_valid": 50,
+      "n_invalid": 0,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 47,
+      "n_finite": 50,
+      "n_hesse_valid": 47,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 50,
+        "mean": 1.0972083791920795,
+        "sd": 6.602773875631822,
+        "se": 0.9337732364201287,
+        "median": -0.23586961124079098
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 1.0972083791920795,
+        "sd": 6.602773875631822,
+        "se": 0.9337732364201287,
+        "median": -0.23586961124079098
+      },
+      "pull": {
+        "n": 47,
+        "mean": -0.11857920616591233,
+        "sd": 0.7641649870807316,
+        "se": 0.11146491934351961,
+        "median": -0.2829266458724287
+      },
+      "normalized_bias": {
+        "value": 0.16617385357409156,
+        "se": 0.1096128073030125,
+        "ci95": [
+          -0.1329489945281351,
+          0.3061579346697362
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "interval_invalid": 3,
+        "Hesse_covariance_not_full_quality": 3
+      },
+      "n_CR_invalid": 0,
+      "n_r_boundary": 0
+    },
+    {
+      "mass": 11.4,
+      "injection": "rExpected",
+      "rtrue": 7.4951171875,
+      "n": 50,
+      "target": 50,
+      "n_valid": 46,
+      "n_invalid": 4,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 33,
+      "n_finite": 50,
+      "n_hesse_valid": 39,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 46,
+        "mean": 11.099875594564843,
+        "sd": 21.708529164997046,
+        "se": 3.2007480053328,
+        "median": 3.595759253515274
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 16.642609572567686,
+        "sd": 28.797242696691136,
+        "se": 4.072545118061016,
+        "median": 3.928001746164078
+      },
+      "pull": {
+        "n": 39,
+        "mean": -0.7123368967004712,
+        "sd": 1.8848980475208874,
+        "se": 0.3018252444603331,
+        "median": 0.06207782937066408
+      },
+      "normalized_bias": {
+        "value": 0.5113140328485425,
+        "se": 0.0902360800068799,
+        "ci95": [
+          0.3481334313221985,
+          0.6950181923171308
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "interval_invalid": 17,
+        "Hesse_covariance_not_full_quality": 8,
+        "multistart_no_converged_anchor": 3,
+        "simultaneous_fit_invalid": 4,
+        "r_at_boundary": 3,
+        "interval_at_boundary": 9,
+        "CR_fit_invalid": 1
+      },
+      "n_CR_invalid": 1,
+      "n_r_boundary": 3
+    },
+    {
+      "mass": 11.5,
+      "injection": "r0",
+      "rtrue": 0.0,
+      "n": 50,
+      "target": 50,
+      "n_valid": 48,
+      "n_invalid": 2,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 44,
+      "n_finite": 50,
+      "n_hesse_valid": 44,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 48,
+        "mean": -0.2978424314656804,
+        "sd": 2.905661934096786,
+        "se": 0.419396174956207,
+        "median": -0.3012163920853794
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": -0.8114935737031576,
+        "sd": 4.6454661752375825,
+        "se": 0.6569681268566459,
+        "median": -0.3012163920853794
+      },
+      "pull": {
+        "n": 44,
+        "mean": -0.16172368156474548,
+        "sd": 0.7354997377094132,
+        "se": 0.11088075742667883,
+        "median": -0.309939873049773
+      },
+      "normalized_bias": {
+        "value": -0.10250415850881275,
+        "se": 0.1563830305668424,
+        "ci95": [
+          -0.4345397937604102,
+          0.17125302551646737
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "CR_fit_invalid": 1,
+        "simultaneous_fit_invalid": 2,
+        "interval_invalid": 6,
+        "Hesse_covariance_not_full_quality": 5,
+        "multistart_no_converged_anchor": 1
+      },
+      "n_CR_invalid": 1,
+      "n_r_boundary": 0
+    },
+    {
+      "mass": 11.5,
+      "injection": "rExpected",
+      "rtrue": 9.853515625,
+      "n": 50,
+      "target": 50,
+      "n_valid": 45,
+      "n_invalid": 5,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 28,
+      "n_finite": 50,
+      "n_hesse_valid": 33,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 45,
+        "mean": 11.502071229239368,
+        "sd": 21.24549287629919,
+        "se": 3.1670910857928343,
+        "median": 3.757812985200978
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 17.604193711185893,
+        "sd": 29.56418553890323,
+        "se": 4.181007214963148,
+        "median": 4.348075800574156
+      },
+      "pull": {
+        "n": 33,
+        "mean": -0.054998255329216865,
+        "sd": 0.9887002843450844,
+        "se": 0.17211062794152424,
+        "median": 0.22404823717263353
+      },
+      "normalized_bias": {
+        "value": 0.5413887687242465,
+        "se": 0.09051122381618631,
+        "ci95": [
+          0.37939206715131457,
+          0.7321750974359119
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 1,
+        "hesse68": 49
+      },
+      "flags": {
+        "profile_failed_point_retained": 1,
+        "interval_invalid": 22,
+        "multistart_no_converged_anchor": 4,
+        "simultaneous_fit_invalid": 5,
+        "r_at_boundary": 4,
+        "interval_at_boundary": 8,
+        "Hesse_covariance_not_full_quality": 12,
+        "CR_fit_invalid": 1
+      },
+      "n_CR_invalid": 1,
+      "n_r_boundary": 4
+    },
+    {
+      "mass": 11.6,
+      "injection": "r0",
+      "rtrue": 0.0,
+      "n": 50,
+      "target": 50,
+      "n_valid": 50,
+      "n_invalid": 0,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 38,
+      "n_finite": 50,
+      "n_hesse_valid": 38,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 50,
+        "mean": -2.3038683501967387,
+        "sd": 6.232214053029813,
+        "se": 0.8813681637406957,
+        "median": -0.777014941473736
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": -2.3038683501967387,
+        "sd": 6.232214053029813,
+        "se": 0.8813681637406957,
+        "median": -0.777014941473736
+      },
+      "pull": {
+        "n": 38,
+        "mean": -0.27635151043483835,
+        "sd": 0.7659013989868818,
+        "se": 0.12424561338969115,
+        "median": -0.5085623081581694
+      },
+      "normalized_bias": {
+        "value": -0.3696709276339289,
+        "se": 0.10490777126243137,
+        "ci95": [
+          -0.6078184298187834,
+          -0.18754122706990234
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "interval_invalid": 12,
+        "Hesse_covariance_not_full_quality": 12
+      },
+      "n_CR_invalid": 0,
+      "n_r_boundary": 0
+    },
+    {
+      "mass": 11.6,
+      "injection": "rExpected",
+      "rtrue": 13.115234375,
+      "n": 50,
+      "target": 50,
+      "n_valid": 47,
+      "n_invalid": 3,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 30,
+      "n_finite": 50,
+      "n_hesse_valid": 35,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 47,
+        "mean": 10.921934229505316,
+        "sd": 21.241500419804645,
+        "se": 3.098391278137328,
+        "median": 1.2439162670975392
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 15.479704098954413,
+        "sd": 27.489387001104653,
+        "se": 3.8875863918284863,
+        "median": 1.7438259586143712
+      },
+      "pull": {
+        "n": 35,
+        "mean": 0.006193965346572512,
+        "sd": 0.71404267364004,
+        "se": 0.12069524073692109,
+        "median": 0.09642665651865108
+      },
+      "normalized_bias": {
+        "value": 0.5141790369630472,
+        "se": 0.0986634278881512,
+        "ci95": [
+          0.326616954344876,
+          0.7051529931070838
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "Hesse_covariance_not_full_quality": 12,
+        "interval_invalid": 20,
+        "interval_at_boundary": 10,
+        "multistart_no_converged_anchor": 3,
+        "simultaneous_fit_invalid": 3,
+        "r_at_boundary": 3
+      },
+      "n_CR_invalid": 0,
+      "n_r_boundary": 3
+    },
+    {
+      "mass": 11.7,
+      "injection": "r0",
+      "rtrue": 0.0,
+      "n": 50,
+      "target": 50,
+      "n_valid": 50,
+      "n_invalid": 0,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 41,
+      "n_finite": 50,
+      "n_hesse_valid": 43,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 50,
+        "mean": -1.0461310913916089,
+        "sd": 18.918790977556966,
+        "se": 2.6755210784162804,
+        "median": -0.43260215808163527
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": -1.0461310913916089,
+        "sd": 18.918790977556966,
+        "se": 2.6755210784162804,
+        "median": -0.43260215808163527
+      },
+      "pull": {
+        "n": 43,
+        "mean": -0.09696787635887262,
+        "sd": 0.7353317477111929,
+        "se": 0.11213704024613247,
+        "median": -0.3421873975106472
+      },
+      "normalized_bias": {
+        "value": -0.05529587448968679,
+        "se": 0.1442917917826792,
+        "ci95": [
+          -0.33615530557685336,
+          0.21887550317271007
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "interval_invalid": 9,
+        "Hesse_covariance_not_full_quality": 7,
+        "interval_at_boundary": 3
+      },
+      "n_CR_invalid": 0,
+      "n_r_boundary": 0
+    },
+    {
+      "mass": 11.7,
+      "injection": "rExpected",
+      "rtrue": 12.724609375,
+      "n": 50,
+      "target": 50,
+      "n_valid": 47,
+      "n_invalid": 3,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 25,
+      "n_finite": 50,
+      "n_hesse_valid": 29,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 47,
+        "mean": 13.62129562810168,
+        "sd": 18.709042948293856,
+        "se": 2.7289943905866276,
+        "median": 11.559444004679847
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 13.864259246297008,
+        "sd": 18.485841928225792,
+        "se": 2.614292836678212,
+        "median": 11.735006491456874
+      },
+      "pull": {
+        "n": 29,
+        "mean": -0.218308686425742,
+        "sd": 1.3604425479047972,
+        "se": 0.2526278390036314,
+        "median": 0.2849216906263307
+      },
+      "normalized_bias": {
+        "value": 0.7280594558335681,
+        "se": 0.11756226796395669,
+        "ci95": [
+          0.5319649653279583,
+          0.9891754913812841
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 1,
+        "hesse68": 49
+      },
+      "flags": {
+        "interval_invalid": 25,
+        "Hesse_covariance_not_full_quality": 19,
+        "multistart_no_converged_anchor": 2,
+        "simultaneous_fit_invalid": 3,
+        "one_anchor_numerically_invalid": 1,
+        "CR_fit_invalid": 2,
+        "interval_at_boundary": 5
+      },
+      "n_CR_invalid": 2,
+      "n_r_boundary": 0
+    },
+    {
+      "mass": 11.8,
+      "injection": "r0",
+      "rtrue": 0.0,
+      "n": 50,
+      "target": 50,
+      "n_valid": 49,
+      "n_invalid": 1,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 43,
+      "n_finite": 50,
+      "n_hesse_valid": 44,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 49,
+        "mean": -4.568445108402906,
+        "sd": 15.596874739827296,
+        "se": 2.228124962832471,
+        "median": -0.43994672571190385
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": -6.477076206234673,
+        "sd": 20.504672496296795,
+        "se": 2.899798593628151,
+        "median": -0.46991064322026155
+      },
+      "pull": {
+        "n": 44,
+        "mean": -0.0031599403687735924,
+        "sd": 0.7979375209853415,
+        "se": 0.1202936074206689,
+        "median": -0.1126178967784934
+      },
+      "normalized_bias": {
+        "value": -0.2929077257213064,
+        "se": 0.09115169011494745,
+        "ci95": [
+          -0.44602029241910884,
+          -0.0964967646641188
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "Hesse_covariance_not_full_quality": 5,
+        "interval_invalid": 7,
+        "interval_at_boundary": 3,
+        "multistart_no_converged_anchor": 1,
+        "simultaneous_fit_invalid": 1,
+        "r_at_boundary": 1
+      },
+      "n_CR_invalid": 0,
+      "n_r_boundary": 1
+    },
+    {
+      "mass": 11.8,
+      "injection": "rExpected",
+      "rtrue": 13.173828125,
+      "n": 50,
+      "target": 50,
+      "n_valid": 44,
+      "n_invalid": 6,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 29,
+      "n_finite": 50,
+      "n_hesse_valid": 31,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 44,
+        "mean": 4.920899953232378,
+        "sd": 14.968458015443307,
+        "se": 2.2565799512460574,
+        "median": 0.8858806661583545
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 8.296921209139866,
+        "sd": 21.854824820168762,
+        "se": 3.09073896639708,
+        "median": 1.313298915024573
+      },
+      "pull": {
+        "n": 31,
+        "mean": -0.3531209121319369,
+        "sd": 1.2774703804889431,
+        "se": 0.2294404535179757,
+        "median": -0.07628801141520365
+      },
+      "normalized_bias": {
+        "value": 0.32875129476632603,
+        "se": 0.10532104606108424,
+        "ci95": [
+          0.11113468911020064,
+          0.5203634505797987
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "Hesse_covariance_not_full_quality": 13,
+        "multistart_no_converged_anchor": 6,
+        "simultaneous_fit_invalid": 6,
+        "interval_invalid": 21,
+        "r_at_boundary": 2,
+        "interval_at_boundary": 6
+      },
+      "n_CR_invalid": 0,
+      "n_r_boundary": 2
+    },
+    {
+      "mass": 11.9,
+      "injection": "r0",
+      "rtrue": 0.0,
+      "n": 50,
+      "target": 50,
+      "n_valid": 49,
+      "n_invalid": 1,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 45,
+      "n_finite": 50,
+      "n_hesse_valid": 45,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 49,
+        "mean": 1.526281622621834,
+        "sd": 5.944998501228607,
+        "se": 0.8492855001755153,
+        "median": 0.43384884919051137
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 4.267240315718231,
+        "sd": 20.254985785772295,
+        "se": 2.864487560391344,
+        "median": 0.4515793946071671
+      },
+      "pull": {
+        "n": 45,
+        "mean": 0.21825645385636266,
+        "sd": 0.8104562198499102,
+        "se": 0.12081568002479424,
+        "median": 0.29837866124794693
+      },
+      "normalized_bias": {
+        "value": 0.2567337270659377,
+        "se": 0.11989950189625526,
+        "ci95": [
+          -0.008380140011754867,
+          0.4705671188533655
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "interval_invalid": 5,
+        "Hesse_covariance_not_full_quality": 4,
+        "multistart_no_converged_anchor": 1,
+        "simultaneous_fit_invalid": 1,
+        "r_at_boundary": 1,
+        "interval_at_boundary": 1
+      },
+      "n_CR_invalid": 0,
+      "n_r_boundary": 1
+    },
+    {
+      "mass": 11.9,
+      "injection": "rExpected",
+      "rtrue": 27.71484375,
+      "n": 50,
+      "target": 50,
+      "n_valid": 43,
+      "n_invalid": 7,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 30,
+      "n_finite": 49,
+      "n_hesse_valid": 35,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 43,
+        "mean": 7.596306629303383,
+        "sd": 31.077984177799184,
+        "se": 4.739348155933684,
+        "median": -4.067924278495699
+      },
+      "bias_all_finite": {
+        "n": 49,
+        "mean": 8.644247419453867,
+        "sd": 30.544466457760635,
+        "se": 4.3634952082515195,
+        "median": -3.1913293474878195
+      },
+      "pull": {
+        "n": 35,
+        "mean": -0.6713609506520388,
+        "sd": 1.639377094361427,
+        "se": 0.27710530528080657,
+        "median": -0.41251998957521685
+      },
+      "normalized_bias": {
+        "value": 0.2444272635523725,
+        "se": 0.12882460009272365,
+        "ci95": [
+          -0.056022284254196836,
+          0.4573335705329891
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 1,
+        "hesse68": 49
+      },
+      "flags": {
+        "worker_exception": 1,
+        "multistart_no_converged_anchor": 5,
+        "simultaneous_fit_invalid": 6,
+        "interval_invalid": 19,
+        "Hesse_covariance_not_full_quality": 9,
+        "interval_at_boundary": 7,
+        "CR_fit_invalid": 1
+      },
+      "n_CR_invalid": 1,
+      "n_r_boundary": 0
+    },
+    {
+      "mass": 12.0,
+      "injection": "r0",
+      "rtrue": 0.0,
+      "n": 50,
+      "target": 50,
+      "n_valid": 48,
+      "n_invalid": 2,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 36,
+      "n_finite": 50,
+      "n_hesse_valid": 36,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 48,
+        "mean": 1.039676339383669,
+        "sd": 8.533113826370032,
+        "se": 1.231648891170114,
+        "median": 1.0770563190974665
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 0.3618142624311486,
+        "sd": 9.150046935633563,
+        "se": 1.2940120472723362,
+        "median": 1.0060875703363903
+      },
+      "pull": {
+        "n": 36,
+        "mean": 0.3125983210926647,
+        "sd": 1.1049463853986785,
+        "se": 0.18415773089977974,
+        "median": 0.6219059957177823
+      },
+      "normalized_bias": {
+        "value": 0.1218402051746619,
+        "se": 0.14933174375955538,
+        "ci95": [
+          -0.1718180239666261,
+          0.40605634846463434
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "interval_invalid": 14,
+        "Hesse_covariance_not_full_quality": 14,
+        "CR_fit_invalid": 1,
+        "simultaneous_fit_invalid": 2,
+        "one_anchor_numerically_invalid": 1,
+        "multistart_no_converged_anchor": 1
+      },
+      "n_CR_invalid": 1,
+      "n_r_boundary": 0
+    },
+    {
+      "mass": 12.0,
+      "injection": "rExpected",
+      "rtrue": 39.7265625,
+      "n": 50,
+      "target": 50,
+      "n_valid": 39,
+      "n_invalid": 11,
+      "n_pending_upgrade": 0,
+      "n_strict_valid": 28,
+      "n_finite": 50,
+      "n_hesse_valid": 30,
+      "n_interval": 0,
+      "n_covered": 0,
+      "bias": {
+        "n": 39,
+        "mean": 15.604303609150312,
+        "sd": 53.221178423840584,
+        "se": 8.52220904434073,
+        "median": -6.136199336684051
+      },
+      "bias_all_finite": {
+        "n": 50,
+        "mean": 20.366673735349742,
+        "sd": 52.90452896671239,
+        "se": 7.481830237568492,
+        "median": -3.9414918559503036
+      },
+      "pull": {
+        "n": 30,
+        "mean": -1.7508749653911087,
+        "sd": 4.401398428028751,
+        "se": 0.8035817345330417,
+        "median": -0.3218969460096247
+      },
+      "normalized_bias": {
+        "value": 0.29319725852143697,
+        "se": 0.13534190544954777,
+        "ci95": [
+          0.021852982849877505,
+          0.5449670252287568
+        ]
+      },
+      "coverage": null,
+      "coverage_ci95": [
+        null,
+        null
+      ],
+      "coverage_all_attempted_low": null,
+      "coverage_all_attempted_high": null,
+      "coverage_not_computed": "Profiles are requested only for predetermined toy1 per cell; mixed intervals are not aggregated.",
+      "interval_kinds": {
+        "profile68": 2,
+        "hesse68": 48
+      },
+      "flags": {
+        "interval_invalid": 22,
+        "interval_at_boundary": 4,
+        "Hesse_covariance_not_full_quality": 11,
+        "multistart_no_converged_anchor": 10,
+        "simultaneous_fit_invalid": 11,
+        "CR_fit_invalid": 2,
+        "one_anchor_numerically_invalid": 3,
+        "r_at_boundary": 1
+      },
+      "n_CR_invalid": 2,
+      "n_r_boundary": 1
+    }
+  ],
+  "interpretation": "Alternative-background toy bias, Chebyshev5 generator to Chebyshev3/Bernstein3 envelope; conditional fit point estimates after per-toy CR-only mean estimation; profile controls only predeterminedtoy1, no ensemblecoverage",
+  "methodology": [
+    "Generated100 per cell before user reduction; only predetermined IDs1..50 analyzed, independent across mass/injection. IDs51..100 are not failures.",
+    "Only final two_fixed_anchors_v2 results enter valid-fit moments; legacy records are pending upgrades. All finite point estimates are also shown transparently.",
+    "No ensemblecoverage is computed: profile intervals are evaluated only for predeterminedtoy1 per cell. Extra previously computedprofiles remain inrawrecords.",
+    "Mean bias divided by ensemble standard deviation differs from the mean pull.",
+    "The expected-median injection is a fixed archived numerical benchmark, not an asserted validated expected limit.",
+    "With50 successful approximately unit-width pulls, the Monte Carlo error on mean pull is about0.14; tiny biases cannot be conclusively excluded.",
+    "Hesse pulls are secondary diagnostics restricted to covQual3; the primarybias/empiricalSD does not use individualfituncertainties."
+  ]
+}

@@ -1,0 +1,29 @@
+from run import *
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+import csv,hashlib
+F=json.loads((R/'fits.json').read_text());summary=[];table=[]
+for idx,cfg in enumerate(S):
+ fs=[next(f for f in F if f['idx']==idx and f['era']==e) for e in eras];rec=dict(idx=idx,lo=cfg['lo'],hi=cfg['hi'],degree=cfg['degree'],D_fixed=cfg['D'],D_float=sum(f['D'] for f in fs),valid_eras=sum(f['valid'] for f in fs),shape_boundary_eras=sum(any(f['boundary'][2:]) for f in fs),prediction=np.sum([f['prediction'] for f in fs],axis=0).tolist(),error=np.sqrt(np.sum(np.array([f['prediction_error'] for f in fs])**2,axis=0)).tolist());summary.append(rec)
+ fig,axes=plt.subplots(2,2,figsize=(11,7))
+ for ei,(f,ax) in enumerate(zip(fs,axes.flat)):
+  xx=f['x'];ax.errorbar(xx,f['counts'],yerr=np.sqrt(f['counts']),fmt='k.',ms=3,label='Dati');ax.plot(xx,cfg['fits'][ei]['mu'],color='grey',ls=':',label='Totale: μ fissi');ax.plot(xx,f['mu'],color='#0072B2',label='Totale: μ liberi');ax.plot(xx,f['continuum'],'--',color='#E69F00',label='Continuo');ax.plot(xx,f['Y'][0],color='#009E73',label='Υ(1S)');ax.plot(xx,f['Y'][1],color='#D55E00',label='Υ(2S)');status='convergenza OK' if f['valid'] else 'FIT NON VALIDATO';bd='; μ al bordo' if any(f['boundary'][2:]) else '';ax.set_title(f"{f['era']} — {status}{bd}",fontsize=10,color='black' if f['valid'] and not bd else '#B33');ax.grid(alpha=.2);ax.set_xlabel('Massa [GeV]');ax.set_ylabel('Eventi / bin originale')
+  for j,pr in enumerate(['Υ1S','Υ2S']):
+   for k,var in enumerate(['mu','sigma']):
+    ix=cfg['degree']+3+2*j+k;table.append(dict(lo=cfg['lo'],hi=cfg['hi'],degree=cfg['degree'],era=f['era'],resonance=pr,parameter=var,nominal=f['nominal_shapes'][j][k],post=f['p'][ix],Hesse_error=(f['errors'][ix] if var=='mu' else 0.0),fit_valid=f['valid'],at_boundary=f['boundary'][2+2*j+k]))
+ axes[0,0].legend(fontsize=7);fig.suptitle(f"CR {cfg['lo']:.3f}–{cfg['hi']:.3f} GeV · Chebyshev {cfg['degree']}\nμ di entrambe le Υ liberi; σ e code MC fisse");fig.tight_layout();fig.savefig(R/f'fit_{idx}.png',dpi=130);plt.close(fig)
+(R/'summary.json').write_text(json.dumps(summary,indent=2))
+with (R/'parameters.csv').open('w') as f:w=csv.DictWriter(f,fieldnames=list(table[0]));w.writeheader();w.writerows(table)
+fig,axes=plt.subplots(2,2,figsize=(12,7))
+for j,ax in enumerate(axes.flat):
+ for ei,e in enumerate(eras):
+  rr=[t for t in table if t['degree']==3 and t['lo'] in [S[2]['lo'],S[32]['lo']] and ((t['lo']==S[2]['lo'] and t['hi']==S[2]['hi']) or (t['lo']==S[32]['lo'] and t['hi']==S[32]['hi'])) and t['era']==e and t['resonance']==['Υ1S','Υ2S'][j//2] and t['parameter']==['mu','sigma'][j%2]]
+  for n,t in enumerate(rr):ax.errorbar(n+(ei-1.5)*.06,t['post'],yerr=t['Hesse_error'],fmt='o' if t['fit_valid'] and not t['at_boundary'] else 'x',color=f'C{ei}',label=e if n==0 else None);ax.plot(n+(ei-1.5)*.06,t['nominal'],'_',color=f'C{ei}',ms=12)
+ ax.set_xticks([0,1]);ax.set_xticklabels(['CR 9,093–10,507','CR 9,293–10,307']);ax.set_ylabel(['μ [GeV]','σ core [GeV]'][j%2]);ax.set_title(['Υ(1S)','Υ(2S)'][j//2]);ax.grid(alpha=.2)
+axes[0,0].legend(fontsize=8);fig.suptitle('Grado 3: parametri con μ liberi\nTrattini: MC; croci: fit non valido o parametro al bordo; barre Hesse solo diagnostiche');fig.tight_layout();fig.savefig(R/'shapes.png',dpi=150);plt.close(fig)
+lines=['# CR con μ liberi per entrambe le Υ','','48 combinazioni di finestre e gradi1–3, quattro ere indipendenti: 192 fit di era. Stessi dati e binning originali, code DCB MC fisse. Due seed per fit. Nessuna variazione del modello SR+CR di riferimento.','μ nominale ±0,2 GeV per ciascuna risonanza/era, indipendenti; σ e code fissate al MC originale. Sono limiti tecnici espliciti, non prior MC. Un parametro che raggiunge un limite non è una misura affidabile; non si assume che questi limiti siano fisici. Rese libere [0,10] × nominale 6–12; accettanze ricalcolate con μ,σ.','Likelihood Poisson con integrali esatti per bin, iminuit; stessa implementazione del precedente test rapido CR. Primitive analitiche DCB verificate contro ROOT in tutti i bin delle otto shape nominali (validation.json). Nessun nuovo limite o p-value del segnale.','Gli errori Hesse e le estrapolazioni dei fit invalidi sono solo diagnostici; non sono intervalli profilati e non vanno usati come vincoli nella SR.',f"{sum(f['valid'] for f in F)}/192 fit di era superano i controlli numerici; {sum(any(f['boundary'][2:]) for f in F)}/192 hanno almeno un μ al bordo. {sum(s['valid_eras']==4 for s in summary)}/48 combinazioni hanno tutte quattro ere numericamente valide.",'','## Risultato','Sono liberi solo i centri delle due risonanze; larghezze e code sono fissate ai valori MC. Convergenza, parametri al bordo e pilot dei toy devono essere valutati insieme. Non si sceglie una nuova CR, non si propaga un risultato instabile alla SR.','Confronti della devianza fra modello fisso e libero solo diagnostici: non usare Wilks automaticamente con parametri/resonanze ai bordi.','', '|CR|Grado|Ere valide/4|Ere con μ al bordo|D fisso|D libero|','|---|---:|---:|---:|---:|---:|']
+for s in summary:lines.append(f"|{s['lo']:.3f}–{s['hi']:.3f}|{s['degree']}|{s['valid_eras']}|{s['shape_boundary_eras']}|{s['D_fixed']:.2f}|{s['D_float']:.2f}|")
+(R/'REPORT.md').write_text('\n'.join(lines));html='<meta charset="utf-8"><style>body{font:17px system-ui;max-width:1200px;margin:auto}img{max-width:100%}</style><h1>CR: μ Υ(1S)/Υ(2S) liberi</h1><p><a href="REPORT.md">Report</a> · <a href="parameters.csv">Parametri pre/post</a></p><img src="shapes.png">'
+for s in summary:html+=f'<details><summary>CR{s["lo"]:.3f}–{s["hi"]:.3f}, grado{s["degree"]}; {s["valid_eras"]}/4 ere valide, {s["shape_boundary_eras"]} al bordo</summary><img src="fit_{s["idx"]}.png"></details>'
+(R/'index.html').write_text(html);print('REPORT DONE',sum(f['valid'] for f in F),sum(s['valid_eras']==4 for s in summary))

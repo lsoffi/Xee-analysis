@@ -1,0 +1,36 @@
+{
+  "input": "data/original/Xee_ee_4_allYears.root",
+  "mass_hypothesis_GeV": 9,
+  "fit_range_GeV": [
+    6,
+    12
+  ],
+  "bins_per_era": 450,
+  "eras": [
+    "2022",
+    "2022EE",
+    "2023",
+    "2023BPix"
+  ],
+  "continuum": "RooChebychev",
+  "degree": 5,
+  "background_components": [
+    "dy",
+    "upsilon1s",
+    "upsilon2s"
+  ],
+  "background_parameters": "all floating",
+  "MC_shape_coefficients": "constant; original nuisance parameters profiled",
+  "r_range": [
+    -30,
+    30
+  ],
+  "workflow": "fit B separately in each era, use fitted continuum coefficients and all background normalizations as S+B starting values, keep them floating",
+  "minimizer_strategy_individual": 0,
+  "combined_control_strategy": 1,
+  "combined_control_tolerance": 0.001,
+  "combine_commit": "6c543b6",
+  "combine_version": "11.1.0",
+  "runtime_source": "/Users/imb/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/CombinedLimit",
+  "legacy_workspace": "/Users/imb/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an"
+}

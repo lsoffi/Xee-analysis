@@ -1,0 +1,2 @@
+#!/bin/zsh
+exec '/Users/imb/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/outputs/combine' "$@"

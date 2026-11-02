@@ -1,0 +1,2555 @@
+{
+  "description": "Original mass-input collection. User-supplied data: not included in git. Relative paths are below ee/.",
+  "files": [
+    {
+      "relative_path": "10.0/Xee_ee_4_2022.root",
+      "sha256": "bb64fc58a2e96b1d7aec428198d256f08a947bdf974f8f7a379857e77e651a1f",
+      "bytes": 27874
+    },
+    {
+      "relative_path": "10.0/Xee_ee_4_2022.txt",
+      "sha256": "9dc2224b1c9b9ce6330c26aad3043e47747a75ae13c0d337af31379c11924167",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "10.0/Xee_ee_4_2022EE.root",
+      "sha256": "d6dbe2c225dfd4815d0c282e832b8a62bbc2c8fefb8418f58b990539815503ed",
+      "bytes": 27983
+    },
+    {
+      "relative_path": "10.0/Xee_ee_4_2022EE.txt",
+      "sha256": "e28da8831d54b6efa3c05d0c1e0aac99dd44dcd063de9e9a9e42bdcaa19a7f4e",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "10.0/Xee_ee_4_2023.root",
+      "sha256": "1974ffc48860db204fb5c42edf0e585f80c7b729ad1b5fade009ed274ccf8634",
+      "bytes": 28328
+    },
+    {
+      "relative_path": "10.0/Xee_ee_4_2023.txt",
+      "sha256": "3ea19308b841d805731b90e528d124f3a01571f431bc9302558f620720b50bef",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "10.0/Xee_ee_4_2023BPix.root",
+      "sha256": "f5b29afc8d7bddb0059a56c1ee8876a9b94308689f6f4e22d3f3c54a79277297",
+      "bytes": 28191
+    },
+    {
+      "relative_path": "10.0/Xee_ee_4_2023BPix.txt",
+      "sha256": "40ffce325a557559878013c8e0bc1752d599c7e356d44bf20ba98e0c05080982",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "10.0/Xee_ee_4_allYears.root",
+      "sha256": "5e9c08c2f920a5b80906bad3c2322a793ccdda180506a8eead62c04412ec1802",
+      "bytes": 55077
+    },
+    {
+      "relative_path": "10.0/Xee_ee_4_allYears.txt",
+      "sha256": "5eedbdd88d6b326a2c9f778118f0c035a277f73cb95ce7102d01c26b73c03d0f",
+      "bytes": 8364
+    },
+    {
+      "relative_path": "10.1/Xee_ee_4_2022.root",
+      "sha256": "01a0de4d8b572157f79a552483373953bf41ba294b6e4e205aa55e8170ad9652",
+      "bytes": 27889
+    },
+    {
+      "relative_path": "10.1/Xee_ee_4_2022.txt",
+      "sha256": "988976972d0f2fec24d6815af23a5e33621ff61036fb4349c9d00e4d153a925c",
+      "bytes": 2233
+    },
+    {
+      "relative_path": "10.1/Xee_ee_4_2022EE.root",
+      "sha256": "b7c1baa71378c62a571a8084198664f402d7ffa441679693beb8dbdb526e97c2",
+      "bytes": 28022
+    },
+    {
+      "relative_path": "10.1/Xee_ee_4_2022EE.txt",
+      "sha256": "42ab9aec0342f81d03d3ce6b22d549ea71199996d7e9d58728b71a517ae9b06d",
+      "bytes": 2289
+    },
+    {
+      "relative_path": "10.1/Xee_ee_4_2023.root",
+      "sha256": "ebe35fe3618a85bb9bc1d14d32c3757951863ebc51e28058f3d825f4b567ac45",
+      "bytes": 28300
+    },
+    {
+      "relative_path": "10.1/Xee_ee_4_2023.txt",
+      "sha256": "4311913f48cc4af599416dddbeb335061f9a5659e09c99b1eb87b90aa3559f40",
+      "bytes": 2358
+    },
+    {
+      "relative_path": "10.1/Xee_ee_4_2023BPix.root",
+      "sha256": "89590a5884c9b0b6862270da5cfed87d4bcb3dd18957a62b66b8649e13e62132",
+      "bytes": 28243
+    },
+    {
+      "relative_path": "10.1/Xee_ee_4_2023BPix.txt",
+      "sha256": "75fe3f0b3a5d1e817f99479dbe37a6b9bb7fc07829c9489503f1641caa881a81",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "10.1/Xee_ee_4_allYears.root",
+      "sha256": "0c7815f63426bff5773395ccde677db9eaf214f0dcd42e6ddfea2cbcf81d2252",
+      "bytes": 55048
+    },
+    {
+      "relative_path": "10.1/Xee_ee_4_allYears.txt",
+      "sha256": "695aeae76e373b0ba5b67caa502947c0b1b7360dcf3b74a7817e36896a334e98",
+      "bytes": 8364
+    },
+    {
+      "relative_path": "10.2/Xee_ee_4_2022.root",
+      "sha256": "0fe012cf55512dc1eed7e4ba37bf152db1aa3bc42ec7799c459815577ba4846c",
+      "bytes": 27894
+    },
+    {
+      "relative_path": "10.2/Xee_ee_4_2022.txt",
+      "sha256": "c3f98279371850ad7858b4ee97ae1f1bc595498b022196a9eba1d29e779218f0",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "10.2/Xee_ee_4_2022EE.root",
+      "sha256": "992fd409f44d0c22badca5587d8f271d5f3844c70da966031c2cac954110936e",
+      "bytes": 28014
+    },
+    {
+      "relative_path": "10.2/Xee_ee_4_2022EE.txt",
+      "sha256": "9cc9e71e02ec14da24c67c510480839fb844a2c35065baf1ce9f5259a1089852",
+      "bytes": 2289
+    },
+    {
+      "relative_path": "10.2/Xee_ee_4_2023.root",
+      "sha256": "a59bf6b8c6ada1b10fd216bf631b57b425413f3dd46dbb1de72752331405f91e",
+      "bytes": 28287
+    },
+    {
+      "relative_path": "10.2/Xee_ee_4_2023.txt",
+      "sha256": "e1f9c364c220c9b9227855d42c6e494239b14f2e892aa198f4ff220a795d7f98",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "10.2/Xee_ee_4_2023BPix.root",
+      "sha256": "c3d4d626766e7d8cfdbdae298c6f72909099a8d1729cb8813f5d0ea929dda109",
+      "bytes": 28224
+    },
+    {
+      "relative_path": "10.2/Xee_ee_4_2023BPix.txt",
+      "sha256": "fc5a07ff07fbe70f3aa5ed5992c8d1e8f74fdaf1ac769ca7af2996239e059ef5",
+      "bytes": 2480
+    },
+    {
+      "relative_path": "10.2/Xee_ee_4_allYears.root",
+      "sha256": "e4259dec47b1265d24b99d2c4eba015efd495ee5a830b1b4953579a32b4670c8",
+      "bytes": 55040
+    },
+    {
+      "relative_path": "10.2/Xee_ee_4_allYears.txt",
+      "sha256": "e921f3134c987505a68f6dfc18a70475730369a091b0ec49e8dff0e238d50943",
+      "bytes": 8364
+    },
+    {
+      "relative_path": "10.3/Xee_ee_4_2022.root",
+      "sha256": "0c808f7a1fff4f6a562620bf2b48ba2f5d06fb0e2e817e2644f0b48e1a964c42",
+      "bytes": 27885
+    },
+    {
+      "relative_path": "10.3/Xee_ee_4_2022.txt",
+      "sha256": "32973362ac322ceac322e0c76ed568538f67fe265394fcd6759d01d0845eebad",
+      "bytes": 2235
+    },
+    {
+      "relative_path": "10.3/Xee_ee_4_2022EE.root",
+      "sha256": "d6f1265610fb7de582d749e7defefbf2275eba3d187e37c15218236413e4d3c8",
+      "bytes": 28009
+    },
+    {
+      "relative_path": "10.3/Xee_ee_4_2022EE.txt",
+      "sha256": "87efa1b743e649bfb0c92ee22683186ef4970ada6e561feb0a284ca42bdd53f8",
+      "bytes": 2289
+    },
+    {
+      "relative_path": "10.3/Xee_ee_4_2023.root",
+      "sha256": "3fd8a9c85c9aa7afee3031169732cb60090fb67851426a9b8c3f0e9cdc371461",
+      "bytes": 28296
+    },
+    {
+      "relative_path": "10.3/Xee_ee_4_2023.txt",
+      "sha256": "419ef23506500a4f58122567f5a55d1dd38d1867303d033d42f017466202c6ba",
+      "bytes": 2358
+    },
+    {
+      "relative_path": "10.3/Xee_ee_4_2023BPix.root",
+      "sha256": "2ffc2ddf5ac870e96d184940578aff14a5c6a5cee24b4ba15024cad2e4f92303",
+      "bytes": 28256
+    },
+    {
+      "relative_path": "10.3/Xee_ee_4_2023BPix.txt",
+      "sha256": "a94a42ad1a23aaf79a9966a7ce3154be6049f7da3813a145b25010d45a9209c5",
+      "bytes": 2477
+    },
+    {
+      "relative_path": "10.3/Xee_ee_4_allYears.root",
+      "sha256": "d3c85c67d7e905a93b5380d5fa40daabd3830315b062d9252a2831b37a682851",
+      "bytes": 55048
+    },
+    {
+      "relative_path": "10.3/Xee_ee_4_allYears.txt",
+      "sha256": "01681921bd117abfd091c3fb459625cce4f66af4fa1a378844227300a2700ed5",
+      "bytes": 8364
+    },
+    {
+      "relative_path": "10.4/Xee_ee_4_2022.root",
+      "sha256": "e736b2c11fe7d42ee949577a8e7e08a58a8d90a4b69bbff26113fe161896bdb0",
+      "bytes": 27891
+    },
+    {
+      "relative_path": "10.4/Xee_ee_4_2022.txt",
+      "sha256": "7f5edfc2f5a0bc2537a27ef7590285ed75bacdeecff068dc42b94031d5266230",
+      "bytes": 2235
+    },
+    {
+      "relative_path": "10.4/Xee_ee_4_2022EE.root",
+      "sha256": "3c752852e82d1d2d1f7ef0f3c30dd4d5456e860184dc1f540804dada551994b9",
+      "bytes": 28003
+    },
+    {
+      "relative_path": "10.4/Xee_ee_4_2022EE.txt",
+      "sha256": "86d1005e4e1411652b959bc78a33915486e88c34039d44e950e7e106b5bef309",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "10.4/Xee_ee_4_2023.root",
+      "sha256": "e7f756821a8a1884285a79dd497b03a7eda1308fafeb434390b73cd90e80228b",
+      "bytes": 28301
+    },
+    {
+      "relative_path": "10.4/Xee_ee_4_2023.txt",
+      "sha256": "6f01b8edfaa4466fe3c7ed12aea29020a347c30237272df31cf2af811507177d",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "10.4/Xee_ee_4_2023BPix.root",
+      "sha256": "f2e91dd76a74f8ac32f1529e4ce73fd76bf81782bb8c3ea648854d75fa78fc4e",
+      "bytes": 28236
+    },
+    {
+      "relative_path": "10.4/Xee_ee_4_2023BPix.txt",
+      "sha256": "7343a2395cb3849b9fc64b8aee40701acb6ca0657a2afd1d84c70c0f50f4bb37",
+      "bytes": 2480
+    },
+    {
+      "relative_path": "10.4/Xee_ee_4_allYears.root",
+      "sha256": "188bae33664e9210dc5699e649736697740e0c988b4ac7af5c7c2ef716d91e77",
+      "bytes": 55053
+    },
+    {
+      "relative_path": "10.4/Xee_ee_4_allYears.txt",
+      "sha256": "90d433239ba851a874e860128f70e11cafbfb43f044fb3ba1cc0668e5f7ba560",
+      "bytes": 8364
+    },
+    {
+      "relative_path": "10.5/Xee_ee_4_2022.root",
+      "sha256": "561124fd3d8c1b8cde9ac4ad1d162790fadbe7251ecfd2341235e763ec1c9d7d",
+      "bytes": 27893
+    },
+    {
+      "relative_path": "10.5/Xee_ee_4_2022.txt",
+      "sha256": "55d6a618484e9924eface87b6a724a3150bd8869579ec7593bd842b560bf49c2",
+      "bytes": 2235
+    },
+    {
+      "relative_path": "10.5/Xee_ee_4_2022EE.root",
+      "sha256": "aeb3a8c97ae40d96f76eef7b9d01d183789f4e8afd9aacda8c31fa13cb0957be",
+      "bytes": 28015
+    },
+    {
+      "relative_path": "10.5/Xee_ee_4_2022EE.txt",
+      "sha256": "78a41b08165dfc054a6413d20d4d6d4257f61cb3a96dbb64140e12ad6be3d49f",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "10.5/Xee_ee_4_2023.root",
+      "sha256": "a88db65f81cfbc5e4c6b7d1692afbd2a47d08dd6ee251399cbde52b1bad25de7",
+      "bytes": 28308
+    },
+    {
+      "relative_path": "10.5/Xee_ee_4_2023.txt",
+      "sha256": "4be789c25d290a6ff004f5828578a9bab675a6adc0d51cc2aa859e265492f676",
+      "bytes": 2358
+    },
+    {
+      "relative_path": "10.5/Xee_ee_4_2023BPix.root",
+      "sha256": "d88dcddfb2eb81106d5907f8b2538c800ff8452736adb7597fff51747a24a014",
+      "bytes": 28230
+    },
+    {
+      "relative_path": "10.5/Xee_ee_4_2023BPix.txt",
+      "sha256": "3993ece5fe66cc8c74d43875764dd1e23868e03a912ca5a6b435546b827bf078",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "10.5/Xee_ee_4_allYears.root",
+      "sha256": "0d41ae70a050fc87ca92c5d24b66ee5ee29c53adf16fec2570b242b7af603469",
+      "bytes": 55056
+    },
+    {
+      "relative_path": "10.5/Xee_ee_4_allYears.txt",
+      "sha256": "333807848e1ab403d82a08a77790506d52cc300d2a2d0aef61d6ebb6d9b39b95",
+      "bytes": 8364
+    },
+    {
+      "relative_path": "10.6/Xee_ee_4_2022.root",
+      "sha256": "394290b6bef5683336ccabaf9518694b6cf2088f4a4b5327610351440106ef86",
+      "bytes": 27885
+    },
+    {
+      "relative_path": "10.6/Xee_ee_4_2022.txt",
+      "sha256": "ff53fa8666a50516a665d203831a8774dbcd136ae43835c50135eb50afb2e99f",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "10.6/Xee_ee_4_2022EE.root",
+      "sha256": "9891893b1c4ca904e4e04e888db787014107e5bd8919549883b7bcbd2ef4972d",
+      "bytes": 28009
+    },
+    {
+      "relative_path": "10.6/Xee_ee_4_2022EE.txt",
+      "sha256": "41b8d41c63eb8279959e28079113dce17e5b20eefb99a22803393a6a3bf219e6",
+      "bytes": 2289
+    },
+    {
+      "relative_path": "10.6/Xee_ee_4_2023.root",
+      "sha256": "76962afb052b89a00ba1a33ba1150edf049ddbc2013f2ee7d552552be8d82837",
+      "bytes": 28297
+    },
+    {
+      "relative_path": "10.6/Xee_ee_4_2023.txt",
+      "sha256": "f4f53849ee20b7253723ed83dc7faa8369b3d1bf03096fca4f20cba21ab82fa2",
+      "bytes": 2358
+    },
+    {
+      "relative_path": "10.6/Xee_ee_4_2023BPix.root",
+      "sha256": "323fa81609b729018d9e046518cfc7e5703039e00307195b81d5f3e7acd44d54",
+      "bytes": 28232
+    },
+    {
+      "relative_path": "10.6/Xee_ee_4_2023BPix.txt",
+      "sha256": "43686d8a6652ce61e1a7066ffe7cf87755000b0fcec496e5a4bad6c1423804a8",
+      "bytes": 2480
+    },
+    {
+      "relative_path": "10.6/Xee_ee_4_allYears.root",
+      "sha256": "0ea9d829b24f0ac8e4b406702e697b13d452b04866f99129c1fbe0cf88d9943d",
+      "bytes": 55049
+    },
+    {
+      "relative_path": "10.6/Xee_ee_4_allYears.txt",
+      "sha256": "1cdf7cfed4c95cbbb76a40a268988ca28e2cb673170c47fd6aa43ff33f8bad8b",
+      "bytes": 8364
+    },
+    {
+      "relative_path": "10.7/Xee_ee_4_2022.root",
+      "sha256": "36d2f9b80b00cdeb0591e392ef53c89a7f5c8eb7ef1ac6388f6977175f02226f",
+      "bytes": 27893
+    },
+    {
+      "relative_path": "10.7/Xee_ee_4_2022.txt",
+      "sha256": "82ca84a2166de4495ff45d66854e7959334d5ae9b103e2679338a69462cc9365",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "10.7/Xee_ee_4_2022EE.root",
+      "sha256": "6b83d91462ab203f173ce7c93d7a18278b22a008fec783f80773ae565bd46b0a",
+      "bytes": 28019
+    },
+    {
+      "relative_path": "10.7/Xee_ee_4_2022EE.txt",
+      "sha256": "898e6e7ea434f68e8ee39c23f83cc973e0bef1d65de4fd9e028fbb04a3fe0c5b",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "10.7/Xee_ee_4_2023.root",
+      "sha256": "9f4138f964bec2f7230d4fecffff6856cf88a66c27e1f2ac9026e361a3d8012c",
+      "bytes": 28316
+    },
+    {
+      "relative_path": "10.7/Xee_ee_4_2023.txt",
+      "sha256": "0b9d4eacc99b8bb34b244bfd32ddb10c57e2b618e264b3b747f90f34f53ad61a",
+      "bytes": 2358
+    },
+    {
+      "relative_path": "10.7/Xee_ee_4_2023BPix.root",
+      "sha256": "0f8f256c3770d9907b9cff4bee2916c8e3910e3448d550916170a00831754de9",
+      "bytes": 28212
+    },
+    {
+      "relative_path": "10.7/Xee_ee_4_2023BPix.txt",
+      "sha256": "bcd5eca7efdb8a5efb9e76c4aa4fbe5b44b82f6dfaea98024655f6fdcc448ea0",
+      "bytes": 2480
+    },
+    {
+      "relative_path": "10.7/Xee_ee_4_allYears.root",
+      "sha256": "e53dbdeb9bda9110a891358aff31d93f95f1e11f7c48546967181b11bc32f5a2",
+      "bytes": 55049
+    },
+    {
+      "relative_path": "10.7/Xee_ee_4_allYears.txt",
+      "sha256": "a0eb6b611692d4899ec47cd137806d6442e0f0ec0bde45d5e0402a3d23fae433",
+      "bytes": 8364
+    },
+    {
+      "relative_path": "10.8/Xee_ee_4_2022.root",
+      "sha256": "6c848a9d52756d7dc8f9d1d8632f75b0296bf25b66c993ef3eaae64c88d44e48",
+      "bytes": 27894
+    },
+    {
+      "relative_path": "10.8/Xee_ee_4_2022.txt",
+      "sha256": "5fac20f701543a78bcb9faf44554c6b5bca2b2929f75c0ee2e9e2d44b5019181",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "10.8/Xee_ee_4_2022EE.root",
+      "sha256": "9fcc27f362531d3721a49f97ef257d01a79bb0f547c8642183b3b0caa57fdaf3",
+      "bytes": 28004
+    },
+    {
+      "relative_path": "10.8/Xee_ee_4_2022EE.txt",
+      "sha256": "ddc0c706de7f5a4535231046d3a7e3da4712762153d96fa758af9a00daa7fc5c",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "10.8/Xee_ee_4_2023.root",
+      "sha256": "f563db3425f944f19d06425092720599aa42f79e49d3c0fe3fe3d931d2363fe9",
+      "bytes": 28293
+    },
+    {
+      "relative_path": "10.8/Xee_ee_4_2023.txt",
+      "sha256": "3194098f4060bd9bffc013bc68210a745c55de2cd06914acb9d15500eb3797ff",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "10.8/Xee_ee_4_2023BPix.root",
+      "sha256": "278cd2a4a3e6e517303022ad4835e1d389df6e01c4154fa527e13b88d7aa9e76",
+      "bytes": 28260
+    },
+    {
+      "relative_path": "10.8/Xee_ee_4_2023BPix.txt",
+      "sha256": "b16583bcbc3a0fd1305a795d1609959f6de6537367c3b51297bb0a433cce14e8",
+      "bytes": 2480
+    },
+    {
+      "relative_path": "10.8/Xee_ee_4_allYears.root",
+      "sha256": "57c8acbc81181e632b3c4be367e032bcf95643b01d5d7f1a6053a4559a3d6ab6",
+      "bytes": 55042
+    },
+    {
+      "relative_path": "10.8/Xee_ee_4_allYears.txt",
+      "sha256": "a7ca30967088a7cf2884e7d71b81a3256e7865d2e84236840bec8f740263cf45",
+      "bytes": 8364
+    },
+    {
+      "relative_path": "10.9/Xee_ee_4_2022.root",
+      "sha256": "d36b07e1dc93543345b82c3fbf045ca9d021f2c2b5eba29f00abbc1605626c26",
+      "bytes": 27891
+    },
+    {
+      "relative_path": "10.9/Xee_ee_4_2022.txt",
+      "sha256": "50cf6e75ce9c76311c9f15ee9e15f7684210902242b60de713e11354188836d0",
+      "bytes": 2235
+    },
+    {
+      "relative_path": "10.9/Xee_ee_4_2022EE.root",
+      "sha256": "3968cfeffc167e3c592d2aa0933769d21b49d4bd170f3f2f184fb131cee9d2a7",
+      "bytes": 28023
+    },
+    {
+      "relative_path": "10.9/Xee_ee_4_2022EE.txt",
+      "sha256": "d14e66c03e708d106d36f7f0917c7dfb3ba3fe638a5aeeeb745f7fd6ac54b524",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "10.9/Xee_ee_4_2023.root",
+      "sha256": "37fde8221a0862f461c9a2db695a9d5437e1ae57abf231cc05168084b54386c1",
+      "bytes": 28294
+    },
+    {
+      "relative_path": "10.9/Xee_ee_4_2023.txt",
+      "sha256": "a047d8fc3214eee0122034f3f8ffcb78cb1afac70b357f1ad0cd4374264a09e5",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "10.9/Xee_ee_4_2023BPix.root",
+      "sha256": "cdb11c91814a796263d8e297cf37e23a99ca45fe8b729c7e20961b39322c0504",
+      "bytes": 28241
+    },
+    {
+      "relative_path": "10.9/Xee_ee_4_2023BPix.txt",
+      "sha256": "e8e908c16f2f9fa1722e38c48133d88496f131faee7395d3ac408b1fd5261828",
+      "bytes": 2478
+    },
+    {
+      "relative_path": "10.9/Xee_ee_4_allYears.root",
+      "sha256": "b880ec562454591b102aba46ebcaf6b130ced84159c3c7f17d0f828168add6bd",
+      "bytes": 55067
+    },
+    {
+      "relative_path": "10.9/Xee_ee_4_allYears.txt",
+      "sha256": "539d7be9882577e3fc8c126d50d8d5981bc5482a724655a7f8aeccfc6f121312",
+      "bytes": 8364
+    },
+    {
+      "relative_path": "11.0/Xee_ee_4_2022.root",
+      "sha256": "f421d0a53e0b6ed897476df7f8de0713ce86bda5bd33d4d46971b8f413da4139",
+      "bytes": 27892
+    },
+    {
+      "relative_path": "11.0/Xee_ee_4_2022.txt",
+      "sha256": "2418d7c9687037c7ca0c51c2816cba2901d7247d9ce5a22a85371996b3a1daa7",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "11.0/Xee_ee_4_2022EE.root",
+      "sha256": "839b7647be27a465b2b7e80db8411c6f002667eb9b6148eaab6f5ea1bd32902e",
+      "bytes": 27982
+    },
+    {
+      "relative_path": "11.0/Xee_ee_4_2022EE.txt",
+      "sha256": "2f5104ae9dfd572adc273ee5f46a69a1c2ce9f0d2ce6a742b1779d3a91ab2775",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "11.0/Xee_ee_4_2023.root",
+      "sha256": "1eb34d75b90b1d08a144c6ac7061e4ae83447a61af25d4cd121b84b56c28b971",
+      "bytes": 28328
+    },
+    {
+      "relative_path": "11.0/Xee_ee_4_2023.txt",
+      "sha256": "2af6858ffec6eca8292e2d2e19b54ae51eaf312bf6d34502c0cd2c886cde3e20",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "11.0/Xee_ee_4_2023BPix.root",
+      "sha256": "24695c4ffbfaf10b41decaf18d2962583e034d7a40712735f1df07a5aa726377",
+      "bytes": 28197
+    },
+    {
+      "relative_path": "11.0/Xee_ee_4_2023BPix.txt",
+      "sha256": "4f754389cdf5c2a1292a61d6acec004b14d57fd00b4ce96fbff604a9ca10e646",
+      "bytes": 2480
+    },
+    {
+      "relative_path": "11.0/Xee_ee_4_allYears.root",
+      "sha256": "dd9960ea39c1efdb4dbdf8dcc119a07709c28470dfb7cf98231917872c74c764",
+      "bytes": 55126
+    },
+    {
+      "relative_path": "11.0/Xee_ee_4_allYears.txt",
+      "sha256": "4b82bc9ad2759b3a13acfb90c6176a5de929997ddae9fc0b143e06ae0ece246b",
+      "bytes": 8364
+    },
+    {
+      "relative_path": "6.0/Xee_ee_4_2022.root",
+      "sha256": "e0e96c3e1cc8446d4651173e42e359e7a814341a6060001d4f2873cd845f499d",
+      "bytes": 27835
+    },
+    {
+      "relative_path": "6.0/Xee_ee_4_2022.txt",
+      "sha256": "3f4b4efd3f8e634d5d681c4be8b8b1fe5f6a1db81d652c3cf4fc3b3b10013360",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "6.0/Xee_ee_4_2022EE.root",
+      "sha256": "260e16083b55d0f0c54c94974664855697478f566488e72c7a3a2895c02a95e9",
+      "bytes": 27972
+    },
+    {
+      "relative_path": "6.0/Xee_ee_4_2022EE.txt",
+      "sha256": "a1b410de819a304c986233e57a2d3ca5adfa77284e1f3de2ead4d8199a021228",
+      "bytes": 2287
+    },
+    {
+      "relative_path": "6.0/Xee_ee_4_2023.root",
+      "sha256": "7bcacf6f583e357bfee9e36445c61c6e37cd15c06f73d1bd4e58052f7774f5b9",
+      "bytes": 28310
+    },
+    {
+      "relative_path": "6.0/Xee_ee_4_2023.txt",
+      "sha256": "bc8f047c2858d8c0647dc63aa573ba9798fb19bfa17223556be58be7439487a6",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "6.0/Xee_ee_4_2023BPix.root",
+      "sha256": "5fd5eeeabc7db3d09dca4ed8d3d06043067ab20801c487fdae72ec9e35d19f2c",
+      "bytes": 28224
+    },
+    {
+      "relative_path": "6.0/Xee_ee_4_2023BPix.txt",
+      "sha256": "ef837b846074733bc453c6dc9fe88151ea03e9907b469f256d4cd935ca5eda7b",
+      "bytes": 2478
+    },
+    {
+      "relative_path": "6.0/Xee_ee_4_allYears.root",
+      "sha256": "4ed1fc9fe76f850b4c3dcff0b6c6d5a007cecfdcde8174cfea74071bbd2bb285",
+      "bytes": 55155
+    },
+    {
+      "relative_path": "6.0/Xee_ee_4_allYears.txt",
+      "sha256": "8cb053809963fa9a389ab57f5baf49f2fed83e2b8ca0f65ce2268b1acaf6892f",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "6.1/Xee_ee_4_2022.root",
+      "sha256": "904a6f3fd478c6859c1a99d5f57e3af14cfb6f3df56c5cb59f79596465ee4a65",
+      "bytes": 27847
+    },
+    {
+      "relative_path": "6.1/Xee_ee_4_2022.txt",
+      "sha256": "de8e1dfc139622ad8a069318ecd288aa9a2a2ab600169382539afa77bbd8c1a4",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "6.1/Xee_ee_4_2022EE.root",
+      "sha256": "89a56489707a48100765086fdadf83fdf63fb42131879a6c482e4fab50408e0b",
+      "bytes": 27963
+    },
+    {
+      "relative_path": "6.1/Xee_ee_4_2022EE.txt",
+      "sha256": "c5043762f6bfc949b7bc368a5c2492c1885ac5c9d693dee58a8f9ad0d5a17b39",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "6.1/Xee_ee_4_2023.root",
+      "sha256": "5f15c7bebaf91e3ceef1a40baf9f776142f23fff9692e39f54227df9e5adc9d5",
+      "bytes": 28280
+    },
+    {
+      "relative_path": "6.1/Xee_ee_4_2023.txt",
+      "sha256": "b09c6dd37f8e3b31217c39dfd354312d8dae10ebfd4d71f52a402e905aa68779",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "6.1/Xee_ee_4_2023BPix.root",
+      "sha256": "0097861adbb8a2a970753e3699aca68ea4aca824259eaa352a1045d70776e43c",
+      "bytes": 28230
+    },
+    {
+      "relative_path": "6.1/Xee_ee_4_2023BPix.txt",
+      "sha256": "917725fd1e3f621b2bf9d25c378fe9de20af64ce7d6ec33e202f6f4846fb4d9f",
+      "bytes": 2477
+    },
+    {
+      "relative_path": "6.1/Xee_ee_4_allYears.root",
+      "sha256": "0dce5f3ba1adf57aa09fa9ae3aa2760c79871b33c398523eb83a50a0f8a0bf28",
+      "bytes": 55118
+    },
+    {
+      "relative_path": "6.1/Xee_ee_4_allYears.txt",
+      "sha256": "66df8eb803381c1f6c30686e3e52022cf94bb0d052ec41c47a8fb25a1e46bf44",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "6.2/Xee_ee_4_2022.root",
+      "sha256": "016f0c856e7500a329d20b7e5b2314077db27f41aa6104544df6355ab78ac6a0",
+      "bytes": 27869
+    },
+    {
+      "relative_path": "6.2/Xee_ee_4_2022.txt",
+      "sha256": "19ec30898c236061f218a5b1f0ccb6f3d97bb559eb85e7bbc236ff7b63529b69",
+      "bytes": 2232
+    },
+    {
+      "relative_path": "6.2/Xee_ee_4_2022EE.root",
+      "sha256": "c4d1c9c024fafeffd0a7983473b7771867b105b4175fb1f4ff070b9fea7bdecc",
+      "bytes": 27948
+    },
+    {
+      "relative_path": "6.2/Xee_ee_4_2022EE.txt",
+      "sha256": "99903ac42267306d1bd701dbe169eb7b7138c4849cff87ae86f4338e09fdc7fb",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "6.2/Xee_ee_4_2023.root",
+      "sha256": "e973bb50456ebb2ea3701c45816917d70d40272fd5f2db0dc24d3191f64ce8c7",
+      "bytes": 28307
+    },
+    {
+      "relative_path": "6.2/Xee_ee_4_2023.txt",
+      "sha256": "b3b4dd5784bde018bc1cfcca211074c8e041a3df3a07b50d2ea74062db82d0f8",
+      "bytes": 2356
+    },
+    {
+      "relative_path": "6.2/Xee_ee_4_2023BPix.root",
+      "sha256": "33407832ddd75b8729694360aa465f426b08f5732213f4523223a6c740b7bbc2",
+      "bytes": 28244
+    },
+    {
+      "relative_path": "6.2/Xee_ee_4_2023BPix.txt",
+      "sha256": "3c5467bf7c8e40e393a9f0326c19c7a9b0786328152ac16933d875be345d552a",
+      "bytes": 2478
+    },
+    {
+      "relative_path": "6.2/Xee_ee_4_allYears.root",
+      "sha256": "4cd369de51790bf34b49aa8bb99c35f76f817b7028f0dd1d806de17a5d763566",
+      "bytes": 55131
+    },
+    {
+      "relative_path": "6.2/Xee_ee_4_allYears.txt",
+      "sha256": "0cbb89b6b10a6f4f2af1d1fee1530d31cc6a3cc3555f1ce66ce200abb5c4dab6",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "6.3/Xee_ee_4_2022.root",
+      "sha256": "97ff5344bdc050c94d62b543f930a4ca17fb1c1812b7185e9cb9398a7ea9edcc",
+      "bytes": 27880
+    },
+    {
+      "relative_path": "6.3/Xee_ee_4_2022.txt",
+      "sha256": "d5f19cdcf5e44649294098502b540b10169db33f303e3d48f40e7ee0433390dd",
+      "bytes": 2232
+    },
+    {
+      "relative_path": "6.3/Xee_ee_4_2022EE.root",
+      "sha256": "a35518ff4a11808a43079d4d421148189d2deac45705775916c0dd2f0d1ddb43",
+      "bytes": 27957
+    },
+    {
+      "relative_path": "6.3/Xee_ee_4_2022EE.txt",
+      "sha256": "f793285642d96ee0ffb4c3c75fb96f21900c46921f7837f28f31b519b880c576",
+      "bytes": 2287
+    },
+    {
+      "relative_path": "6.3/Xee_ee_4_2023.root",
+      "sha256": "5729bab516386733db1abad6092ca9138a2efc5e67990cf14ae7397683a187eb",
+      "bytes": 28312
+    },
+    {
+      "relative_path": "6.3/Xee_ee_4_2023.txt",
+      "sha256": "310877bc61ff5db49159e20dd1cd9072d62f0213af73bd94fb6a10e1e567a454",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "6.3/Xee_ee_4_2023BPix.root",
+      "sha256": "32e6217903ddfdb15bd716ff2d58d5a38583a73cd88e5f65ded0ee8763bf0387",
+      "bytes": 28229
+    },
+    {
+      "relative_path": "6.3/Xee_ee_4_2023BPix.txt",
+      "sha256": "243f50a14106e6690c51dc1b93ec8ace0d4f4aa4d80252cd744958e651510b91",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "6.3/Xee_ee_4_allYears.root",
+      "sha256": "b386176b7e52808744fbcfa594636c864175621366b2188ca56d208aae55b83e",
+      "bytes": 55147
+    },
+    {
+      "relative_path": "6.3/Xee_ee_4_allYears.txt",
+      "sha256": "4fd7206c9d98bda13a571ce60ae9f7a8ac49779292858e0f2d6ea9eee4e3a3dc",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "6.4/Xee_ee_4_2022.root",
+      "sha256": "b57c6544d0357e6a849cfffc52fc01fc4c7221e3e1baacbf20ddca46180f3b4f",
+      "bytes": 27884
+    },
+    {
+      "relative_path": "6.4/Xee_ee_4_2022.txt",
+      "sha256": "8178b94041d9cf602f86a31245b6e5274df5f2f27733a27db6cd4780fea4ff6b",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "6.4/Xee_ee_4_2022EE.root",
+      "sha256": "2166b03af2ef250708b026e1fbdc743620575ce893006aab19251951a420c0f0",
+      "bytes": 27957
+    },
+    {
+      "relative_path": "6.4/Xee_ee_4_2022EE.txt",
+      "sha256": "5098824d768a0257be0f339b529a697322094074f9bf26d56b565503e25215b7",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "6.4/Xee_ee_4_2023.root",
+      "sha256": "82f7d04b085864b6d6f6bff9d6f57918451efcbf03151ba1df1df26bc7189ae1",
+      "bytes": 28315
+    },
+    {
+      "relative_path": "6.4/Xee_ee_4_2023.txt",
+      "sha256": "f98772ca27eb7f86f96f0facb3aac1d45edb495de97ed0a5957037faced0f81b",
+      "bytes": 2355
+    },
+    {
+      "relative_path": "6.4/Xee_ee_4_2023BPix.root",
+      "sha256": "bdc14cbfa375fe8cd12e6cf294fed25f7fccf41cbae8ece5cc4648a0baa8ccee",
+      "bytes": 28239
+    },
+    {
+      "relative_path": "6.4/Xee_ee_4_2023BPix.txt",
+      "sha256": "65bf45d7d5e93c02e8ac4119ff1318570b3efa11f01a56b8b368b6b12d164c49",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "6.4/Xee_ee_4_allYears.root",
+      "sha256": "75aba885b6ed49b03b16ddf6df12bd0429183b0c354858ef4deb7db25203106c",
+      "bytes": 55126
+    },
+    {
+      "relative_path": "6.4/Xee_ee_4_allYears.txt",
+      "sha256": "17eec6f57f48650c2946baddd564b4b733a660784b9585b3c1f9bf51a471c5c0",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "6.5/Xee_ee_4_2022.root",
+      "sha256": "d13221ee1c3afbdba6ecf9b84c68c69a4ecb2d2b8bcd96c73319c3b99ec89da1",
+      "bytes": 27877
+    },
+    {
+      "relative_path": "6.5/Xee_ee_4_2022.txt",
+      "sha256": "28ebcd21ce5364253df6382d71072fdf0c452f3ee4cb97f2482945f156fd57c1",
+      "bytes": 2233
+    },
+    {
+      "relative_path": "6.5/Xee_ee_4_2022EE.root",
+      "sha256": "f29a080784320149bf6e6fbe1fc45c06dbde4c7a3d6c2a3db650037cc309d254",
+      "bytes": 27949
+    },
+    {
+      "relative_path": "6.5/Xee_ee_4_2022EE.txt",
+      "sha256": "e9229668e562c4148a162cda7db8c333f60144974b1f915a3e68f475194a000b",
+      "bytes": 2287
+    },
+    {
+      "relative_path": "6.5/Xee_ee_4_2023.root",
+      "sha256": "0c09569eb810b67dcf33eb28f230c0399e73a6b018c1d488db910e30ad497624",
+      "bytes": 28313
+    },
+    {
+      "relative_path": "6.5/Xee_ee_4_2023.txt",
+      "sha256": "7b3fcc99b3031db37f80a37aab5b70c2a9cea6d45c26a4b2071642f4a8aec26b",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "6.5/Xee_ee_4_2023BPix.root",
+      "sha256": "d7c7d2ff9f8ea10998b096714d2d57ef6093470f5f95ff4caba676d329ee4d53",
+      "bytes": 28224
+    },
+    {
+      "relative_path": "6.5/Xee_ee_4_2023BPix.txt",
+      "sha256": "d628401ce80717dbbacc8b34e35111a078ab5c540c0288d3f61cd856f3be8495",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "6.5/Xee_ee_4_allYears.root",
+      "sha256": "357ee3f3939ca573fef7dbbf77ffd93b145e6f437bc33f0cdb83028e295d000b",
+      "bytes": 55136
+    },
+    {
+      "relative_path": "6.5/Xee_ee_4_allYears.txt",
+      "sha256": "68b8849eb8b2a7d0919362b0d664482f1ce13105785f4a687cecfcf15c60bcc4",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "6.6/Xee_ee_4_2022.root",
+      "sha256": "4f984af1cf144cb308e669258191d58634b656363c24979e2cb96f4658db3653",
+      "bytes": 27864
+    },
+    {
+      "relative_path": "6.6/Xee_ee_4_2022.txt",
+      "sha256": "f4ce3ed756126caa9787604c14879d86da4f0b4e2be6d7bb0cf233b41f35b46f",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "6.6/Xee_ee_4_2022EE.root",
+      "sha256": "6ec1d958d2eec2f8babb786406acd2fad63a3705d44b585a5acdc7c64c0d9da5",
+      "bytes": 27966
+    },
+    {
+      "relative_path": "6.6/Xee_ee_4_2022EE.txt",
+      "sha256": "9b988d76a0bf9a606a802a13553930a829f1693bbd3bf75f3ee1786265cbd315",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "6.6/Xee_ee_4_2023.root",
+      "sha256": "f6636ab9b850430aab1483dd37f24f590a86b44fba765c108171f9bd456f4277",
+      "bytes": 28300
+    },
+    {
+      "relative_path": "6.6/Xee_ee_4_2023.txt",
+      "sha256": "9ec8a820ab7814311df976662213ea80a936179643cbe4a8d19faf64510db060",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "6.6/Xee_ee_4_2023BPix.root",
+      "sha256": "aad08f9d757faac77c98a71865da6479abdd99f97913fa9263b785f84833258a",
+      "bytes": 28225
+    },
+    {
+      "relative_path": "6.6/Xee_ee_4_2023BPix.txt",
+      "sha256": "30c403a9d3f5fa0e3b90537bd25dd64c4a38c35cf48abb7fda5277e0f7ef146c",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "6.6/Xee_ee_4_allYears.root",
+      "sha256": "1ef64cbc6706beac31af4d2401bd359d304b354e03dfa087c523b9b6bdec1909",
+      "bytes": 55153
+    },
+    {
+      "relative_path": "6.6/Xee_ee_4_allYears.txt",
+      "sha256": "bd72faa2337fff257733ab1f306a7d9db956c3fd2d54b4ea0d41ec86132c8807",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "6.7/Xee_ee_4_2022.root",
+      "sha256": "c7f9e6f09d1945f90be087dd6782e89e2703f04b75029d0b9909efb99485c2fb",
+      "bytes": 27870
+    },
+    {
+      "relative_path": "6.7/Xee_ee_4_2022.txt",
+      "sha256": "292e67b8ae8876a609618d77b25f644627a612e3e27c36dd0711ba1446d3cb83",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "6.7/Xee_ee_4_2022EE.root",
+      "sha256": "0bd985a603fc68240a085ac61344b1c66fc47a3c8fb8b971e93e39230abe222e",
+      "bytes": 27965
+    },
+    {
+      "relative_path": "6.7/Xee_ee_4_2022EE.txt",
+      "sha256": "a60019f150fe8bc1064e8e2dae361f46715a9d5295516a2a767e0a5e829ee9f1",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "6.7/Xee_ee_4_2023.root",
+      "sha256": "7290e39606ae78abfcce9f6449005392244a2fa53061c9c1b1f2c86050f5fbae",
+      "bytes": 28307
+    },
+    {
+      "relative_path": "6.7/Xee_ee_4_2023.txt",
+      "sha256": "f2892bdd4dd7ced31c145ee25652dadb8ccdfaa05631563f631de2c8dbb8d51b",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "6.7/Xee_ee_4_2023BPix.root",
+      "sha256": "164d12bcb10150eec2eea23f9706f9fcf7a4a94400ed0d8c369774929c3aa7c0",
+      "bytes": 28233
+    },
+    {
+      "relative_path": "6.7/Xee_ee_4_2023BPix.txt",
+      "sha256": "77c0ea82f910b58396d6e1b62891e24b8f1e76ef38ec485ba0b5e909e40562f6",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "6.7/Xee_ee_4_allYears.root",
+      "sha256": "ebb0b39b7f2cd5d5e40d935b76edbaa84725428a80e92bd6a6befa61e6af7d2a",
+      "bytes": 55139
+    },
+    {
+      "relative_path": "6.7/Xee_ee_4_allYears.txt",
+      "sha256": "062da7698d095ceb125bf6b2544db7bb7f20dd796ae88a48d4af2519d5a800e5",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "6.8/Xee_ee_4_2022.root",
+      "sha256": "d191e2fefb2c5a425fadef5fac72aa5a7dbaa96ee06a4d020e2a3a769a8186d9",
+      "bytes": 27862
+    },
+    {
+      "relative_path": "6.8/Xee_ee_4_2022.txt",
+      "sha256": "0c020d59f65d0955fde2ecede6302265dc6e3eeefbb5d74825dc6164a8306418",
+      "bytes": 2233
+    },
+    {
+      "relative_path": "6.8/Xee_ee_4_2022EE.root",
+      "sha256": "6d6d7dc8c624cc70e5babaff6d2bc0a92ffc16ffddbd2cb9340766a426264613",
+      "bytes": 27976
+    },
+    {
+      "relative_path": "6.8/Xee_ee_4_2022EE.txt",
+      "sha256": "01156fbf003315df650598815b4fdbcf7a2ecdf63bba55b68e620ff4c7dc8ecd",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "6.8/Xee_ee_4_2023.root",
+      "sha256": "342bcf7e8d7313c2214a7eff6c7cb628e2bd1166ab05c2111e289d7bcab16570",
+      "bytes": 28305
+    },
+    {
+      "relative_path": "6.8/Xee_ee_4_2023.txt",
+      "sha256": "306f79411aeb285048133aebc76f9f436168956046a6c3d93807065277349b82",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "6.8/Xee_ee_4_2023BPix.root",
+      "sha256": "79223abb77b0cacf1a716e32d5da477c46d376348b2e82c717c304a0e15dfd36",
+      "bytes": 28229
+    },
+    {
+      "relative_path": "6.8/Xee_ee_4_2023BPix.txt",
+      "sha256": "f54a41072df5ec85fe2eee59e4031abd9fea892ae70a525a8b3de5169fa2ed29",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "6.8/Xee_ee_4_allYears.root",
+      "sha256": "2e7964fb5d02ea8260a5ac8f91d999211a579a2fea122cf1cc61af49b0193ca4",
+      "bytes": 55103
+    },
+    {
+      "relative_path": "6.8/Xee_ee_4_allYears.txt",
+      "sha256": "566ba9fd28441046d4d190cf281307acef2bf554efdbac30a9aee3c107817817",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "6.9/Xee_ee_4_2022.root",
+      "sha256": "b2bcc674939007e7be0a2dcd1b2631f1951106338396e3f3f820bdc695568905",
+      "bytes": 27860
+    },
+    {
+      "relative_path": "6.9/Xee_ee_4_2022.txt",
+      "sha256": "5476f49bb7c471c6998216fe15a8d089557496dd5357737474eedc5a62e96f40",
+      "bytes": 2233
+    },
+    {
+      "relative_path": "6.9/Xee_ee_4_2022EE.root",
+      "sha256": "962ce48f10a7d75537635e3b88c3da75c09c5d578d49af94ca1eea23d3bab530",
+      "bytes": 27965
+    },
+    {
+      "relative_path": "6.9/Xee_ee_4_2022EE.txt",
+      "sha256": "a3d41fd6a660cb56bab3bd5f64c2cb56425581c7e146f4b483579a0aa8392bb0",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "6.9/Xee_ee_4_2023.root",
+      "sha256": "6dda2af46bc46ef1a90de9d2af843c273a94874a16646a52325c296d616c815c",
+      "bytes": 28303
+    },
+    {
+      "relative_path": "6.9/Xee_ee_4_2023.txt",
+      "sha256": "44f880cf7256b32e199c060c702b76c15b8b1dca18411ad728e386f2c8000f02",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "6.9/Xee_ee_4_2023BPix.root",
+      "sha256": "9afd69040d1b6c2026f7c25cecaa00695ad36c837c3f1121ff8091ad4f3eb1e1",
+      "bytes": 28239
+    },
+    {
+      "relative_path": "6.9/Xee_ee_4_2023BPix.txt",
+      "sha256": "74bcc15b07ac865407100a152201db3ffd20b466544bf25f758d1f514f13734e",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "6.9/Xee_ee_4_allYears.root",
+      "sha256": "9b8dc055fb0c76a9a1136823a7222a73d48b891bddd430bb337fd034aa05536d",
+      "bytes": 55118
+    },
+    {
+      "relative_path": "6.9/Xee_ee_4_allYears.txt",
+      "sha256": "61ce17d206e0fcc83f58d1afd5063a859b2535766c5db3474f132e4f155f4519",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "7.0/Xee_ee_4_2022.root",
+      "sha256": "ba185bbca615477c5953b4cae145290e1807b2a5de46323dccecfc6c516916b4",
+      "bytes": 27877
+    },
+    {
+      "relative_path": "7.0/Xee_ee_4_2022.txt",
+      "sha256": "81abc6a2d813f232302d96aa7b8c164f796e3801075b5e248a3916feb915aba4",
+      "bytes": 2233
+    },
+    {
+      "relative_path": "7.0/Xee_ee_4_2022EE.root",
+      "sha256": "3b36ed15671d95a0b57c148cc5c2c9d764bd0c26e033db3934eeafa1e184585a",
+      "bytes": 27972
+    },
+    {
+      "relative_path": "7.0/Xee_ee_4_2022EE.txt",
+      "sha256": "2241fb187901830c57831ea9d9091a5764f3f2fc187c0b5741d005b963b2cd73",
+      "bytes": 2287
+    },
+    {
+      "relative_path": "7.0/Xee_ee_4_2023.root",
+      "sha256": "44a39509466c2e792442c2edd56abe26bae1e153abd770446c9839a6dbd14f24",
+      "bytes": 28295
+    },
+    {
+      "relative_path": "7.0/Xee_ee_4_2023.txt",
+      "sha256": "a11de875b2771e6381b857107afd8702f98ee4804dc087dbbf48651dea211b0b",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "7.0/Xee_ee_4_2023BPix.root",
+      "sha256": "6981d6c01d1bc57af448872545529d40cc5d1016538c5aefb21a491bfc9e7bf4",
+      "bytes": 28217
+    },
+    {
+      "relative_path": "7.0/Xee_ee_4_2023BPix.txt",
+      "sha256": "97e9c8d7ed3f2ae4d304d3dcbbb8be74dc1b0a8f66b56297b540f6cf6c2a632d",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "7.0/Xee_ee_4_allYears.root",
+      "sha256": "999a9c484490f773a8f6aeca4503d39eb8cdd32930f06c325484662f8c405ac3",
+      "bytes": 55120
+    },
+    {
+      "relative_path": "7.0/Xee_ee_4_allYears.txt",
+      "sha256": "1814163e331ccae92534c02ab717a1b9fb58ccb454ed5d7a83dccb48e69ca6d3",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "7.1/Xee_ee_4_2022.root",
+      "sha256": "292513532f49a1d48727c631dcd9a006a8951b5d1278e46e725ee44440edfaf6",
+      "bytes": 27874
+    },
+    {
+      "relative_path": "7.1/Xee_ee_4_2022.txt",
+      "sha256": "65659b597851fc06e09fc60e590e8fcf3dd6ca5f854803826300ad9cba5e5e1c",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "7.1/Xee_ee_4_2022EE.root",
+      "sha256": "3788d698afb8945ff64f3676c9d006be7919e8f700f0bb82e9101789c21f632b",
+      "bytes": 27945
+    },
+    {
+      "relative_path": "7.1/Xee_ee_4_2022EE.txt",
+      "sha256": "b8989181c8cbf131d0d129120ea184ab9889e3b2232e2bb5d341571dc0f8a2ad",
+      "bytes": 2287
+    },
+    {
+      "relative_path": "7.1/Xee_ee_4_2023.root",
+      "sha256": "a05382899e04c6c35916f7d7b55b1184e8e674bb313136a6a25d75b6c42afdab",
+      "bytes": 28281
+    },
+    {
+      "relative_path": "7.1/Xee_ee_4_2023.txt",
+      "sha256": "6e0229f5ec63c8163a32df5038d44f9450cb9fe27d281913f5beccc8b46662be",
+      "bytes": 2356
+    },
+    {
+      "relative_path": "7.1/Xee_ee_4_2023BPix.root",
+      "sha256": "0234f37f41f956f281716366f78020be9b8cb4c67e883937016d807bab52161d",
+      "bytes": 28234
+    },
+    {
+      "relative_path": "7.1/Xee_ee_4_2023BPix.txt",
+      "sha256": "a6d76b71f3ed4997ab0f1edf35e40044bc0c67dc555199f88c51ace521aad348",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "7.1/Xee_ee_4_allYears.root",
+      "sha256": "e9c5988dd13b5b6cb23a1b4b437cf25f7fc0e0f6bf97df841a4a424924a2ae6c",
+      "bytes": 55127
+    },
+    {
+      "relative_path": "7.1/Xee_ee_4_allYears.txt",
+      "sha256": "e6c8fd03fadcb1829073ca79405b91dcf30f9cdaec6dd36803c190e4dacfe088",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "7.2/Xee_ee_4_2022.root",
+      "sha256": "d790cc693fe1130b119fa776229616f4fb2f952a1b4f94a32a936efcaa785deb",
+      "bytes": 27862
+    },
+    {
+      "relative_path": "7.2/Xee_ee_4_2022.txt",
+      "sha256": "1847b634981fc8a18a3903f6c27bc78f44344258aac806d555610d19973ebf90",
+      "bytes": 2233
+    },
+    {
+      "relative_path": "7.2/Xee_ee_4_2022EE.root",
+      "sha256": "26e777557fdfdae65c04a78b1358aaab30e2b3930eade7ed6f2b526cab067a02",
+      "bytes": 27959
+    },
+    {
+      "relative_path": "7.2/Xee_ee_4_2022EE.txt",
+      "sha256": "5566473078661d83b53802700d2bdba7c35f033231c9b1152496eac25ec7f776",
+      "bytes": 2287
+    },
+    {
+      "relative_path": "7.2/Xee_ee_4_2023.root",
+      "sha256": "916d1093c377ce738869d7a7026fbc16a32e8690bfe997c9b1983edbe581c347",
+      "bytes": 28291
+    },
+    {
+      "relative_path": "7.2/Xee_ee_4_2023.txt",
+      "sha256": "226e7a285bf8ba870aff00b02019917b6847c5fdb9caffbb1eafac85d22ef0aa",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "7.2/Xee_ee_4_2023BPix.root",
+      "sha256": "d41f7fe0087985385a392481ae757281d8e4c142b13ecf7564b4f7aa69522045",
+      "bytes": 28236
+    },
+    {
+      "relative_path": "7.2/Xee_ee_4_2023BPix.txt",
+      "sha256": "02aa0c555767e072633eec91125217884a3c1862698d807451d61f30749b69c7",
+      "bytes": 2477
+    },
+    {
+      "relative_path": "7.2/Xee_ee_4_allYears.root",
+      "sha256": "ad10493917f19a5a864411195871b51ff3eab8de3d79144cfef69bf943b07657",
+      "bytes": 55153
+    },
+    {
+      "relative_path": "7.2/Xee_ee_4_allYears.txt",
+      "sha256": "9f5df8cbdcf9af10815cb32734eb80584f468cfaacd384bc7aa75a33903dd3ab",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "7.3/Xee_ee_4_2022.root",
+      "sha256": "b30ee98742430766d11004be89ab50593a5459802870c6d8779843bfde152ddf",
+      "bytes": 27859
+    },
+    {
+      "relative_path": "7.3/Xee_ee_4_2022.txt",
+      "sha256": "93f75cf409beab5198a7f4180864308d65ffc45d77e7eb21ed9a52b027c601da",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "7.3/Xee_ee_4_2022EE.root",
+      "sha256": "3adbdc544128306d5f429e1922ce933d9913ae6c8a45d5a5698c4440c7fe7808",
+      "bytes": 27955
+    },
+    {
+      "relative_path": "7.3/Xee_ee_4_2022EE.txt",
+      "sha256": "d999fcc9844ce72014af880561c8e0246c2e3e72f93c554423d11700c6a69848",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "7.3/Xee_ee_4_2023.root",
+      "sha256": "94dd5d67b75f18ec7a6004c83b72860560c722353f20e38c9bb3847b661f24df",
+      "bytes": 28305
+    },
+    {
+      "relative_path": "7.3/Xee_ee_4_2023.txt",
+      "sha256": "1bea00dab0de0834f7f9e9e58a67844c3f75bfa7ec4f1a291f97805dc1b8adf5",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "7.3/Xee_ee_4_2023BPix.root",
+      "sha256": "9ede176241813bfcd47572e1f6bc3b3a4ee56ed55ebfce76c42d52f661cc3e7d",
+      "bytes": 28262
+    },
+    {
+      "relative_path": "7.3/Xee_ee_4_2023BPix.txt",
+      "sha256": "ce895d4a2ca47fe7f002fe6990d3bfcee65751b296d46953864c03589d3df7aa",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "7.3/Xee_ee_4_allYears.root",
+      "sha256": "17f920e45df0bffe08cdb35c557b19394ce423a632876756f7bc4c4a9f35ffcc",
+      "bytes": 55099
+    },
+    {
+      "relative_path": "7.3/Xee_ee_4_allYears.txt",
+      "sha256": "ed41c5e0f551d42cb8687f44d933a9e2dcd1dd01ea7dc3c5be2b421bcf6e753d",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "7.4/Xee_ee_4_2022.root",
+      "sha256": "a6d4ec89d77852aff5b677f60840d53ff0a8e0d9386af6cfb776160d26f950b9",
+      "bytes": 27898
+    },
+    {
+      "relative_path": "7.4/Xee_ee_4_2022.txt",
+      "sha256": "62f6595353a75a115a50b25c8a4dd4c109d231815cff34a3e2a07deb6c55f72b",
+      "bytes": 2232
+    },
+    {
+      "relative_path": "7.4/Xee_ee_4_2022EE.root",
+      "sha256": "950ffd3fddbcba72f48e02a95b173150cd316f044ddd0540bb360bf0e48d71f2",
+      "bytes": 27963
+    },
+    {
+      "relative_path": "7.4/Xee_ee_4_2022EE.txt",
+      "sha256": "f36c4b248467a93c0584bb40c3b31a4404329aa90ff27276d2d0c0f4c96f6b6d",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "7.4/Xee_ee_4_2023.root",
+      "sha256": "a9759ee05a98e715ecb38c1cbead39dbbe283ecaa0fa76e506347ec8113205ee",
+      "bytes": 28298
+    },
+    {
+      "relative_path": "7.4/Xee_ee_4_2023.txt",
+      "sha256": "306be82833ada462c90418517e5253d60e57da25aa92800dbdc22c2c9afc8609",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "7.4/Xee_ee_4_2023BPix.root",
+      "sha256": "5b771d1d6958ee2cc712d62989ff4007f61932f54e6301faf5f771147f018a03",
+      "bytes": 28235
+    },
+    {
+      "relative_path": "7.4/Xee_ee_4_2023BPix.txt",
+      "sha256": "db35dd0810e8974a44412360a81f2e7e3f5dbfe8397408281baba34562870d49",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "7.4/Xee_ee_4_allYears.root",
+      "sha256": "a513abce286ae2801ae3d8b354a3c362cd451e48a5f30300a87fe210d8796705",
+      "bytes": 55110
+    },
+    {
+      "relative_path": "7.4/Xee_ee_4_allYears.txt",
+      "sha256": "f7d7333534698a864ea81de486991c0c8c99b20294ba19712142bc96ad7ebddd",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "7.5/Xee_ee_4_2022.root",
+      "sha256": "7995e130d3ba3302c4195c0e538878ad8602b44aea5e513abc3662b1c974f9bd",
+      "bytes": 27879
+    },
+    {
+      "relative_path": "7.5/Xee_ee_4_2022.txt",
+      "sha256": "9e707b19a823b467e2c935b81aeba142381886e023a1a9c538793c5626a60b45",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "7.5/Xee_ee_4_2022EE.root",
+      "sha256": "0256ee3f852ab3917bb3ba495f8d199bbe976be080fe3ebbb480b86f05b59e3c",
+      "bytes": 27973
+    },
+    {
+      "relative_path": "7.5/Xee_ee_4_2022EE.txt",
+      "sha256": "6728306b2e3cd070d02b3e3a47a80d112f865bd4d4f749def22cad7aa2393d9b",
+      "bytes": 2287
+    },
+    {
+      "relative_path": "7.5/Xee_ee_4_2023.root",
+      "sha256": "1026aacbf3188528f88fd9dec8296c14e1bbb76b6644dd9a5f0f0c609bc9a4fb",
+      "bytes": 28299
+    },
+    {
+      "relative_path": "7.5/Xee_ee_4_2023.txt",
+      "sha256": "9696af824e0cfcc15d2abc9e00045de1dfcb2d9577f1f93e680facf97d04d5b2",
+      "bytes": 2356
+    },
+    {
+      "relative_path": "7.5/Xee_ee_4_2023BPix.root",
+      "sha256": "cdd3e68308763e3525698c71c8432981322876c8fb5f8c5a896ebe66b96ba3b9",
+      "bytes": 28235
+    },
+    {
+      "relative_path": "7.5/Xee_ee_4_2023BPix.txt",
+      "sha256": "7e31ec26ebcd3793236b65c389964d3aadd4cfb6dcc697091d10fc98abd075c5",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "7.5/Xee_ee_4_allYears.root",
+      "sha256": "68ad1ea0e249a8dabf66feeb6460c6c225f2da4940888698ad1cb6cd08af25d7",
+      "bytes": 55120
+    },
+    {
+      "relative_path": "7.5/Xee_ee_4_allYears.txt",
+      "sha256": "eea218e519e51090724c9f1c9fe049407d8fa6abc98f910f4764bd919ec6256f",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "7.6/Xee_ee_4_2022.root",
+      "sha256": "c0e206d0910a5d9f687bf1f498bba6b596a6b60ff06de3d82f3cb93544f21eb0",
+      "bytes": 27857
+    },
+    {
+      "relative_path": "7.6/Xee_ee_4_2022.txt",
+      "sha256": "f6365f2a41052815edc828799f41ebfcf3d5f0322813351d0628ee51027f5a8b",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "7.6/Xee_ee_4_2022EE.root",
+      "sha256": "dfba6f8417b3fd8631ebd81abf32cbe594880dbbf3f2afc7f4fccef140040ee6",
+      "bytes": 27966
+    },
+    {
+      "relative_path": "7.6/Xee_ee_4_2022EE.txt",
+      "sha256": "a8a81878a08342ed03f9985e92f70c0a757c4d1600be3618fb7957ccf4435a56",
+      "bytes": 2287
+    },
+    {
+      "relative_path": "7.6/Xee_ee_4_2023.root",
+      "sha256": "ee2f2e6c9cd1a1c0e99d55ba716b4bb8d1afd4ccf9de1ed3bda12533763d308d",
+      "bytes": 28296
+    },
+    {
+      "relative_path": "7.6/Xee_ee_4_2023.txt",
+      "sha256": "e379bd70917c8764e3321723903745ce0522ea5ac36d0764ba3e2776b77a3777",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "7.6/Xee_ee_4_2023BPix.root",
+      "sha256": "577a336ade98edc5d28e350d1df306958fb47cbf8773954a6fea800d9f3a680d",
+      "bytes": 28230
+    },
+    {
+      "relative_path": "7.6/Xee_ee_4_2023BPix.txt",
+      "sha256": "87b9fbc4b1f16efbda2c8932354dd6dc68a73e2152bf30cce02613714e26e961",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "7.6/Xee_ee_4_allYears.root",
+      "sha256": "7ef8a4e656adbd9cf473dd07baa592c80b4e48f5daf7fb5b9bb55af2736afa3c",
+      "bytes": 55126
+    },
+    {
+      "relative_path": "7.6/Xee_ee_4_allYears.txt",
+      "sha256": "94d994f35e12a05ba0696098dce7d398cabe6fc609fb686975455252d9b2fda8",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "7.7/Xee_ee_4_2022.root",
+      "sha256": "ce11c755a0c4197adf4b814cfac4dd1719b0602333742e9e101f117f6038665a",
+      "bytes": 27872
+    },
+    {
+      "relative_path": "7.7/Xee_ee_4_2022.txt",
+      "sha256": "cb79fcf061698a8a3df9273da8324d3e449e2ac2d333ca4ffa6c6f565d537faf",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "7.7/Xee_ee_4_2022EE.root",
+      "sha256": "94c0f82373bfc63e3e619f6c1a6cb2cf8c6b0321693e2dc368615b6535e27a04",
+      "bytes": 27970
+    },
+    {
+      "relative_path": "7.7/Xee_ee_4_2022EE.txt",
+      "sha256": "e6589d18418900dab0adf4ab9ade5e350469cee3859755ffeacc85acf9ade08e",
+      "bytes": 2287
+    },
+    {
+      "relative_path": "7.7/Xee_ee_4_2023.root",
+      "sha256": "c51d410afd87f07fcf9dbb23c574464dce76845bed122bf4869e4160ec1d2d0d",
+      "bytes": 28299
+    },
+    {
+      "relative_path": "7.7/Xee_ee_4_2023.txt",
+      "sha256": "58447f69cf819f048ff6460b3964e2c7bee0c3b0724ed28b54c6fce276b5ff47",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "7.7/Xee_ee_4_2023BPix.root",
+      "sha256": "5d82191fa8c40e43e5c6f75e85a5c36ecc0175f4281c027a4c6835a57e375d46",
+      "bytes": 28239
+    },
+    {
+      "relative_path": "7.7/Xee_ee_4_2023BPix.txt",
+      "sha256": "f58b692f21c87fb8f7336fe1edda108053cf20a46552092704efc916759a2d19",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "7.7/Xee_ee_4_allYears.root",
+      "sha256": "7839d7fc804533411c9525f2172adc20756331d87f16d6ece1b47940b9ce0b9b",
+      "bytes": 55136
+    },
+    {
+      "relative_path": "7.7/Xee_ee_4_allYears.txt",
+      "sha256": "a3c6e3ba9ac0c6be5488317ea8ccbe19bcbf4e51697f7c680aef2188cb16dc43",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "7.8/Xee_ee_4_2022.root",
+      "sha256": "111812a787a02a27e148a7b95d3fb8bcb35cd985a03df753199e646a6121981c",
+      "bytes": 27866
+    },
+    {
+      "relative_path": "7.8/Xee_ee_4_2022.txt",
+      "sha256": "590f9c6666df4a651b5af0c286d13fdc3c0c2fed2f54693f203761513fd6142b",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "7.8/Xee_ee_4_2022EE.root",
+      "sha256": "4a3485c8b298440c535ed19266e46df9dc2675b7eb44ee03b94ea3735f5ddef9",
+      "bytes": 27973
+    },
+    {
+      "relative_path": "7.8/Xee_ee_4_2022EE.txt",
+      "sha256": "84f878ea248295c20ebeb7f5b14fe15e5c74a76ad58703d473d24c94097d6719",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "7.8/Xee_ee_4_2023.root",
+      "sha256": "299ba892a8507ddb7d8da8fead31bb39d92f54a8cd2e7ee549dc0283932dcd1d",
+      "bytes": 28302
+    },
+    {
+      "relative_path": "7.8/Xee_ee_4_2023.txt",
+      "sha256": "adc28410adaeed60de3eefef2ac554d06d4d6eaadd2151ab6662ba515b4eb7c6",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "7.8/Xee_ee_4_2023BPix.root",
+      "sha256": "7d05fbf174716767310b104337ed9303c82e112eb2efb5aeb90463c60c9d5c92",
+      "bytes": 28230
+    },
+    {
+      "relative_path": "7.8/Xee_ee_4_2023BPix.txt",
+      "sha256": "48db56c20e29a88d067185317f7faf2618a03fe02fdfb9c98bbaf5fd6d8ba7c2",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "7.8/Xee_ee_4_allYears.root",
+      "sha256": "44a84dc4ca804b980f03b5703f6a706f66f6c1878d49f146f54b86a4be93f83d",
+      "bytes": 55112
+    },
+    {
+      "relative_path": "7.8/Xee_ee_4_allYears.txt",
+      "sha256": "a5d1210a351f4e407f57161a870adc610501d3f19eb25d19d4fd72d58c9c4396",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "7.9/Xee_ee_4_2022.root",
+      "sha256": "8318efa06554ed4c49a44e18e161fd9362853f5b7f1fa7ed8e8a87160bd0143f",
+      "bytes": 27871
+    },
+    {
+      "relative_path": "7.9/Xee_ee_4_2022.txt",
+      "sha256": "292b0a89f5b0e867da0429c012fd1fa23c5d53ef135a9634f9b18b64680ec064",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "7.9/Xee_ee_4_2022EE.root",
+      "sha256": "8ca9908cb3e9cc9cc5cbdec8cda5315a6f29fd6d9d3b32ab8d7b80c5274bf930",
+      "bytes": 27967
+    },
+    {
+      "relative_path": "7.9/Xee_ee_4_2022EE.txt",
+      "sha256": "908a481e51022a915492cec6498bbbd1f2d85af6751a78a457cbcd7b108fd676",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "7.9/Xee_ee_4_2023.root",
+      "sha256": "66e7af1620e6f95de329c7809db8d8116a1a0e396f805ebdc56c4bde7b50a506",
+      "bytes": 28278
+    },
+    {
+      "relative_path": "7.9/Xee_ee_4_2023.txt",
+      "sha256": "66516de776b98826e5b5c901ab816509166b82d46c4dae6be88341c593cd1bc5",
+      "bytes": 2355
+    },
+    {
+      "relative_path": "7.9/Xee_ee_4_2023BPix.root",
+      "sha256": "d6c5e6e423d7e6bd52c4aecbf75e8189f8ed98f66fa8d04606a7188361094257",
+      "bytes": 28239
+    },
+    {
+      "relative_path": "7.9/Xee_ee_4_2023BPix.txt",
+      "sha256": "289523a15fa11dc424f7925e60bf533e9ffed9c6cc340a1bc15fc5f765ad6372",
+      "bytes": 2478
+    },
+    {
+      "relative_path": "7.9/Xee_ee_4_allYears.root",
+      "sha256": "4192d7e0f1696e25fa7b5a42c60bb9599f63335cf1f1dde7f1a41c9e93c1f399",
+      "bytes": 55124
+    },
+    {
+      "relative_path": "7.9/Xee_ee_4_allYears.txt",
+      "sha256": "d9aae53161deac76acaa6bce6b273ef4b0c14dc5f25b2c1bc22fab544a5eb658",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "8.0/Xee_ee_4_2022.root",
+      "sha256": "f081819366fda4dc2052b74fd07d98cc13d9af7d7916d63ee19d13a202332f55",
+      "bytes": 27865
+    },
+    {
+      "relative_path": "8.0/Xee_ee_4_2022.txt",
+      "sha256": "7b70a109d9d1fd575c773adc78e1301e3cac344124b0320e25081fe28e8423c7",
+      "bytes": 2233
+    },
+    {
+      "relative_path": "8.0/Xee_ee_4_2022EE.root",
+      "sha256": "d5f2008e881fb149373bda29ebd1298e3acae52ae2b4ec61d71793c30b77f355",
+      "bytes": 27991
+    },
+    {
+      "relative_path": "8.0/Xee_ee_4_2022EE.txt",
+      "sha256": "0529dd57b306e33ea35fb4a11bed94344cfaf2a7bb7e4297dd17fcf251ec03c2",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "8.0/Xee_ee_4_2023.root",
+      "sha256": "a2a2ad0c2ebdc0217df168d6c4be07afc9c0f54da53290fd54bf4fb1b742c326",
+      "bytes": 28282
+    },
+    {
+      "relative_path": "8.0/Xee_ee_4_2023.txt",
+      "sha256": "338589b5ce83dd185cf6bd5316061b1728a75476e14e86feddde4aecdc856e11",
+      "bytes": 2356
+    },
+    {
+      "relative_path": "8.0/Xee_ee_4_2023BPix.root",
+      "sha256": "3774e4e8afd1831eecda1c031b8741fe1d27faa774b77a5814532b411ca3974e",
+      "bytes": 28227
+    },
+    {
+      "relative_path": "8.0/Xee_ee_4_2023BPix.txt",
+      "sha256": "2f62ec1fe3951aa28cec73ed442559b1373cddd27e63a9aab0dc1041d0043cc9",
+      "bytes": 2478
+    },
+    {
+      "relative_path": "8.0/Xee_ee_4_allYears.root",
+      "sha256": "19d496165b4cc8255511741e79d9612063c2de3f2c5792cf6ac2712e34ce37fd",
+      "bytes": 55130
+    },
+    {
+      "relative_path": "8.0/Xee_ee_4_allYears.txt",
+      "sha256": "39fd2eac7c8f52bd5bdb866bb22b28ea3fd29acc8f873f790d6231f56ce4b39d",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "8.1/Xee_ee_4_2022.root",
+      "sha256": "5a870a8ceb84dd82d79053a21c033e53232075deb7fd9b18f0c8600a293ea3a2",
+      "bytes": 27863
+    },
+    {
+      "relative_path": "8.1/Xee_ee_4_2022.txt",
+      "sha256": "2118b3793de2c2c428f804921051f9e60be7602cb0b83bf623494440830c3e58",
+      "bytes": 2233
+    },
+    {
+      "relative_path": "8.1/Xee_ee_4_2022EE.root",
+      "sha256": "962f9c11bfbf1aa707db234bc6ffe96932c48b877c80c944eb360194bd3f29c8",
+      "bytes": 27958
+    },
+    {
+      "relative_path": "8.1/Xee_ee_4_2022EE.txt",
+      "sha256": "b15ebaedd386404bc5d4fb045648b1c5bceb82f294496b48c9edda00f726638c",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "8.1/Xee_ee_4_2023.root",
+      "sha256": "2165cf8e1323eeeeeaee91e48eaf5d75127ee9f09fc7dc4fcec13b88ed6fa6f3",
+      "bytes": 28306
+    },
+    {
+      "relative_path": "8.1/Xee_ee_4_2023.txt",
+      "sha256": "72620a3dbdd2c182d5520b42bbafc075ec08881cf69bfe403e84029d0b7cec62",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "8.1/Xee_ee_4_2023BPix.root",
+      "sha256": "64da20ee9767c278afe44c0ad789f757427a1b7cc4b0b86c5a5496271aeb73cf",
+      "bytes": 28214
+    },
+    {
+      "relative_path": "8.1/Xee_ee_4_2023BPix.txt",
+      "sha256": "7f2192c84c3b292fe5f4d512b8ac93510a042b71130afc7dc636351ae6e7f167",
+      "bytes": 2478
+    },
+    {
+      "relative_path": "8.1/Xee_ee_4_allYears.root",
+      "sha256": "ffe61ff6768743d40f8c15e51b9ac3a7e72479f2f344aa6a449f6b308d863b10",
+      "bytes": 55109
+    },
+    {
+      "relative_path": "8.1/Xee_ee_4_allYears.txt",
+      "sha256": "a0539a75df82994f5961650739b7cabdaafe0371b8ee8d959593109924533320",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "8.2/Xee_ee_4_2022.root",
+      "sha256": "c0d417b190ef04db789493acf178f8d1b5a6f3422c698aa8659aecbbbec6c5dc",
+      "bytes": 27860
+    },
+    {
+      "relative_path": "8.2/Xee_ee_4_2022.txt",
+      "sha256": "7ef0e10cd1b35b6547a2e6cbd74dafb3853db2b975980f0501cab40f3ca2b03e",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "8.2/Xee_ee_4_2022EE.root",
+      "sha256": "644d39f2d1fc80c9866be695cd43b3c413aed4ff1368472ebe6fb41561bb1c9f",
+      "bytes": 27951
+    },
+    {
+      "relative_path": "8.2/Xee_ee_4_2022EE.txt",
+      "sha256": "2292aa0fbd54372dd206150b4ef298c407a509e308ecc355ba64beeba3ce2086",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "8.2/Xee_ee_4_2023.root",
+      "sha256": "2109c82409f28b95ea209a89d6c23f1d76de17cbf57c56626ca4ec934130e19c",
+      "bytes": 28300
+    },
+    {
+      "relative_path": "8.2/Xee_ee_4_2023.txt",
+      "sha256": "658956f6e9b4f581ed4bcac5339fe58096a7de57b3edc3d9279c202a52d4c8a9",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "8.2/Xee_ee_4_2023BPix.root",
+      "sha256": "f27e1a80c1d5238aa5c56286531c56d65a77007f04d57d293f20cde8ee8becc8",
+      "bytes": 28238
+    },
+    {
+      "relative_path": "8.2/Xee_ee_4_2023BPix.txt",
+      "sha256": "6daea00caecaab44942509ef8bd40e46fb6919210a9fc8fc56d10bbdcb06df2b",
+      "bytes": 2476
+    },
+    {
+      "relative_path": "8.2/Xee_ee_4_allYears.root",
+      "sha256": "bca80ecccc92be6f12f4cfe9d6b6fd3ba3edb03374f21cc5dce541b3fc020ed5",
+      "bytes": 55086
+    },
+    {
+      "relative_path": "8.2/Xee_ee_4_allYears.txt",
+      "sha256": "e892910a9ebbc75d75460c60b0985fe8af9c2863e568485ff4e07af3997fa982",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "8.3/Xee_ee_4_2022.root",
+      "sha256": "4bec0cef51a95a2fafe13d5d4044cc5b4fbc0b81b9d0613e6c6487de8cbde02c",
+      "bytes": 27885
+    },
+    {
+      "relative_path": "8.3/Xee_ee_4_2022.txt",
+      "sha256": "64e925c05cb8438f7f91562f073362014cca6d868d0e302af73de94bbc3df977",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "8.3/Xee_ee_4_2022EE.root",
+      "sha256": "5950a2068ea582ab562b50f2fe614d0bbcfd275047972f18eb4ca60f7cc41f75",
+      "bytes": 27969
+    },
+    {
+      "relative_path": "8.3/Xee_ee_4_2022EE.txt",
+      "sha256": "edc678d961dd401ffc79ee1ac7914c63f3d5dfd8d8428639d47f9367bb5b4db8",
+      "bytes": 2287
+    },
+    {
+      "relative_path": "8.3/Xee_ee_4_2023.root",
+      "sha256": "2d45bafa88b785796feb236dcb17585f12461de878c1fb88c4a9c4806ce082b2",
+      "bytes": 28306
+    },
+    {
+      "relative_path": "8.3/Xee_ee_4_2023.txt",
+      "sha256": "d7277c27446dba17afc965dc56e02a550e014d268a5f64128f4009be5ac1bffc",
+      "bytes": 2356
+    },
+    {
+      "relative_path": "8.3/Xee_ee_4_2023BPix.root",
+      "sha256": "e5c2089538e88f7c93a0db56dff36efa7f6ebec2fa7dac5b6ee1f75410f7b45d",
+      "bytes": 28250
+    },
+    {
+      "relative_path": "8.3/Xee_ee_4_2023BPix.txt",
+      "sha256": "2eb6b7f1cc400a112b13e60434e121716565c5ef00883f3d2c391be9aaf61ea6",
+      "bytes": 2478
+    },
+    {
+      "relative_path": "8.3/Xee_ee_4_allYears.root",
+      "sha256": "e349d75428a22ce9dbbc4301385fe6bbd83782c8c129fe554d50a81c48387ed2",
+      "bytes": 55099
+    },
+    {
+      "relative_path": "8.3/Xee_ee_4_allYears.txt",
+      "sha256": "e3a4314d054c7b3312af2f3dc4a9ae5d3441aeb17a348e0d9c9b8664f14a6bc2",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "8.4/Xee_ee_4_2022.root",
+      "sha256": "380dc6a7e9559d328284db1b5a0920fde46642b7f0d9654904a9bab328833d50",
+      "bytes": 27872
+    },
+    {
+      "relative_path": "8.4/Xee_ee_4_2022.txt",
+      "sha256": "4e1d0930429e4221947bfd7a4708ec3fbca2bac6154c50b7174b365ba282dea8",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "8.4/Xee_ee_4_2022EE.root",
+      "sha256": "80ca70cd5be12cf4a4d96346044299ea5c0c937fe1f74417882255e7766c6f60",
+      "bytes": 27957
+    },
+    {
+      "relative_path": "8.4/Xee_ee_4_2022EE.txt",
+      "sha256": "a28765cb3542b76986e6e1ad07836b97a11008679400efedffc99a7809a34271",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "8.4/Xee_ee_4_2023.root",
+      "sha256": "6d3791416260c56a132bf63099408f5bb432f540311d3a94ed79c03279ab9eb9",
+      "bytes": 28287
+    },
+    {
+      "relative_path": "8.4/Xee_ee_4_2023.txt",
+      "sha256": "8fb79221db6b5e4188f424b7bcc5d5a6ae153ac01a71a90b0784d12da33852a5",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "8.4/Xee_ee_4_2023BPix.root",
+      "sha256": "39348359396494a99cd2e2776498af9da69fafc161f6e8f8f1cf62e33d8eae3b",
+      "bytes": 28251
+    },
+    {
+      "relative_path": "8.4/Xee_ee_4_2023BPix.txt",
+      "sha256": "8d16df551e4736dbf9bc8e531a5e36fd76b47b56817886c7db5b682b0fd45019",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "8.4/Xee_ee_4_allYears.root",
+      "sha256": "a8b003826a9935ddc33ffa6122d844eea1474d8f08977f95f1281d3cc1f408eb",
+      "bytes": 55105
+    },
+    {
+      "relative_path": "8.4/Xee_ee_4_allYears.txt",
+      "sha256": "60f8ff5deaf19f419591497c740d1fb60db515f1d86dc0d9dcd2c68bdcce05d0",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "8.5/Xee_ee_4_2022.root",
+      "sha256": "196a9df53f1b1f41aa3a749a174142d8b47b1ca2194d353c8769ee26ff222422",
+      "bytes": 27869
+    },
+    {
+      "relative_path": "8.5/Xee_ee_4_2022.txt",
+      "sha256": "132b823738d130f474de6c6a4b68cbe4e3eaa6e87cc89e15ffd259657e69f957",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "8.5/Xee_ee_4_2022EE.root",
+      "sha256": "573f4a016e38016bc468eee8e3968e6722f737eb3d937ae26f403953479d1558",
+      "bytes": 27961
+    },
+    {
+      "relative_path": "8.5/Xee_ee_4_2022EE.txt",
+      "sha256": "0c905c309082c6b9a1417497d5f31da5dc1ed19c0c70c972b3e9d83f4d6530bd",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "8.5/Xee_ee_4_2023.root",
+      "sha256": "f392a2220739cb20ed8570f04b511358f87264da6e02507cf282afb82ba4bd14",
+      "bytes": 28310
+    },
+    {
+      "relative_path": "8.5/Xee_ee_4_2023.txt",
+      "sha256": "30cad7ac320b25db60cbd7182bbbe891f3623b01e4d4362333e4677757077d52",
+      "bytes": 2355
+    },
+    {
+      "relative_path": "8.5/Xee_ee_4_2023BPix.root",
+      "sha256": "ae612df35d5b62e1a152e2fea0ffdfcb6bc53eae4a8870367feefecd21e787cf",
+      "bytes": 28223
+    },
+    {
+      "relative_path": "8.5/Xee_ee_4_2023BPix.txt",
+      "sha256": "9d8f21e9fee184f3fdecf7dbfcf209b509b781776afeb5889b999bb1ade60177",
+      "bytes": 2476
+    },
+    {
+      "relative_path": "8.5/Xee_ee_4_allYears.root",
+      "sha256": "dda48a78bdcbd679c8277e61a3812a048bd8c74eb9b442a3ef361b925567c6bc",
+      "bytes": 55110
+    },
+    {
+      "relative_path": "8.5/Xee_ee_4_allYears.txt",
+      "sha256": "f8d2628c8370120f20cdc276aafb73aa09306f29b74a86c96844e8b90eb35517",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "8.6/Xee_ee_4_2022.root",
+      "sha256": "9c7d6562792245a12a8c4a76d774b1508dcd15c2e68923b6879338b8902f5e2c",
+      "bytes": 27866
+    },
+    {
+      "relative_path": "8.6/Xee_ee_4_2022.txt",
+      "sha256": "bcd4c5e5a338038c5b709bd37c961ab0848f7f21f6f6da6891c9b37f53b714e4",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "8.6/Xee_ee_4_2022EE.root",
+      "sha256": "4b22ee1e34dd21167555d0945c925d48247d8d25a5497ee52ab08550d2229bb1",
+      "bytes": 27956
+    },
+    {
+      "relative_path": "8.6/Xee_ee_4_2022EE.txt",
+      "sha256": "9f8cea80d19fb7809eae7f19901d166c423e997d1b2a4ad416121c1434e41406",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "8.6/Xee_ee_4_2023.root",
+      "sha256": "fa29f73b55905295d60ec0ced111b60e9a2b85fc4191e2a3300d4405a7a41315",
+      "bytes": 28299
+    },
+    {
+      "relative_path": "8.6/Xee_ee_4_2023.txt",
+      "sha256": "05c638e1b838807fbc5149a1346ddb5dbcf56e34d01cfadbb1ec850d56e4dcad",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "8.6/Xee_ee_4_2023BPix.root",
+      "sha256": "314aac98f6eeec14de1f96c9ac09c6bec7316d211e37f00126f689d33bca2184",
+      "bytes": 28239
+    },
+    {
+      "relative_path": "8.6/Xee_ee_4_2023BPix.txt",
+      "sha256": "010255fd808a54bc047e93e09794eeee700c7b521522788cb448f1eb3f9091e8",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "8.6/Xee_ee_4_allYears.root",
+      "sha256": "a5cb0bd4b27c6fdb207f98132b6308e983ecc913492d6fc22f15a2068026c555",
+      "bytes": 55126
+    },
+    {
+      "relative_path": "8.6/Xee_ee_4_allYears.txt",
+      "sha256": "b06eb47c5d7819d3c6d81e743e0e76db69f1a1bd1eb1695884de947685047b34",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "8.7/Xee_ee_4_2022.root",
+      "sha256": "2778253708484a8a9529bbd60211ea3b1315bf7ace411c47b33d39669d7dcc5a",
+      "bytes": 27868
+    },
+    {
+      "relative_path": "8.7/Xee_ee_4_2022.txt",
+      "sha256": "6276a78ea706af2c176cf04a7a8214ded8068450a1fd37a2beb0321f10009b1c",
+      "bytes": 2233
+    },
+    {
+      "relative_path": "8.7/Xee_ee_4_2022EE.root",
+      "sha256": "e3e373e87f6fca6c3469bd909df8b00cce4a0cfcc8826e68dca8a379042bcc2c",
+      "bytes": 27955
+    },
+    {
+      "relative_path": "8.7/Xee_ee_4_2022EE.txt",
+      "sha256": "8ae65699e7a70a38ffed1ef3e77f89862618a75878d45d5bbfdc04b56dd377cb",
+      "bytes": 2285
+    },
+    {
+      "relative_path": "8.7/Xee_ee_4_2023.root",
+      "sha256": "e0cf96449da9fe2721031d46376c4103dc444eb4e181839405a4616ed12976c1",
+      "bytes": 28304
+    },
+    {
+      "relative_path": "8.7/Xee_ee_4_2023.txt",
+      "sha256": "2cd904438c8a76ef2bc614033f5d3bba66f146a407cca521e02a5cd70d190651",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "8.7/Xee_ee_4_2023BPix.root",
+      "sha256": "49f8cf3565de627388a449100d732273e4dfb5dc28d43934976e271f85e9475a",
+      "bytes": 28232
+    },
+    {
+      "relative_path": "8.7/Xee_ee_4_2023BPix.txt",
+      "sha256": "58ec6db3def1834758b9b2a2e61b3f7601777254df8e58cbbe2edb767ec883a1",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "8.7/Xee_ee_4_allYears.root",
+      "sha256": "3a775239c73b20511152ed7d8ba95a7654b0ec730d065174be34a4d1db5e7754",
+      "bytes": 55118
+    },
+    {
+      "relative_path": "8.7/Xee_ee_4_allYears.txt",
+      "sha256": "3f3d4908c48e93d7c041c87c05961a1c5e662e10d04a69ad00c84f8d0d0ed891",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "8.8/Xee_ee_4_2022.root",
+      "sha256": "f0ce156a465b3b92647a3bd7682d31d372a57e4664552730b9f7e9167656b4e5",
+      "bytes": 27866
+    },
+    {
+      "relative_path": "8.8/Xee_ee_4_2022.txt",
+      "sha256": "ae9b09d485c266de948edb9d4f18ff5f406b6572e102062144713a9e8824f51d",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "8.8/Xee_ee_4_2022EE.root",
+      "sha256": "11ce4b6ae5d1acdd8e845a631369d998c9db1efefe5fd9cdd6776b844875dd20",
+      "bytes": 27957
+    },
+    {
+      "relative_path": "8.8/Xee_ee_4_2022EE.txt",
+      "sha256": "a505fbde9650fc0fba1c2e791cc4689b4ff4bc3eb136f32e9aebc15ed354dc3b",
+      "bytes": 2287
+    },
+    {
+      "relative_path": "8.8/Xee_ee_4_2023.root",
+      "sha256": "27c4833c94d969f740b8d382ff194cc47ddfbdd802e4075aafc9918a43b00d60",
+      "bytes": 28288
+    },
+    {
+      "relative_path": "8.8/Xee_ee_4_2023.txt",
+      "sha256": "832dac09f588cec4661db4a9a329f13e9b12e79c840ba39cd3364678444f5fb6",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "8.8/Xee_ee_4_2023BPix.root",
+      "sha256": "0fe440b71ca1659df8516a07eb8d73bfec1f5879a3d96d513a95c192102d3645",
+      "bytes": 28225
+    },
+    {
+      "relative_path": "8.8/Xee_ee_4_2023BPix.txt",
+      "sha256": "9013914dadcf858a1697f976b165b1d13ccdda9a3a18cec030755e5f3975352e",
+      "bytes": 2478
+    },
+    {
+      "relative_path": "8.8/Xee_ee_4_allYears.root",
+      "sha256": "7cdf106e73b3a9d0966bf65c359e54c5249bad75727f05f20d8c033eca52ccc1",
+      "bytes": 55141
+    },
+    {
+      "relative_path": "8.8/Xee_ee_4_allYears.txt",
+      "sha256": "e157559bf6fc2d70fdf2be98650f036055d36c253cd1dc36254cdf6d70f67875",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "8.9/Xee_ee_4_2022.root",
+      "sha256": "e7a360050b700b358fca5950a6abe2f685b49c1d9fcfc35695fd259ffc0faefa",
+      "bytes": 27869
+    },
+    {
+      "relative_path": "8.9/Xee_ee_4_2022.txt",
+      "sha256": "30d59b11db879261956da1bb84c8d6c1de2cd4f20bc2723df00ab773279f74b1",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "8.9/Xee_ee_4_2022EE.root",
+      "sha256": "c7ec71886126036cbaa14989acdf55dc6518255092d809c4ec40d1dba9461df9",
+      "bytes": 27964
+    },
+    {
+      "relative_path": "8.9/Xee_ee_4_2022EE.txt",
+      "sha256": "39647b824d1c23fa9cdbfecb60236cd66006b0970b60e46fd326ef097abfa964",
+      "bytes": 2287
+    },
+    {
+      "relative_path": "8.9/Xee_ee_4_2023.root",
+      "sha256": "2acdbfaa2b54e72cc29b93893f6feed8bf27cb8593d1b6c908b5d44c72a199d4",
+      "bytes": 28286
+    },
+    {
+      "relative_path": "8.9/Xee_ee_4_2023.txt",
+      "sha256": "9de236592c41c8426e2caa1bb285def17770c3870d9ccb10ed58ef25e5f7faf3",
+      "bytes": 2355
+    },
+    {
+      "relative_path": "8.9/Xee_ee_4_2023BPix.root",
+      "sha256": "ca67332701c019b81316d1114f4ad5229917936411cbf2fb02ba9c197ea3ad7e",
+      "bytes": 28229
+    },
+    {
+      "relative_path": "8.9/Xee_ee_4_2023BPix.txt",
+      "sha256": "5e04f0dfcaf07febbef64fd7ed66ee8a3e31ab12f2f283da8818d37d21bbe748",
+      "bytes": 2478
+    },
+    {
+      "relative_path": "8.9/Xee_ee_4_allYears.root",
+      "sha256": "57528c214a79158693a2e712feac8b7e02d49f8d8d73c31e361fc140e2ab1135",
+      "bytes": 55109
+    },
+    {
+      "relative_path": "8.9/Xee_ee_4_allYears.txt",
+      "sha256": "7283a13532549a7d474507d30b9c596a761864aa063289e2d856f642b76478f4",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "9.0/Xee_ee_4_2022.root",
+      "sha256": "cab143ddf14f7625f919600d0152feb6b610d28f561e7c2332b9f115cf819f39",
+      "bytes": 27854
+    },
+    {
+      "relative_path": "9.0/Xee_ee_4_2022.txt",
+      "sha256": "c828d5966e7e75bb3ac0120a15c4e9cff0d7e5769a456b5421a62e02f641cda2",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "9.0/Xee_ee_4_2022EE.root",
+      "sha256": "3cfdfac65c2275b9dcdc63a38be64e068e7432a86dd687b56dfce1da8be07028",
+      "bytes": 27977
+    },
+    {
+      "relative_path": "9.0/Xee_ee_4_2022EE.txt",
+      "sha256": "6773bf7862237601989fd3adc8c767f47e251660b6a2541fa3f12d348bd76800",
+      "bytes": 2285
+    },
+    {
+      "relative_path": "9.0/Xee_ee_4_2023.root",
+      "sha256": "ac844f6fdeb52ff18733c57a9274c18ed560e928fa380bbd0f4d1a145d79f9f2",
+      "bytes": 28311
+    },
+    {
+      "relative_path": "9.0/Xee_ee_4_2023.txt",
+      "sha256": "275b653055bb37723d014a2bc8ade51d4ba18e4571b014cd3e82635eb565a944",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "9.0/Xee_ee_4_2023BPix.root",
+      "sha256": "919003d60b89045b33f986529f3a3b727a116ba24da4c3a4193c41a1a4f0f720",
+      "bytes": 28218
+    },
+    {
+      "relative_path": "9.0/Xee_ee_4_2023BPix.txt",
+      "sha256": "0b32f2deac39a8f21b5210dd9743733325d181eec6b74f99d8d29638d7a370b2",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "9.0/Xee_ee_4_allYears.root",
+      "sha256": "00b633b8d36973771b751c7f4ac88ff4445eeadffa8162c5f5d6a911864990b9",
+      "bytes": 55123
+    },
+    {
+      "relative_path": "9.0/Xee_ee_4_allYears.txt",
+      "sha256": "800874b222909d4f81142cfcd427a1b4a3f01572a2dddbff8bdc7c61d9ab27eb",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "9.1/Xee_ee_4_2022.root",
+      "sha256": "531041a1e097f6b40a371d5fd5e54a9e496cab5472a5b7a843432ba37ac48bbb",
+      "bytes": 27875
+    },
+    {
+      "relative_path": "9.1/Xee_ee_4_2022.txt",
+      "sha256": "7f5a97796e0e5ccb69116add0aeee48f732802073a621e16833ae54d61087199",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "9.1/Xee_ee_4_2022EE.root",
+      "sha256": "0928063491e3d529f6f641ee3e00e182f490016ad2882179e1212866ee9b1f00",
+      "bytes": 27955
+    },
+    {
+      "relative_path": "9.1/Xee_ee_4_2022EE.txt",
+      "sha256": "d522b6e0c328d032e088efa21855fff3bfeb48af1675d34d397a4068dab7ddee",
+      "bytes": 2287
+    },
+    {
+      "relative_path": "9.1/Xee_ee_4_2023.root",
+      "sha256": "8c92de8226b0b204dac0c158e375acf7f1b6d29da05137625fc88a0b77e45790",
+      "bytes": 28264
+    },
+    {
+      "relative_path": "9.1/Xee_ee_4_2023.txt",
+      "sha256": "72c63f611d3fd062b2a77afe7fd41911db2f9ba7445f446d1434db6716c7acc4",
+      "bytes": 2355
+    },
+    {
+      "relative_path": "9.1/Xee_ee_4_2023BPix.root",
+      "sha256": "7d24b294292d64fcdc2767b159cb00bb74c3ccbf0cd5131c29d811530bcbf0a2",
+      "bytes": 28222
+    },
+    {
+      "relative_path": "9.1/Xee_ee_4_2023BPix.txt",
+      "sha256": "1282f9eafafa53de8574d89ac597703ec81a30cca70479babd8b05ab1a3c9402",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "9.1/Xee_ee_4_allYears.root",
+      "sha256": "bdd557770878d0642bcad04af7d7d13f62a5b49bd8ed333a6a82a4fd06b797b1",
+      "bytes": 55075
+    },
+    {
+      "relative_path": "9.1/Xee_ee_4_allYears.txt",
+      "sha256": "b4bef9d5d993fae90d946131695e79d85fffbf30334d735aa9a6a7fcbeb9ce44",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "9.2/Xee_ee_4_2022.root",
+      "sha256": "4161c9ffee8059ed807f5ff2af486d6198200caf198892b04b5d9022bb84ae61",
+      "bytes": 27886
+    },
+    {
+      "relative_path": "9.2/Xee_ee_4_2022.txt",
+      "sha256": "1818ba165f1cd99d1e81682d374a264c19ee5d6d37dafd30435cacdae3194194",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "9.2/Xee_ee_4_2022EE.root",
+      "sha256": "1cfc69a5be2bc687b95ee66703f414f024d75a3706d1a8d35a6b43ccde980f50",
+      "bytes": 27948
+    },
+    {
+      "relative_path": "9.2/Xee_ee_4_2022EE.txt",
+      "sha256": "9939c5d1b45a30174da27ddc1f185b25b410db008340254275b43b9cd45c3a84",
+      "bytes": 2286
+    },
+    {
+      "relative_path": "9.2/Xee_ee_4_2023.root",
+      "sha256": "782991994195f96c67ca71c3328c842bfd02b644a12263096d043d16d428b10b",
+      "bytes": 28303
+    },
+    {
+      "relative_path": "9.2/Xee_ee_4_2023.txt",
+      "sha256": "8b281f82583404cc207adf8fd5dbed2eb76bbe15a963f14c92aecef151dfa4c5",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "9.2/Xee_ee_4_2023BPix.root",
+      "sha256": "78341b9a1ae3457036f04ac6baed1644e01b042ce68924efebcab7f7fdff1cac",
+      "bytes": 28216
+    },
+    {
+      "relative_path": "9.2/Xee_ee_4_2023BPix.txt",
+      "sha256": "cb8158057510d066b4ad3cbcafe69b6fb7aae6dd72b0af4f9f72ebcc03f84603",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "9.2/Xee_ee_4_allYears.root",
+      "sha256": "56ca5c73a7ad350d54ff55d34ec74e24e0e2cc8092053dab9703f53588232506",
+      "bytes": 55098
+    },
+    {
+      "relative_path": "9.2/Xee_ee_4_allYears.txt",
+      "sha256": "f832df642c16c90bf097c3dcc766c4f4a96fb610cea054f9ae7c8e39cf2ab79f",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "9.3/Xee_ee_4_2022.root",
+      "sha256": "327f5fa3b29329bf0413fa78929ec8d0a55c41652c0aaf0a768bb12c27677df7",
+      "bytes": 27870
+    },
+    {
+      "relative_path": "9.3/Xee_ee_4_2022.txt",
+      "sha256": "954ae740c7325e7a6dc5d248b15c74b3ffa1b1df285a768c65acffc5fbf3ae68",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "9.3/Xee_ee_4_2022EE.root",
+      "sha256": "90732de0f10a88eac8e88c0108d44259a3daf7623c80cada5c0fa091b1b4204b",
+      "bytes": 27970
+    },
+    {
+      "relative_path": "9.3/Xee_ee_4_2022EE.txt",
+      "sha256": "17781d4c95b1403fc00e3afe1a19a87ee03697cf1b653fdb191277eea824ad02",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "9.3/Xee_ee_4_2023.root",
+      "sha256": "2565a778ebd7f6f70395515f4120687db77ae8dc03b25ceb931e1dfc8df96228",
+      "bytes": 28311
+    },
+    {
+      "relative_path": "9.3/Xee_ee_4_2023.txt",
+      "sha256": "fd1bc112c390d716393e1daa2c1ae50905d4ef1e37dfcd8ee091f14191723bff",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "9.3/Xee_ee_4_2023BPix.root",
+      "sha256": "d10d70bf40d15022430d5e2ede9fc8c6f1baa05495c3f23eaced5aba58899ecf",
+      "bytes": 28245
+    },
+    {
+      "relative_path": "9.3/Xee_ee_4_2023BPix.txt",
+      "sha256": "1587d874d2cc440dba586e60e0d0e7bff7405046c801d42113cafb905e7f9c14",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "9.3/Xee_ee_4_allYears.root",
+      "sha256": "f7e9ec7a22c22cc2d9a92b6ca7bb7ae8c2599e2211db0f715ecdfc2da7128482",
+      "bytes": 55112
+    },
+    {
+      "relative_path": "9.3/Xee_ee_4_allYears.txt",
+      "sha256": "6974c1c56882be4179c2d1f5617f3a7dfe56e9fbc6e23db283b25238b7613a1c",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "9.4/Xee_ee_4_2022.root",
+      "sha256": "ccc9198aca292fc1c6e94cb8be3b64251d92dc76df9a18286650756374f77f79",
+      "bytes": 27872
+    },
+    {
+      "relative_path": "9.4/Xee_ee_4_2022.txt",
+      "sha256": "60b846bc11108ed5cda106bafcfee6949c971dcca902b7fc1dd212e8051e814a",
+      "bytes": 2231
+    },
+    {
+      "relative_path": "9.4/Xee_ee_4_2022EE.root",
+      "sha256": "bdcd42c82150ef1452df3908d96d2d1a72c5787dbc5ce166cae7b2b2562ad5b6",
+      "bytes": 27951
+    },
+    {
+      "relative_path": "9.4/Xee_ee_4_2022EE.txt",
+      "sha256": "b60b3bcafda2151a9757009f7b20b45bf12fad8fae7574f80ec91d02783e5e33",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "9.4/Xee_ee_4_2023.root",
+      "sha256": "3e6f43dff2ef9de38eabeb43b8df6976248dcbdf0b87aaca05e479f834dc4cdb",
+      "bytes": 28293
+    },
+    {
+      "relative_path": "9.4/Xee_ee_4_2023.txt",
+      "sha256": "e33ec553e05a448c357886849e7a7d4939102fa07a74b77eeb5bcb33f43a71c2",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "9.4/Xee_ee_4_2023BPix.root",
+      "sha256": "781c97cf818e764bd1653715aa025eef0e514c04cbfe54c5646713248c989267",
+      "bytes": 28229
+    },
+    {
+      "relative_path": "9.4/Xee_ee_4_2023BPix.txt",
+      "sha256": "ca6804d3ee299e09ff63cb406398673c5567bed5e584e1ff57001f8cc24b43ea",
+      "bytes": 2477
+    },
+    {
+      "relative_path": "9.4/Xee_ee_4_allYears.root",
+      "sha256": "a30e4efbb4c08b4ab7c86bb1facc7c820fb996c47bd19c20339c51387975736f",
+      "bytes": 55086
+    },
+    {
+      "relative_path": "9.4/Xee_ee_4_allYears.txt",
+      "sha256": "2961740570b90f006d5ac176dda77ad5c68623eedc3a6e7ca575febc2d9786e4",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "9.5/Xee_ee_4_2022.root",
+      "sha256": "dc02e0473d1fbc1496a03729d39d4def04012d834094d94a4637ea30c1511048",
+      "bytes": 27866
+    },
+    {
+      "relative_path": "9.5/Xee_ee_4_2022.txt",
+      "sha256": "c616d0ea25184041468c69d45fa7a2fad8ebb1620274f24d29eba6752ae8e3c4",
+      "bytes": 2233
+    },
+    {
+      "relative_path": "9.5/Xee_ee_4_2022EE.root",
+      "sha256": "2977fe871c3288842f6409857cb72347144197a02e7b125de62435ab0d1ac7b2",
+      "bytes": 27935
+    },
+    {
+      "relative_path": "9.5/Xee_ee_4_2022EE.txt",
+      "sha256": "e0f8ecf7b182cdf82317880c06638ff39e21b3a72a4435b5d546816487e28234",
+      "bytes": 2287
+    },
+    {
+      "relative_path": "9.5/Xee_ee_4_2023.root",
+      "sha256": "c870e83e84f8d812b4e2bb7c1c57749218cb9499a9e51c509f399bb2bdc8536e",
+      "bytes": 28305
+    },
+    {
+      "relative_path": "9.5/Xee_ee_4_2023.txt",
+      "sha256": "ca5669a1529a141d3bfb0383cd48dbe2abef726a2703c686f849a6c5a086e1ee",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "9.5/Xee_ee_4_2023BPix.root",
+      "sha256": "4415971da3e2321847f0ec7eadc4c843ad3fffd969141dc5e3f53aecee11d200",
+      "bytes": 28241
+    },
+    {
+      "relative_path": "9.5/Xee_ee_4_2023BPix.txt",
+      "sha256": "3c624fe0d6b9600965b75946df125fd2d8d28a881eca201f3ca91a129cb093f8",
+      "bytes": 2478
+    },
+    {
+      "relative_path": "9.5/Xee_ee_4_allYears.root",
+      "sha256": "02a5fb1a6ea8f9d08a544ad4497532609bfce2219c9427ecca191b2a6bbc9f69",
+      "bytes": 55097
+    },
+    {
+      "relative_path": "9.5/Xee_ee_4_allYears.txt",
+      "sha256": "02d41dc2588d1bb5aab1c89d61b7f395349b173fd79a4e704ac63ad28d68dfaf",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "9.6/Xee_ee_4_2022.root",
+      "sha256": "19e2f744091dcd0326c25661bb34d3c3cedd3bd054aea90d465b45d99ae6891b",
+      "bytes": 27863
+    },
+    {
+      "relative_path": "9.6/Xee_ee_4_2022.txt",
+      "sha256": "810cd73aa9935d3a8377ab9840be06794d59f62071511cbede88c9e75c3fc227",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "9.6/Xee_ee_4_2022EE.root",
+      "sha256": "8103178287b4cf3b0fa7b8fe8001e5307efa9b45373a52c30fa6f45c785ba4c0",
+      "bytes": 27970
+    },
+    {
+      "relative_path": "9.6/Xee_ee_4_2022EE.txt",
+      "sha256": "84d180a6aef2e46ba772f4d0d42cd129661afdfa33116aaf3a991609a22d5ee1",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "9.6/Xee_ee_4_2023.root",
+      "sha256": "2566743485cc0b38cb5fa2152e26dc11c4849a72f781d59193ff8d60bebc7132",
+      "bytes": 28290
+    },
+    {
+      "relative_path": "9.6/Xee_ee_4_2023.txt",
+      "sha256": "fc0376bfa8965d41d19c8e6e3fc2b6e2fcee33f33591e3f7238190ee9f015665",
+      "bytes": 2356
+    },
+    {
+      "relative_path": "9.6/Xee_ee_4_2023BPix.root",
+      "sha256": "5a9da7004601f5076ac6a339f145fc283a1e3e361582cd65c11ea85478925e36",
+      "bytes": 28225
+    },
+    {
+      "relative_path": "9.6/Xee_ee_4_2023BPix.txt",
+      "sha256": "24c3b76db0298f0df7f6ae8552e1b7dcba369ac3e365c524db82f323e45afd5a",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "9.6/Xee_ee_4_allYears.root",
+      "sha256": "a5d7e3cada737d981e660840895a51bd69973417b5360e650e8f989fb648b4ab",
+      "bytes": 55075
+    },
+    {
+      "relative_path": "9.6/Xee_ee_4_allYears.txt",
+      "sha256": "01dbb2eec26a13dff2cdf44e3209930bab897d813fb14311fe6cee09a1b87506",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "9.7/Xee_ee_4_2022.root",
+      "sha256": "b2bb43524c4008859ba6918d68cfd59daed314bded2b323cf0e684cc5fd2cb1d",
+      "bytes": 27868
+    },
+    {
+      "relative_path": "9.7/Xee_ee_4_2022.txt",
+      "sha256": "855855ddb749a47c622ae9eecfc50136949e1d37c1216be8c7f0351c04232a2e",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "9.7/Xee_ee_4_2022EE.root",
+      "sha256": "baf1eae7112141fd1bb051f4dee44ea9eaa0c1d849c8ad0b2fcfd4011d3b1efa",
+      "bytes": 27973
+    },
+    {
+      "relative_path": "9.7/Xee_ee_4_2022EE.txt",
+      "sha256": "49dc181bffc727a03a0f77feac141a9349f8b7651f76e9a528619aa611abbbf9",
+      "bytes": 2287
+    },
+    {
+      "relative_path": "9.7/Xee_ee_4_2023.root",
+      "sha256": "8f61325680cd0751eb242ba326ef9f5c420a6adf333bc02335a79657ab982ba0",
+      "bytes": 28301
+    },
+    {
+      "relative_path": "9.7/Xee_ee_4_2023.txt",
+      "sha256": "84c10d7ec4defec630b823c8ec51ef9313d33bbb2664ae0f9cd3e838b1c5c2bf",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "9.7/Xee_ee_4_2023BPix.root",
+      "sha256": "6cec821ee1fde70aa448e04d5e04a682082b6dcf1c2e0b530f345796d75a8294",
+      "bytes": 28240
+    },
+    {
+      "relative_path": "9.7/Xee_ee_4_2023BPix.txt",
+      "sha256": "3622380fe1d6a10b51905e55bcc9de9d910b4354ea2aab2bf572fc7e9aa871e3",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "9.7/Xee_ee_4_allYears.root",
+      "sha256": "2544663ba2af581cebfb0f67087b9c4b9244cdd0628de2ae3e4e54c1566f3e91",
+      "bytes": 55092
+    },
+    {
+      "relative_path": "9.7/Xee_ee_4_allYears.txt",
+      "sha256": "70dc82ac11e72993add7b6eb93dff82482ccb01fd8cdc0d88ad2f608f7c69005",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "9.8/Xee_ee_4_2022.root",
+      "sha256": "cf88fab139b08038b370b4b2dc77097227cc7e2e0d327d1e26f944c76fe07acd",
+      "bytes": 27866
+    },
+    {
+      "relative_path": "9.8/Xee_ee_4_2022.txt",
+      "sha256": "2c0fb1b73829ca97c042e7ddb344c9619082fcbf529352f5beb08ebeeb7092d4",
+      "bytes": 2234
+    },
+    {
+      "relative_path": "9.8/Xee_ee_4_2022EE.root",
+      "sha256": "90c6b2bbeef3868fbc60ca03906e42eb7f864f7c7bbd9caf121345e71155811b",
+      "bytes": 27956
+    },
+    {
+      "relative_path": "9.8/Xee_ee_4_2022EE.txt",
+      "sha256": "26fcff3c4357c32d0dc1673876103c5b636698a3f349c7b1c8c5bd83070b806a",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "9.8/Xee_ee_4_2023.root",
+      "sha256": "9e40e58d0b1548eb040634d34387d5eee9caa484fed8f5bfc0d187b6bafdad57",
+      "bytes": 28284
+    },
+    {
+      "relative_path": "9.8/Xee_ee_4_2023.txt",
+      "sha256": "4cb28af9f2fc0e14850852ac1e28f9785576aa87dffdd9506d7b8b10f1a7d161",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "9.8/Xee_ee_4_2023BPix.root",
+      "sha256": "a510147526c363210be1110aae568531cb611cfa33275a92d86c7d5f2c2eb44a",
+      "bytes": 28229
+    },
+    {
+      "relative_path": "9.8/Xee_ee_4_2023BPix.txt",
+      "sha256": "befe2a561ac75f7390a941b29ed5bf2b32154b86c4959c447238055820ea0747",
+      "bytes": 2478
+    },
+    {
+      "relative_path": "9.8/Xee_ee_4_allYears.root",
+      "sha256": "a59ca0bedf69c090c97e44e771b4d8c5eca99778ec33bd540b75ef856d9cebb0",
+      "bytes": 55100
+    },
+    {
+      "relative_path": "9.8/Xee_ee_4_allYears.txt",
+      "sha256": "d5f7c51ab3e68a142a16f44cdc1ec8fbffec4cc654698ff630766ef0d2da2dd0",
+      "bytes": 8336
+    },
+    {
+      "relative_path": "9.9/Xee_ee_4_2022.root",
+      "sha256": "952d6dbd0fb5a38079af4c1654a6cc31dec2f50aea623a15ca6a8b7cca1e0309",
+      "bytes": 27880
+    },
+    {
+      "relative_path": "9.9/Xee_ee_4_2022.txt",
+      "sha256": "f5fc88b959f702b0ec028a22b639ebd1ca5fc6f0739b7af5d5833bbc4ae2cde4",
+      "bytes": 2233
+    },
+    {
+      "relative_path": "9.9/Xee_ee_4_2022EE.root",
+      "sha256": "792e36f2e7384f915dedc7c774aedadaf4c0e0abc44f4ff77edfd458182dad7c",
+      "bytes": 27963
+    },
+    {
+      "relative_path": "9.9/Xee_ee_4_2022EE.txt",
+      "sha256": "517eded508deca4ee685afb37c79733c2525ceb4fc7326af1c01e7e94a3b30cc",
+      "bytes": 2288
+    },
+    {
+      "relative_path": "9.9/Xee_ee_4_2023.root",
+      "sha256": "53b089b9170eb03438d350afc6f818fec41179ecbec3093d807ac27921b11e9f",
+      "bytes": 28299
+    },
+    {
+      "relative_path": "9.9/Xee_ee_4_2023.txt",
+      "sha256": "e04cfc96fea17373ff5ed977054532071ee2b067241b3479fb275c9c6974cb11",
+      "bytes": 2357
+    },
+    {
+      "relative_path": "9.9/Xee_ee_4_2023BPix.root",
+      "sha256": "f37b9cad2fda39ee7fc8a2747db1561109697cc66551ae325496610fbb3b1b95",
+      "bytes": 28232
+    },
+    {
+      "relative_path": "9.9/Xee_ee_4_2023BPix.txt",
+      "sha256": "d2510f6b7e2d68dcd960c9edee8c32740b0c7309637aa729dcfd3c5683cf668b",
+      "bytes": 2479
+    },
+    {
+      "relative_path": "9.9/Xee_ee_4_allYears.root",
+      "sha256": "b45774a10a626d0294790b2609edd84088f71c30778d8a148bf3a636fa76022d",
+      "bytes": 55095
+    },
+    {
+      "relative_path": "9.9/Xee_ee_4_allYears.txt",
+      "sha256": "846d4dc1d556578315c10d55d87d34e3577c4f30775108f6ae4be52a17da8e87",
+      "bytes": 8336
+    }
+  ]
+}

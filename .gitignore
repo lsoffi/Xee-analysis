@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.DS_Store
+.pixi/
+.venv*/
+runtime/
+data/
+runs/
+work/
+tmp/
+*.root
+*.log
+*.out
+*.lock
+!environment/combine-pixi.lock

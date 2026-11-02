@@ -1,0 +1,24 @@
+{
+  "range_GeV": [
+    6,
+    9.093333333333334
+  ],
+  "CR_configuration": "config/cr_definitive.json",
+  "objective": "lowest adequate Chebyshev degree common to current mass scan",
+  "exclude_fit_degree8": true,
+  "generator_request": "reasonable low-degree Bernstein fitted simultaneously with fixed CR configuration",
+  "candidate_degrees": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "generator_degrees_to_compare": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "same_degree_warning": "Bernstein and Chebyshev are bases of the same polynomial space; same-degree agreement is closure, not independent validation"
+}

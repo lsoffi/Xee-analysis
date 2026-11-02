@@ -1,0 +1,66 @@
+{
+  "description": "Snapshot immutato dei riepiloghi usati nel manuale. Non contiene workspace o toy ROOT; i percorsi sorgente interni sono riferimenti storici.",
+  "date": "2026-11-02",
+  "files": [
+    {
+      "source_relative_to_analysis_project": "runs/20261031_separate_sr_c0_limits/completion_audit.json",
+      "repository_file": "evidence/20261031_separate_sr_c0_limits/completion_audit.json",
+      "bytes": 368425,
+      "sha256": "1927040a4354be097a331dc353750d0871660fed81c20d8cf4733d0fc9a64d9e"
+    },
+    {
+      "source_relative_to_analysis_project": "runs/20261031_separate_sr_c0_limits/limits.csv",
+      "repository_file": "evidence/20261031_separate_sr_c0_limits/limits.csv",
+      "bytes": 19391,
+      "sha256": "34d1de4c713104e596bc325b85519fb9ccd2473d49af0231332c7852b56ae096"
+    },
+    {
+      "source_relative_to_analysis_project": "runs/20261031_separate_sr_c0_limits/pvalues.csv",
+      "repository_file": "evidence/20261031_separate_sr_c0_limits/pvalues.csv",
+      "bytes": 43173,
+      "sha256": "200399c70ac030112a776af62536fd514c48cd785c43aaaf2934d405512d94c6"
+    },
+    {
+      "source_relative_to_analysis_project": "runs/20261102_upsilon_c0_profiles/report_summary.json",
+      "repository_file": "evidence/20261102_upsilon_c0_profiles/report_summary.json",
+      "bytes": 6201,
+      "sha256": "2c46e22e006a002c04f49deab4ba6901e4020b59b3147ac5827ab93770984abc"
+    },
+    {
+      "source_relative_to_analysis_project": "runs/20261102_c0_background_yields/yields.json",
+      "repository_file": "evidence/20261102_c0_background_yields/yields.json",
+      "bytes": 102044,
+      "sha256": "142cf3206bb9df662fe38ebb545552963add62463b822a8909a379614275f9bf"
+    },
+    {
+      "source_relative_to_analysis_project": "runs/20261102_c0_background_yields/sb_comparison.json",
+      "repository_file": "evidence/20261102_c0_background_yields/sb_comparison.json",
+      "bytes": 97289,
+      "sha256": "036a2d92976ed9f65df5e2be89575b473f3e9372ad152307a903b685fb69aa12"
+    },
+    {
+      "source_relative_to_analysis_project": "runs/20261030_upper_bias_cheb5_toys/summary.json",
+      "repository_file": "evidence/20261030_upper_bias_cheb5_toys/summary.json",
+      "bytes": 56820,
+      "sha256": "bf343448c870b68d5f95a679136bb6e56fdea632445f41fe864f6de2daf1899b"
+    },
+    {
+      "source_relative_to_analysis_project": "runs/20261030_gof_profiled_combined/summary.json",
+      "repository_file": "evidence/20261030_gof_profiled_combined/summary.json",
+      "bytes": 15043,
+      "sha256": "fe341b532ed2bfdc6ec20be3cb28d506d0b9b650bb61be024a47d029b0d0a328"
+    },
+    {
+      "source_relative_to_analysis_project": "runs/20261030_upper_envelope_scan/degree3_comparison/summary.json",
+      "repository_file": "evidence/20261030_upper_envelope_scan/degree3_comparison/summary.json",
+      "bytes": 1378296,
+      "sha256": "e400d132cad736ff7902cefc611b2dd9b725a6e31b2efad782e93c87ddb176eb"
+    },
+    {
+      "source_relative_to_analysis_project": "runs/20261030_cr_degree4_mu/summary.json",
+      "repository_file": "evidence/20261030_cr_degree4_mu/summary.json",
+      "bytes": 9894,
+      "sha256": "04be1f50e53849170aa3e41337daa5a6f76abac9bb6a6e2b05b8151ac65e69ce"
+    }
+  ]
+}

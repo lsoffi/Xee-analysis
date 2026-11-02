@@ -1,0 +1,10 @@
+Data 33341
+Signal nominal 220.687
+Continuum nominal 29701.3
+r 1
+CMS_EXO25020_signalModelSigmaNuisance_2022 0
+CMS_scale_e 0
+Zd 220.687
+dy 29701.3
+upsilon1s 3377.79
+upsilon2s 266.75

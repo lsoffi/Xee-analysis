@@ -1,0 +1,4 @@
+#!/bin/zsh
+export PIXI_CACHE_DIR='/Users/imb/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/pixi-cache'
+export PIXI_HOME='/Users/imb/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/tools/pixi-home'
+exec '/Users/imb/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/tools/pixi' run --frozen --manifest-path '/Users/imb/Documents/Codex/2026-10-27/referenced-chatgpt-conversation-this-is-an/work/CombinedLimit/pixi.toml' python "$@"

@@ -1,0 +1,41 @@
+from pathlib import Path
+import json,csv,re,hashlib,time,os
+import numpy as np,uproot
+from scipy.stats import beta
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+P=Path.cwd();R=P/'runs/20261030_gof_profiled_combined';rows=[]
+def read(d):
+ with uproot.open(next(d.glob('higgsCombine*.root'))) as f:
+  t=f['limit'].arrays(['limit','quantileExpected','iToy','trackedParam_r'],library='np')
+ # saveToys adds generation-state entries quantileExpected=-2: these are NOT GoF scores.
+ take=t['quantileExpected']==-1
+ return {k:v[take] for k,v in t.items()}
+for d in sorted(R.glob('m*')):
+ if not (d/'toys/receipt.json').exists():continue
+ receipts={k:json.loads((d/k/'receipt.json').read_text()) for k in ['observed','toys']}
+ if any(v['exit_code']!=0 for v in receipts.values()):continue
+ obs=read(d/'observed');toy=read(d/'toys');a=toy['limit'];ids=toy['iToy'];finite=np.isfinite(a);N=len(a);assert len(obs['limit'])==1;D=float(obs['limit'][0]);ex=int(np.sum(a>D));ci=[float(beta.ppf(.025,ex,N-ex+1)) if ex else 0,float(beta.ppf(.975,ex+1,N-ex)) if ex<N else 1]
+ logs='\n'.join((d/k/'combine.log').read_text() for k in ['observed','toys']);flags=re.findall(r'^.*(?:fit failed|failed to converge|invalid NLL|ERROR|\bnan\b|infinite).*$' ,logs,re.M|re.I)
+ row=dict(mass=float(d.name[1:]),observed=D,r_observed=float(obs['trackedParam_r'][0]),N_requested=100,N_scores=N,N_finite=int(sum(finite)),unique_toy_ids=len(set(ids.tolist())),exceedances=ex,p=ex/N if N else None,CP95=ci,toy_r_min=float(np.min(toy['trackedParam_r'])),toy_r_max=float(np.max(toy['trackedParam_r'])),toy_r_boundary_count=int(np.sum(np.abs(toy['trackedParam_r'])>=99.99)),log_flags=flags,valid=N==100 and bool(np.all(finite)) and len(set(ids.tolist()))==100 and not flags,seconds=receipts['toys']['seconds'])
+ (d/'result.json').write_text(json.dumps(row,indent=2));rows.append(row)
+rows.sort(key=lambda a:a['mass']);(R/'summary.json').write_text(json.dumps(rows,indent=2))
+with (R/'summary.csv').open('w') as f:
+ keys=['mass','observed','r_observed','N_scores','exceedances','p','CP95','toy_r_min','toy_r_max','toy_r_boundary_count','valid'];w=csv.DictWriter(f,keys,extrasaction='ignore');w.writeheader();w.writerows(rows)
+fig,ax=plt.subplots(figsize=(10,6));by={v['mass']:v for v in rows};grid=np.arange(60,91)/10;ax.plot(grid,[by[m]['p'] if m in by and by[m]['p']>0 else np.nan for m in grid],'o-',color='#0072B2',label='GoF combinato SR+CR, r libero')
+a=[v for v in rows if v['p']>0]
+if a:ax.errorbar([v['mass'] for v in a],[v['p'] for v in a],yerr=np.array([[v['p']-v['CP95'][0] for v in a],[v['CP95'][1]-v['p'] for v in a]]),fmt='none',color='#0072B2',alpha=.4,label='Intervallo Monte Carlo 95%')
+for v in rows:
+ if v['p']==0:ax.plot(v['mass'],v['CP95'][1],'v',color='#D55E00');ax.annotate('0/100',(v['mass'],v['CP95'][1]),xytext=(0,8),textcoords='offset points',ha='center',fontsize=8)
+ax.axhline(.05,color='firebrick',ls='--',label='Soglia p = 0,05');ax.set_yscale('log');ax.set_ylim(.001,1.15);ax.set_xlim(5.95,9.05);ax.set_xlabel('Ipotesi di massa [GeV]');ax.set_ylabel('GoF p-value');ax.set_title(f'GoF saturated — combinato delle quattro ere — {len(rows)}/31 masse\n100 toy di solo fondo per massa; fit S+B con r libero su dati e toy');ax.legend(loc='lower left');ax.grid(alpha=.2);fig.tight_layout();tmp=R/f'.gof_{os.getpid()}.png';fig.savefig(tmp,dpi=160);tmp.replace(R/'gof_vs_mass.png');plt.close(fig)
+for v in rows:
+ d=R/f'm{v["mass"]:.1f}';t=read(d/'toys')['limit'];fig,ax=plt.subplots(figsize=(8,5));bins=np.histogram_bin_edges(t,bins=16);ax.hist(t,bins=bins,color='steelblue',label='100 toy generati B-only');ax.hist(t[t>v['observed']],bins=bins,color='#E69F00',alpha=.8,label='Score > osservato');ax.axvline(v['observed'],color='firebrick',label=f'Osservato: {v["observed"]:.2f}');ax.set_xlabel('Statistica saturated di Combine');ax.set_ylabel('Toy');ax.set_title(f'Massa {v["mass"]:.1f} GeV: p = {v["p"]:.2f} ({v["exceedances"]}/100)\nFit S+B con r libero; combinato SR+CR, quattro ere');ax.legend();fig.tight_layout();fig.savefig(d/'gof.png',dpi=140);plt.close(fig)
+sources=json.loads((R/'sources.json').read_text());unchanged=all(hashlib.sha256(Path(v['path']).read_bytes()).hexdigest()==v['sha256'] for v in sources);assert unchanged
+complete=len(rows)==31;cfg=json.loads((R/'configuration.json').read_text());cfg['status']='completed' if complete else 'running';(R/'configuration.json').write_text(json.dumps(cfg,indent=2));(R/'completion.json').write_text(json.dumps(dict(executions_complete=complete,points=len(rows),requested_points=31,finite_scores=sum(v['N_finite'] for v in rows),requested_scores=3100,log_and_count_checks_passed=sum(v['valid'] for v in rows),boundary_toys=sum(v['toy_r_boundary_count'] for v in rows),source_unchanged=unchanged,full_minimizer_validation=False),indent=2))
+lines=['# GoF combinato con r libero, procedura del comando della tesi','',f'Stato: {len(rows)}/31 masse, {sum(v["N_finite"] for v in rows)}/3100 score toy finiti.','', 'Su richiesta finale: quattro ere combinate,31masse6–9GeV,100toy/massa (sostituisce500). Generazione frequentist dal modello B-only fittato ai dati; GoodnessOfFit saturated con r libero sia nei dati sia nei toy. p=frazione di score toy strettamente maggiori dello score osservato. Questo è diverso dai controlli precedenti con r fissato a zero.','', 'Comando base fornito: combine -M GoodnessOfFit WORKSPACE --algo saturated --cminDefaultMinimizerStrategy0; per toy -t100 --toysFrequentist. Aggiunte operative: profilo di tutte16combinazioni discrete, congelamento parametri disassociati, seed esplicito, generazione binned negli8canali, salvataggio toy e tracciamento r. Nessun fixedSignalStrength. Range r[-100,100] ereditato dai workspace attuali, non sovrascritto. Tolleranza default Combine. Modello SR/CR e nuisance originali invariati.','', 'Dipendenza dalla massa: la DCB cambia nel fit S+B di dati e toy. Le distribuzioni per massa sono calibrate separatamente; non aggregare i toy di masse diverse come nello studio B-only precedente. Il p-value GoF non è il p-value di significanza del segnale.','', 'Il testo della tesi riportava100toy, il comando inizialmente fornito500: questa esecuzione usa100per esplicita ultima richiesta. Il riferimento della tesi usa regioni differenti; qui si applica la sua procedura al nostro modello SR+CR.','', 'Controllo tecnico: --saveToys aggiunge righe di generazione quantileExpected=-2 nel TTree. Sono escluse; si contano soltanto score GoF quantileExpected=-1, con100IDtoy distinti. Il pilot10 è conservato separatamente e non entra nei risultati.','', '|Massa|Score osservato|r osservato|Toy sopra osservato|pGoF|Intervallo MC95%|Flag log/conteggi|','|---|---|---|---|---|---|---|']
+for v in rows:lines.append(f"|{v['mass']:.1f}|{v['observed']:.5f}|{v['r_observed']:.5g}|{v['exceedances']}/{v['N_scores']}|{v['p']:.3f}|{v['CP95'][0]:.3f}–{v['CP95'][1]:.3f}|{not v['valid']}|")
+lines+=['','Gli intervalli riflettono la precisione dei100toy. Nessun multistart sistematico dei toy; GoF restituisce score anche senza un FitDiagnostics completo: score finito e log senzaerrori non certificano da soli tutti i minimi. Input originali verificati viaSHA256. Le bande attese dei limiti precedenti restano provvisorie e non sono state modificate.']
+(R/'REPORT.md').write_text('\n'.join(lines)+'\n');html='<meta charset="utf-8">'+('' if complete else '<meta http-equiv="refresh" content="60">')+'<style>body{font:18px system-ui;max-width:1200px;margin:30px auto}img{width:100%}td,th{padding:8px;border-bottom:1px solid #ddd}</style><h1>GoF combinato: r libero,100toy per massa</h1>'+f'<p>{len(rows)}/31masse; aggiornato {time.strftime("%H:%M:%S")}. Generazione B-only; fit S+B su dati e toy. <a href="REPORT.md">Metodo e report</a> · <a href="summary.csv">CSV</a></p><img src="gof_vs_mass.png"><table><tr><th>Massa</th><th>pGoF</th><th>MC95%</th><th>Distribuzione toy</th></tr>'
+for v in rows:html+=f'<tr><td>{v["mass"]:.1f}</td><td>{v["p"]:.2f}</td><td>{v["CP95"][0]:.3f}–{v["CP95"][1]:.3f}</td><td><a href="m{v["mass"]:.1f}/gof.png">Grafico</a></td></tr>'
+(R/'index.html').write_text(html+'</table>');print('REPORT',len(rows),'points',sum(v['valid'] for v in rows),'log/count checks passed',flush=True)

@@ -1,0 +1,10 @@
+{
+  "immutable": true,
+  "production_ready": true,
+  "validation_sha256": "e42ea5333cfd552bbc81b70c8107e6ed413a4da94c32ec18e752c8f5a6168648",
+  "build_manifest_sha256": "efc90857a12995168d62030ca97beaa448560f24043b1d99e93dee0fd2a3c3e8",
+  "executable_sha256": "08bb439bc0a48a0def97f31e35523570adc9346acd44dc80790e34f52a8449c2",
+  "library_sha256": "124af5948f8e595ccdab41977b40bff81178ff574f4d8f8f52e71850135b6df7",
+  "full_floating_state_captured": true,
+  "all_original_modelconfig_nuisances_captured": true
+}

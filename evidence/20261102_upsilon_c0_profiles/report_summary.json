@@ -1,0 +1,164 @@
+{
+  "updated_at": "2026-11-02T17:04:13+01:00",
+  "counts": {
+    "expected_profiles": 8,
+    "available_profiles": 8,
+    "completed_profiles": 8,
+    "points": 208,
+    "valid_points": 204,
+    "flagged_points": 4,
+    "native_valid_points": 207,
+    "native_invalid_points": 1,
+    "minimum_check_failed_points": 3
+  },
+  "completed": true,
+  "production_complete": true,
+  "final_audit_passed": true,
+  "profiles": [
+    {
+      "side": "low",
+      "mass": 9.4,
+      "status": "complete",
+      "points": 26,
+      "valid_points": 26,
+      "native_valid_points": 26,
+      "reference_min_deviance": 1280.8226381040001,
+      "reference_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261102_upsilon_c0_profiles/low/m9.4/r_7p20942986897/reverse_continuation/fitDiagnostics_conditional.root",
+      "source": "low/m9.4/profile.json"
+    },
+    {
+      "side": "low",
+      "mass": 9.5,
+      "status": "complete",
+      "points": 26,
+      "valid_points": 26,
+      "native_valid_points": 26,
+      "reference_min_deviance": 1276.5664127594946,
+      "reference_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261102_upsilon_c0_profiles/low/m9.5/r_22p9255389815/previous_valid_conditional/fitDiagnostics_conditional.root",
+      "source": "low/m9.5/profile.json"
+    },
+    {
+      "side": "low",
+      "mass": 10.0,
+      "status": "complete",
+      "points": 26,
+      "valid_points": 26,
+      "native_valid_points": 26,
+      "reference_min_deviance": 1278.9050422126243,
+      "reference_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261102_upsilon_c0_profiles/low/m10.0/r_6p627515826/reverse_continuation/fitDiagnostics_conditional.root",
+      "source": "low/m10.0/profile.json"
+    },
+    {
+      "side": "low",
+      "mass": 10.1,
+      "status": "complete",
+      "points": 26,
+      "valid_points": 23,
+      "native_valid_points": 25,
+      "reference_min_deviance": 1280.0532960425342,
+      "reference_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261102_upsilon_c0_profiles/low/m10.1/r_7p19525720323/original_B/fitDiagnostics_conditional.root",
+      "source": "low/m10.1/profile.json"
+    },
+    {
+      "side": "high",
+      "mass": 9.4,
+      "status": "complete",
+      "points": 26,
+      "valid_points": 26,
+      "native_valid_points": 26,
+      "reference_min_deviance": 797.6375978622808,
+      "reference_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261102_upsilon_c0_profiles/high/m9.4/r_6p39731275493/original_B/fitDiagnostics_conditional.root",
+      "source": "high/m9.4/profile.json"
+    },
+    {
+      "side": "high",
+      "mass": 9.5,
+      "status": "complete",
+      "points": 26,
+      "valid_points": 26,
+      "native_valid_points": 26,
+      "reference_min_deviance": 794.3371590408565,
+      "reference_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261102_upsilon_c0_profiles/high/m9.5/r_22p3514360856/original_SB/fitDiagnostics_conditional.root",
+      "source": "high/m9.5/profile.json"
+    },
+    {
+      "side": "high",
+      "mass": 10.0,
+      "status": "complete",
+      "points": 26,
+      "valid_points": 26,
+      "native_valid_points": 26,
+      "reference_min_deviance": 795.0022664097769,
+      "reference_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261102_upsilon_c0_profiles/high/m10.0/r_7p44037510935/original_SB/fitDiagnostics_conditional.root",
+      "source": "high/m10.0/profile.json"
+    },
+    {
+      "side": "high",
+      "mass": 10.1,
+      "status": "complete",
+      "points": 26,
+      "valid_points": 25,
+      "native_valid_points": 26,
+      "reference_min_deviance": 795.6564744250377,
+      "reference_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261102_upsilon_c0_profiles/high/m10.1/r_8p20469726341/original_SB/fitDiagnostics_conditional.root",
+      "source": "high/m10.1/profile.json"
+    }
+  ],
+  "conventions": {
+    "statistic": "Exact deviance difference from the per-profile reliable reference supplied by the fit runner. No negative values are clipped.",
+    "likelihood_levels": "1 and 3.84 are numerical reference levels only; no coverage or nominal confidence interval is claimed.",
+    "yields": "Analytical expected events integrated over the selected SR+CR, summed over all four eras.",
+    "covariance": "A convergent conditional point with covQual != 3 remains plotted as an open marker. A known lower feasible candidate beyond the runner tolerance also excludes the point from the profile, independently of native convergence; profile_point_valid controls plots.",
+    "shared_data": "Low/high analyses reuse the same CR observations and remain separate correlated fits."
+  },
+  "compensation_examples": [
+    {
+      "side": "low",
+      "mass": 9.5,
+      "r": 22.92553898152707,
+      "baseline_yields": {
+        "dy": 287343.7603610415,
+        "upsilon1s": 24278.181669189427,
+        "upsilon2s": 3235.0581138420735,
+        "Zd": 0.0
+      },
+      "selected_yields": {
+        "dy": 279233.6170987364,
+        "upsilon1s": 11509.425360932408,
+        "upsilon2s": 1738.7229299043108,
+        "Zd": 22375.228138920957
+      },
+      "changes": {
+        "dy": -8110.143262305122,
+        "upsilon1s": -12768.75630825702,
+        "upsilon2s": -1496.3351839377626,
+        "Zd": 22375.228138920957
+      },
+      "selection": "Lowest deviance among usable scanned points; not a new global minimum claim."
+    },
+    {
+      "side": "low",
+      "mass": 10.0,
+      "r": 6.627515826000795,
+      "baseline_yields": {
+        "dy": 287343.7603610415,
+        "upsilon1s": 24278.181669189427,
+        "upsilon2s": 3235.0581138420735,
+        "Zd": 0.0
+      },
+      "selected_yields": {
+        "dy": 284068.9723548389,
+        "upsilon1s": 23910.667861342285,
+        "upsilon2s": 3218.1052396589425,
+        "Zd": 3659.2547467497134
+      },
+      "changes": {
+        "dy": -3274.788006202609,
+        "upsilon1s": -367.51380784714274,
+        "upsilon2s": -16.952874183130916,
+        "Zd": 3659.2547467497134
+      },
+      "selection": "Lowest deviance among usable scanned points; not a new global minimum claim."
+    }
+  ]
+}

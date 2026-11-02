@@ -1,0 +1,17 @@
+#include <TFile.h>
+#include <RooWorkspace.h>
+#include <RooRealVar.h>
+#include <RooCategory.h>
+#include <RooDataHist.h>
+#include <RooAddPdf.h>
+#include <RooSimultaneous.h>
+#include <RooFitResult.h>
+#include <RooMultiPdf.h>
+#include <RooPlot.h>
+#include <TCanvas.h>
+#include <fstream>
+#include <iostream>
+using namespace RooFit;
+int main(int argc,char**argv){int idx=argc>1?atoi(argv[1]):0;TFile f("/Users/imb/Downloads/Xee_ee_4_allYears.root");auto w=(RooWorkspace*)f.Get("w");auto d=w->data("data_obs");auto x=w->var("mass");auto cat=w->cat("CMS_channel");RooArgSet norm(*x);RooArgSet obs(*x,*cat);RooDataHist dh("binned","binned",obs);std::ofstream dat("work/xee_data.csv");dat<<"channel,mass,count,sumw2\n";for(int i=0;i<d->numEntries();i++){auto row=d->get(i); x->setVal(row->getRealValue("mass"));cat->setLabel(row->getCatLabel("CMS_channel"));dh.add(obs,d->weight(),d->weight());dat<<cat->getLabel()<<","<<x->getVal()<<","<<d->weight()<<","<<d->weightSquared()<<"\n";}std::cout<<"DATA "<<d->sumEntries()<<" weighted "<<d->isWeighted()<<std::endl;
+RooSimultaneous sim("native","native",*cat);for(int ch=1;ch<=4;ch++){std::string c="ch"+std::to_string(ch);auto mp=(RooMultiPdf*)w->pdf(("shapeBkg_dy_"+c).c_str());auto bg=mp->getPdf(idx);RooArgList ps(*w->pdf(("shapeSig_Zd_"+c).c_str()),*bg,*w->pdf(("shapeBkg_upsilon1s_"+c).c_str()),*w->pdf(("shapeBkg_upsilon2s_"+c).c_str()));RooArgList ns;for(auto p:{"Zd","dy","upsilon1s","upsilon2s"})ns.add(*w->function(("n_exp_bin"+c+"_proc_"+p).c_str()));auto a=new RooAddPdf(("native_"+c).c_str(),"",ps,ns);sim.addPdf(*a,c.c_str());std::cout<<"COMP "<<c<<" "<<bg->ClassName()<<std::endl;}
+auto r=w->var("r");r->setVal(0.1);r->setError(.1);auto fit=sim.fitTo(dh,Save(),Extended(),ExternalConstraints(RooArgSet(*w->pdf("nuisancePdf"))),GlobalObservables(*w->set("ModelConfig_GlobalObservables")),EvalBackend("legacy"),Strategy(1),PrintLevel(-1),SumW2Error(false));fit->Print("v");std::string base="outputs/xee_m9_branch"+std::to_string(idx);TFile out((base+".root").c_str(),"RECREATE");fit->Write("fit_s");std::ofstream res(base+".txt");res<<"Native RooFit binned Poisson diagnostic; branch "<<idx<<"; no discrete profiling\n"<<"status "<<fit->status()<<" covQual "<<fit->covQual()<<" edm "<<fit->edm()<<" nll "<<fit->minNll()<<" r "<<r->getVal()<<" error "<<r->getError()<<"\n";for(auto a:fit->floatParsFinal()){auto v=(RooRealVar*)a;res<<v->GetName()<<" "<<v->getVal()<<" "<<v->getError()<<"\n";}TCanvas canvas("c","",1200,900);canvas.Divide(2,2);std::ofstream curve(base+"_curves.csv");curve<<"channel,mass,total,signal,dy,upsilon1s,upsilon2s\n";for(int ch=1;ch<=4;ch++){std::string c="ch"+std::to_string(ch);cat->setLabel(c.c_str());canvas.cd(ch);auto frame=x->frame();auto sub=std::unique_ptr<RooAbsData>(dh.reduce(Cut(("CMS_channel==CMS_channel::"+c).c_str())));sub->plotOn(frame);auto pdf=sim.getPdf(c.c_str());pdf->plotOn(frame);frame->SetTitle(c.c_str());frame->Draw();for(int i=0;i<450;i++){x->setVal(6+(i+.5)*6/450);curve<<c<<","<<x->getVal()<<","<<pdf->getVal(norm)*pdf->expectedEvents(norm)*6/450;for(auto p:{"Zd","dy","upsilon1s","upsilon2s"}){auto sp=std::string(p)=="Zd"?w->pdf(("shapeSig_Zd_"+c).c_str()): std::string(p)=="dy"?((RooMultiPdf*)w->pdf(("shapeBkg_dy_"+c).c_str()))->getPdf(idx):w->pdf(("shapeBkg_"+std::string(p)+"_"+c).c_str());curve<<","<<sp->getVal(norm)*w->function(("n_exp_bin"+c+"_proc_"+p).c_str())->getVal()*6/450;}curve<<"\n";}}canvas.SaveAs((base+".png").c_str());}

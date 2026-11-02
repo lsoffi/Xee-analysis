@@ -1,0 +1,838 @@
+{
+  "high/m9.7": {
+    "fit_expected_anchor": 20.633935928344727,
+    "fit_r_range": [
+      -103.16967964172363,
+      103.16967964172363
+    ],
+    "limit_rMax": 105.54021835327148,
+    "limit_bracket_scale": 21.108043670654297,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/high/m9.7/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m9.7/results.json"
+  },
+  "high/m9.9": {
+    "fit_expected_anchor": 34.83039855957031,
+    "fit_r_range": [
+      -174.15199279785156,
+      174.15199279785156
+    ],
+    "limit_rMax": 167.76260375976562,
+    "limit_bracket_scale": 33.552520751953125,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/high/m9.9/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m9.9/results.json"
+  },
+  "high/m11.4": {
+    "fit_expected_anchor": 12.245440483093262,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 61.22720241546631,
+    "limit_bracket_scale": 12.245440483093262,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m11.4/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m11.4/results.json"
+  },
+  "high/m11.3": {
+    "fit_expected_anchor": 12.743687629699707,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 63.718438148498535,
+    "limit_bracket_scale": 12.743687629699707,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m11.3/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m11.3/results.json"
+  },
+  "high/m11.2": {
+    "fit_expected_anchor": 10.350894927978516,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 51.75447463989258,
+    "limit_bracket_scale": 10.350894927978516,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m11.2/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m11.2/results.json"
+  },
+  "high/m11.5": {
+    "fit_expected_anchor": 10.998601913452148,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 54.99300956726074,
+    "limit_bracket_scale": 10.998601913452148,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m11.5/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m11.5/results.json"
+  },
+  "high/m9.8": {
+    "fit_expected_anchor": 36.52604675292969,
+    "fit_r_range": [
+      -182.63023376464844,
+      182.63023376464844
+    ],
+    "limit_rMax": 200.12130737304688,
+    "limit_bracket_scale": 40.024261474609375,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/high/m9.8/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m9.8/results.json"
+  },
+  "high/m9.1": {
+    "fit_expected_anchor": 35.148983001708984,
+    "fit_r_range": [
+      -175.74491500854492,
+      175.74491500854492
+    ],
+    "limit_rMax": 184.29370880126953,
+    "limit_bracket_scale": 36.858741760253906,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/high/m9.1/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m9.1/results.json"
+  },
+  "high/m9.6": {
+    "fit_expected_anchor": 27.081085205078125,
+    "fit_r_range": [
+      -135.40542602539062,
+      135.40542602539062
+    ],
+    "limit_rMax": 130.93026161193848,
+    "limit_bracket_scale": 26.186052322387695,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/high/m9.6/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m9.6/results.json"
+  },
+  "high/m10.7": {
+    "fit_expected_anchor": 11.053080558776855,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 55.26540279388428,
+    "limit_bracket_scale": 11.053080558776855,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m10.7/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m10.7/results.json"
+  },
+  "high/m10.0": {
+    "fit_expected_anchor": 50.16897201538086,
+    "fit_r_range": [
+      -250.8448600769043,
+      250.8448600769043
+    ],
+    "limit_rMax": 250.8448600769043,
+    "limit_bracket_scale": 50.16897201538086,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m10.0/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m10.0/results.json"
+  },
+  "high/m10.9": {
+    "fit_expected_anchor": 12.107491493225098,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 60.53745746612549,
+    "limit_bracket_scale": 12.107491493225098,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m10.9/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m10.9/results.json"
+  },
+  "high/m10.8": {
+    "fit_expected_anchor": 12.083172798156738,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 60.41586399078369,
+    "limit_bracket_scale": 12.083172798156738,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m10.8/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m10.8/results.json"
+  },
+  "high/m10.1": {
+    "fit_expected_anchor": 65.90025329589844,
+    "fit_r_range": [
+      -329.5012664794922,
+      329.5012664794922
+    ],
+    "limit_rMax": 329.5012664794922,
+    "limit_bracket_scale": 65.90025329589844,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m10.1/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m10.1/results.json"
+  },
+  "high/m10.6": {
+    "fit_expected_anchor": 21.320581436157227,
+    "fit_r_range": [
+      -106.60290718078613,
+      106.60290718078613
+    ],
+    "limit_rMax": 106.60290718078613,
+    "limit_bracket_scale": 21.320581436157227,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m10.6/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m10.6/results.json"
+  },
+  "high/m9.3": {
+    "fit_expected_anchor": 17.42489242553711,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 88.77159118652344,
+    "limit_bracket_scale": 17.754318237304688,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/high/m9.3/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m9.3/results.json"
+  },
+  "high/m11.9": {
+    "fit_expected_anchor": 23.58738899230957,
+    "fit_r_range": [
+      -117.93694496154785,
+      117.93694496154785
+    ],
+    "limit_rMax": 117.93694496154785,
+    "limit_bracket_scale": 23.58738899230957,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m11.9/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m11.9/results.json"
+  },
+  "high/m9.4": {
+    "fit_expected_anchor": 98.32584381103516,
+    "fit_r_range": [
+      -491.6292190551758,
+      491.6292190551758
+    ],
+    "limit_rMax": 484.5315933227539,
+    "limit_bracket_scale": 96.90631866455078,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/high/m9.4/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m9.4/results.json"
+  },
+  "high/m11.0": {
+    "fit_expected_anchor": 9.111486434936523,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 48.46837520599365,
+    "limit_bracket_scale": 9.69367504119873,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/high/m11.0/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m11.0/results.json"
+  },
+  "high/m11.7": {
+    "fit_expected_anchor": 24.61665153503418,
+    "fit_r_range": [
+      -123.0832576751709,
+      123.0832576751709
+    ],
+    "limit_rMax": 123.0832576751709,
+    "limit_bracket_scale": 24.61665153503418,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m11.7/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m11.7/results.json"
+  },
+  "high/m11.6": {
+    "fit_expected_anchor": 14.331979751586914,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 71.65989875793457,
+    "limit_bracket_scale": 14.331979751586914,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m11.6/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m11.6/results.json"
+  },
+  "high/m11.1": {
+    "fit_expected_anchor": 8.860516548156738,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 44.30258274078369,
+    "limit_bracket_scale": 8.860516548156738,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m11.1/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m11.1/results.json"
+  },
+  "high/m9.5": {
+    "fit_expected_anchor": 128.34490966796875,
+    "fit_r_range": [
+      -641.7245483398438,
+      641.7245483398438
+    ],
+    "limit_rMax": 630.0344848632812,
+    "limit_bracket_scale": 126.00689697265625,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/high/m9.5/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m9.5/results.json"
+  },
+  "high/m11.8": {
+    "fit_expected_anchor": 24.71379280090332,
+    "fit_r_range": [
+      -123.5689640045166,
+      123.5689640045166
+    ],
+    "limit_rMax": 123.5689640045166,
+    "limit_bracket_scale": 24.71379280090332,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m11.8/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m11.8/results.json"
+  },
+  "high/m9.2": {
+    "fit_expected_anchor": 15.454581260681152,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 77.31065273284912,
+    "limit_bracket_scale": 15.462130546569824,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/high/m9.2/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m9.2/results.json"
+  },
+  "high/m10.3": {
+    "fit_expected_anchor": 50.85606384277344,
+    "fit_r_range": [
+      -254.2803192138672,
+      254.2803192138672
+    ],
+    "limit_rMax": 254.2803192138672,
+    "limit_bracket_scale": 50.85606384277344,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m10.3/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m10.3/results.json"
+  },
+  "high/m10.4": {
+    "fit_expected_anchor": 34.6790885925293,
+    "fit_r_range": [
+      -173.39544296264648,
+      173.39544296264648
+    ],
+    "limit_rMax": 173.39544296264648,
+    "limit_bracket_scale": 34.6790885925293,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m10.4/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m10.4/results.json"
+  },
+  "high/m12.0": {
+    "fit_expected_anchor": 39.29981231689453,
+    "fit_r_range": [
+      -196.49906158447266,
+      196.49906158447266
+    ],
+    "limit_rMax": 196.49906158447266,
+    "limit_bracket_scale": 39.29981231689453,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m12.0/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m12.0/results.json"
+  },
+  "high/m10.5": {
+    "fit_expected_anchor": 42.77647018432617,
+    "fit_r_range": [
+      -213.88235092163086,
+      213.88235092163086
+    ],
+    "limit_rMax": 213.88235092163086,
+    "limit_bracket_scale": 42.77647018432617,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m10.5/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m10.5/results.json"
+  },
+  "high/m10.2": {
+    "fit_expected_anchor": 42.91127014160156,
+    "fit_r_range": [
+      -214.5563507080078,
+      214.5563507080078
+    ],
+    "limit_rMax": 214.5563507080078,
+    "limit_bracket_scale": 42.91127014160156,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m10.2/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/high/m10.2/results.json"
+  },
+  "low/m9.7": {
+    "fit_expected_anchor": 20.71639060974121,
+    "fit_r_range": [
+      -103.58195304870605,
+      103.58195304870605
+    ],
+    "limit_rMax": 105.54021835327148,
+    "limit_bracket_scale": 21.108043670654297,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m9.7/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m9.7/results.json"
+  },
+  "low/m9.0": {
+    "fit_expected_anchor": 9.70113468170166,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 59.66343402862549,
+    "limit_bracket_scale": 11.932686805725098,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m9.0/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m9.0/results.json"
+  },
+  "low/m9.9": {
+    "fit_expected_anchor": 33.77676773071289,
+    "fit_r_range": [
+      -168.88383865356445,
+      168.88383865356445
+    ],
+    "limit_rMax": 168.88383865356445,
+    "limit_bracket_scale": 33.77676773071289,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m9.9/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m9.9/results.json"
+  },
+  "low/m7.8": {
+    "fit_expected_anchor": 0.20072965323925018,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.0065972805023193,
+    "limit_bracket_scale": 0.20131945610046387,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m7.8/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m7.8/results.json"
+  },
+  "low/m7.1": {
+    "fit_expected_anchor": 0.04792480543255806,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.0,
+    "limit_bracket_scale": 0.04792480543255806,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m7.1/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m7.1/results.json"
+  },
+  "low/m7.6": {
+    "fit_expected_anchor": 0.09428711235523224,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.0,
+    "limit_bracket_scale": 0.09565429389476776,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m7.6/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m7.6/results.json"
+  },
+  "low/m9.8": {
+    "fit_expected_anchor": 40.21997833251953,
+    "fit_r_range": [
+      -201.09989166259766,
+      201.09989166259766
+    ],
+    "limit_rMax": 201.09989166259766,
+    "limit_bracket_scale": 40.21997833251953,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m9.8/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m9.8/results.json"
+  },
+  "low/m9.1": {
+    "fit_expected_anchor": 30.039306640625,
+    "fit_r_range": [
+      -150.196533203125,
+      150.196533203125
+    ],
+    "limit_rMax": 152.42938041687012,
+    "limit_bracket_scale": 30.485876083374023,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m9.1/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m9.1/results.json"
+  },
+  "low/m9.6": {
+    "fit_expected_anchor": 24.965356826782227,
+    "fit_r_range": [
+      -124.82678413391113,
+      124.82678413391113
+    ],
+    "limit_rMax": 130.76483726501465,
+    "limit_bracket_scale": 26.15296745300293,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m9.6/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m9.6/results.json"
+  },
+  "low/m7.7": {
+    "fit_expected_anchor": 0.13447265326976776,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.0,
+    "limit_bracket_scale": 0.13583984971046448,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m7.7/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m7.7/results.json"
+  },
+  "low/m7.0": {
+    "fit_expected_anchor": 0.04753417894244194,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.0,
+    "limit_bracket_scale": 0.04763183742761612,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m7.0/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m7.0/results.json"
+  },
+  "low/m7.9": {
+    "fit_expected_anchor": 0.30381518602371216,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.5175938606262207,
+    "limit_bracket_scale": 0.30351877212524414,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m7.9/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m7.9/results.json"
+  },
+  "low/m6.2": {
+    "fit_expected_anchor": 0.11279296875,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.0,
+    "limit_bracket_scale": 0.11337890475988388,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m6.2/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m6.2/results.json"
+  },
+  "low/m6.5": {
+    "fit_expected_anchor": 0.06621094048023224,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.0,
+    "limit_bracket_scale": 0.06635741889476776,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m6.5/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m6.5/results.json"
+  },
+  "low/m10.0": {
+    "fit_expected_anchor": 50.7404670715332,
+    "fit_r_range": [
+      -253.70233535766602,
+      253.70233535766602
+    ],
+    "limit_rMax": 253.70233535766602,
+    "limit_bracket_scale": 50.7404670715332,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m10.0/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m10.0/results.json"
+  },
+  "low/m8.4": {
+    "fit_expected_anchor": 0.8243764042854309,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 4.127928614616394,
+    "limit_bracket_scale": 0.8255857229232788,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m8.4/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m8.4/results.json"
+  },
+  "low/m8.3": {
+    "fit_expected_anchor": 0.7070368528366089,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 3.580641448497772,
+    "limit_bracket_scale": 0.7161282896995544,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m8.3/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m8.3/results.json"
+  },
+  "low/m6.4": {
+    "fit_expected_anchor": 0.08027343451976776,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.0,
+    "limit_bracket_scale": 0.08110351860523224,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m6.4/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m6.4/results.json"
+  },
+  "low/m6.3": {
+    "fit_expected_anchor": 0.09223632514476776,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.0,
+    "limit_bracket_scale": 0.09321288764476776,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m6.3/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m6.3/results.json"
+  },
+  "low/m8.2": {
+    "fit_expected_anchor": 0.5666791796684265,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 2.8812289237976074,
+    "limit_bracket_scale": 0.5762457847595215,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m8.2/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m8.2/results.json"
+  },
+  "low/m8.5": {
+    "fit_expected_anchor": 0.8860582709312439,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 4.4607847929000854,
+    "limit_bracket_scale": 0.8921569585800171,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m8.5/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m8.5/results.json"
+  },
+  "low/m10.1": {
+    "fit_expected_anchor": 66.05791473388672,
+    "fit_r_range": [
+      -330.2895736694336,
+      330.2895736694336
+    ],
+    "limit_rMax": 330.2895736694336,
+    "limit_bracket_scale": 66.05791473388672,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m10.1/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m10.1/results.json"
+  },
+  "low/m7.5": {
+    "fit_expected_anchor": 0.07036133110523224,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.0,
+    "limit_bracket_scale": 0.07133789360523224,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m7.5/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m7.5/results.json"
+  },
+  "low/m7.2": {
+    "fit_expected_anchor": 0.04831542819738388,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.0,
+    "limit_bracket_scale": 0.04831542819738388,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m7.2/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m7.2/results.json"
+  },
+  "low/m9.3": {
+    "fit_expected_anchor": 17.154550552368164,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 88.31705093383789,
+    "limit_bracket_scale": 17.663410186767578,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m9.3/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m9.3/results.json"
+  },
+  "low/m9.4": {
+    "fit_expected_anchor": 96.7862319946289,
+    "fit_r_range": [
+      -483.93115997314453,
+      483.93115997314453
+    ],
+    "limit_rMax": 483.4590148925781,
+    "limit_bracket_scale": 96.69180297851562,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m9.4/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m9.4/results.json"
+  },
+  "low/m7.3": {
+    "fit_expected_anchor": 0.050537109375,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.0,
+    "limit_bracket_scale": 0.05073242262005806,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m7.3/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m7.3/results.json"
+  },
+  "low/m7.4": {
+    "fit_expected_anchor": 0.05708007887005806,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.0,
+    "limit_bracket_scale": 0.05766601487994194,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m7.4/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m7.4/results.json"
+  },
+  "low/m9.5": {
+    "fit_expected_anchor": 126.34956359863281,
+    "fit_r_range": [
+      -631.7478179931641,
+      631.7478179931641
+    ],
+    "limit_rMax": 633.60408782959,
+    "limit_bracket_scale": 126.72081756591798,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m9.5/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m9.5/results.json"
+  },
+  "low/m9.2": {
+    "fit_expected_anchor": 11.761911392211914,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 78.05701732635498,
+    "limit_bracket_scale": 15.611403465270996,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m9.2/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m9.2/results.json"
+  },
+  "low/m10.3": {
+    "fit_expected_anchor": 82.95315551757812,
+    "fit_r_range": [
+      -414.7657775878906,
+      414.7657775878906
+    ],
+    "limit_rMax": 414.7657775878906,
+    "limit_bracket_scale": 82.95315551757812,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m10.3/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m10.3/results.json"
+  },
+  "low/m8.9": {
+    "fit_expected_anchor": 2.9885425567626953,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 15.637544393539429,
+    "limit_bracket_scale": 3.1275088787078857,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m8.9/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m8.9/results.json"
+  },
+  "low/m10.4": {
+    "fit_expected_anchor": 84.8608627319336,
+    "fit_r_range": [
+      -424.30431365966797,
+      424.30431365966797
+    ],
+    "limit_rMax": 424.30431365966797,
+    "limit_bracket_scale": 84.8608627319336,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m10.4/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m10.4/results.json"
+  },
+  "low/m8.0": {
+    "fit_expected_anchor": 0.3985847234725952,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.9987794756889343,
+    "limit_bracket_scale": 0.39975589513778687,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m8.0/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m8.0/results.json"
+  },
+  "low/m8.7": {
+    "fit_expected_anchor": 1.3834025859832764,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 7.571374773979187,
+    "limit_bracket_scale": 1.5142749547958374,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m8.7/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m8.7/results.json"
+  },
+  "low/m6.6": {
+    "fit_expected_anchor": 0.05415039137005806,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.0,
+    "limit_bracket_scale": 0.05405273288488388,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m6.6/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m6.6/results.json"
+  },
+  "low/m6.1": {
+    "fit_expected_anchor": 0.22707271575927734,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.1568281799554825,
+    "limit_bracket_scale": 0.2313656359910965,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m6.1/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m6.1/results.json"
+  },
+  "low/m6.8": {
+    "fit_expected_anchor": 0.04538574069738388,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.0,
+    "limit_bracket_scale": 0.0455322265625,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m6.8/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m6.8/results.json"
+  },
+  "low/m8.6": {
+    "fit_expected_anchor": 0.9990474581718445,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 5.211536288261414,
+    "limit_bracket_scale": 1.0423072576522827,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m8.6/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m8.6/results.json"
+  },
+  "low/m8.1": {
+    "fit_expected_anchor": 0.46039608120918274,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 2.326977252960205,
+    "limit_bracket_scale": 0.465395450592041,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m8.1/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m8.1/results.json"
+  },
+  "low/m10.5": {
+    "fit_expected_anchor": 14.208984375,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 71.044921875,
+    "limit_bracket_scale": 14.208984375,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m10.5/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m10.5/results.json"
+  },
+  "low/m8.8": {
+    "fit_expected_anchor": 2.3026599884033203,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 11.999613046646118,
+    "limit_bracket_scale": 2.3999226093292236,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m8.8/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m8.8/results.json"
+  },
+  "low/m10.2": {
+    "fit_expected_anchor": 43.90653610229492,
+    "fit_r_range": [
+      -219.5326805114746,
+      219.5326805114746
+    ],
+    "limit_rMax": 219.5326805114746,
+    "limit_bracket_scale": 43.90653610229492,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m10.2/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m10.2/results.json"
+  },
+  "low/m6.9": {
+    "fit_expected_anchor": 0.04616699367761612,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.0,
+    "limit_bracket_scale": 0.04636230319738388,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m6.9/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m6.9/results.json"
+  },
+  "low/m6.0": {
+    "fit_expected_anchor": 0.24195463955402374,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.2205001711845398,
+    "limit_bracket_scale": 0.24410003423690796,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m6.0/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m6.0/results.json"
+  },
+  "low/m6.7": {
+    "fit_expected_anchor": 0.04743652418255806,
+    "fit_r_range": [
+      -100.0,
+      100.0
+    ],
+    "limit_rMax": 1.0,
+    "limit_bracket_scale": 0.0474853515625,
+    "fit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_c0_limits/low/m6.7/results.json",
+    "limit_seed_source": "/Users/imb/Documents/Codex/Analisi-statistica-Xee/runs/20261031_separate_sr_cheb_limits/low/m6.7/results.json"
+  }
+}
