@@ -1,0 +1,10 @@
+executable = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/L2/worker.sh
+arguments = 2.6
+output = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.6/logs/$(Cluster).$(Process).out
+error = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.6/logs/$(Cluster).$(Process).err
+log = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.6/logs/events.log
+request_memory = 3500MB
++JobFlavour = "workday"
+should_transfer_files = YES
+transfer_output_files = ""
+queue

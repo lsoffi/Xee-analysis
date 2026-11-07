@@ -1,5 +1,7 @@
 # Xee: analisi simultanea SR + CR con CMS Combine
 
+Per lo **scan sliding window a 69 masse (0,4–9,0 GeV)**, vedere [workflow, input e istruzioni di riproduzione](sliding-window/README.md). La configurazione a regioni fisse è documentata qui sotto.
+
 Codice, configurazioni e guida operativa dell'analisi dello spettro di massa 6-12 GeV, aggiornata al **2 novembre 2026**. Il repository conserva il codice degli studi precedenti e offre una procedura portabile per la configurazione piu recente con continuita C0.
 
 **[Guida PDF: configurazione, studi e verifiche mancanti](docs/Xee_guida_SR_CR.pdf)** · [Metodo in formato modificabile](docs/METODO.md) · [Istruzioni di riproduzione](docs/REPRODUCTION.md)

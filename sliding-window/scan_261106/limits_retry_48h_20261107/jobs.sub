@@ -1,0 +1,14 @@
+executable = worker.sh
+arguments = $(mass)
+output = logs/$(mass).out
+error = logs/$(mass).err
+log = logs/events.log
+request_cpus = 1
+request_memory = 3500MB
+request_disk = 2GB
++JobFlavour = "testmatch"
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_output_files = ""
++MaxRuntime = 172800
+queue mass from masses.txt

@@ -1,0 +1,16 @@
+JOB G4 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_env_04_200/genfit.sub
+JOB P4 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_env_04_200/prep.sub
+JOB T4 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_env_04_200/toys.sub
+JOB R4 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_env_04_200/report.sub
+PARENT G4 CHILD P4
+PARENT P4 CHILD T4
+PARENT T4 CHILD R4
+JOB G6 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_env_06_200/genfit.sub
+JOB P6 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_env_06_200/prep.sub
+JOB T6 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_env_06_200/toys.sub
+JOB R6 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_env_06_200/report.sub
+PARENT G6 CHILD P6
+PARENT P6 CHILD T6
+PARENT T6 CHILD R6
+JOB Plot plot.sub
+PARENT R4 R6 CHILD Plot

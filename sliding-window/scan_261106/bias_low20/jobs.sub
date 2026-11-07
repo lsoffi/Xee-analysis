@@ -1,0 +1,13 @@
+executable = worker.sh
+arguments = $(mass) $(model) $(inj) $(seed)
+output = logs/$(seed).out
+error = logs/$(seed).err
+log = logs/events.log
+request_cpus = 1
+request_memory = 1800MB
+request_disk = 1GB
++JobFlavour = "espresso"
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_output_files = ""
+queue mass,model,inj,seed from points.txt

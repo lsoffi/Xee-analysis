@@ -1,0 +1,13 @@
+executable = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/worker.sh
+arguments = $(mass) $(model) $(inj) $(seed)
+output = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/logs/$(seed).out
+error = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/logs/$(seed).err
+log = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/logs/remaining.events.log
+request_cpus = 1
+request_memory = 1800MB
+request_disk = 1GB
++JobFlavour = "microcentury"
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_output_files = ""
+queue mass,model,inj,seed from /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/m1.3/rows.txt

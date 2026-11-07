@@ -1,0 +1,132 @@
+JOB C412 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.2/C4.sub
+JOB L412 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.2/L4.sub
+JOB P12 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.2/prep.sub
+PARENT C412 L412 CHILD P12
+JOB Tr012 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/m1.2/toys.sub
+PARENT P12 CHILD Tr012
+JOB C413 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.3/C4.sub
+JOB L413 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.3/L4.sub
+JOB P13 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.3/prep.sub
+PARENT C413 L413 CHILD P13
+JOB Tr013 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/m1.3/toys.sub
+PARENT P13 CHILD Tr013
+JOB C414 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.4/C4.sub
+JOB L414 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.4/L4.sub
+JOB P14 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.4/prep.sub
+PARENT C414 L414 CHILD P14
+JOB Tr014 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/m1.4/toys.sub
+PARENT P14 CHILD Tr014
+JOB C415 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.5/C4.sub
+JOB L415 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.5/L4.sub
+JOB P15 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.5/prep.sub
+PARENT C415 L415 CHILD P15
+JOB Tr015 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/m1.5/toys.sub
+PARENT P15 CHILD Tr015
+JOB C416 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.6/C4.sub
+JOB L416 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.6/L4.sub
+JOB P16 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.6/prep.sub
+PARENT C416 L416 CHILD P16
+JOB Tr016 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/m1.6/toys.sub
+PARENT P16 CHILD Tr016
+JOB C417 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.7/C4.sub
+JOB L417 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.7/L4.sub
+JOB P17 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.7/prep.sub
+PARENT C417 L417 CHILD P17
+JOB Tr017 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/m1.7/toys.sub
+PARENT P17 CHILD Tr017
+JOB C418 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.8/C4.sub
+JOB L418 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.8/L4.sub
+JOB P18 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.8/prep.sub
+PARENT C418 L418 CHILD P18
+JOB Tr018 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/m1.8/toys.sub
+PARENT P18 CHILD Tr018
+JOB C419 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.9/C4.sub
+JOB L419 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.9/L4.sub
+JOB P19 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m1.9/prep.sub
+PARENT C419 L419 CHILD P19
+JOB Tr019 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/m1.9/toys.sub
+PARENT P19 CHILD Tr019
+JOB C420 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.0/C4.sub
+JOB L420 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.0/L4.sub
+JOB P20 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.0/prep.sub
+PARENT C420 L420 CHILD P20
+JOB Tr020 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/m2.0/toys.sub
+PARENT P20 CHILD Tr020
+JOB C421 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.1/C4.sub
+JOB L421 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.1/L4.sub
+JOB P21 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.1/prep.sub
+PARENT C421 L421 CHILD P21
+JOB Tr021 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/m2.1/toys.sub
+PARENT P21 CHILD Tr021
+JOB C422 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.2/C4.sub
+JOB L422 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.2/L4.sub
+JOB P22 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.2/prep.sub
+PARENT C422 L422 CHILD P22
+JOB Tr022 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/m2.2/toys.sub
+PARENT P22 CHILD Tr022
+JOB C423 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.3/C4.sub
+JOB L423 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.3/L4.sub
+JOB P23 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.3/prep.sub
+PARENT C423 L423 CHILD P23
+JOB Tr023 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/m2.3/toys.sub
+PARENT P23 CHILD Tr023
+JOB C424 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.4/C4.sub
+JOB L424 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.4/L4.sub
+JOB P24 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.4/prep.sub
+PARENT C424 L424 CHILD P24
+JOB Tr024 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/m2.4/toys.sub
+PARENT P24 CHILD Tr024
+JOB C425 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.5/C4.sub
+JOB L425 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.5/L4.sub
+JOB P25 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.5/prep.sub
+PARENT C425 L425 CHILD P25
+JOB Tr025 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/m2.5/toys.sub
+PARENT P25 CHILD Tr025
+JOB C426 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.6/C4.sub
+JOB L426 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.6/L4.sub
+JOB P26 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.6/prep.sub
+PARENT C426 L426 CHILD P26
+JOB Tr026 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/m2.6/toys.sub
+PARENT P26 CHILD Tr026
+JOB C427 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.7/C4.sub
+JOB L427 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.7/L4.sub
+JOB P27 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic/m2.7/prep.sub
+PARENT C427 L427 CHILD P27
+JOB Tr027 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/m2.7/toys.sub
+PARENT P27 CHILD Tr027
+JOB Rr0 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_r0/report.sub
+PARENT Tr012 Tr013 Tr014 Tr015 Tr016 Tr017 Tr018 Tr019 Tr020 Tr021 Tr022 Tr023 Tr024 Tr025 Tr026 Tr027 CHILD Rr0
+JOB Texpected12 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_expected/m1.2/toys.sub
+PARENT P12 CHILD Texpected12
+JOB Texpected13 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_expected/m1.3/toys.sub
+PARENT P13 CHILD Texpected13
+JOB Texpected14 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_expected/m1.4/toys.sub
+PARENT P14 CHILD Texpected14
+JOB Texpected15 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_expected/m1.5/toys.sub
+PARENT P15 CHILD Texpected15
+JOB Texpected16 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_expected/m1.6/toys.sub
+PARENT P16 CHILD Texpected16
+JOB Texpected17 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_expected/m1.7/toys.sub
+PARENT P17 CHILD Texpected17
+JOB Texpected18 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_expected/m1.8/toys.sub
+PARENT P18 CHILD Texpected18
+JOB Texpected19 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_expected/m1.9/toys.sub
+PARENT P19 CHILD Texpected19
+JOB Texpected20 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_expected/m2.0/toys.sub
+PARENT P20 CHILD Texpected20
+JOB Texpected21 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_expected/m2.1/toys.sub
+PARENT P21 CHILD Texpected21
+JOB Texpected22 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_expected/m2.2/toys.sub
+PARENT P22 CHILD Texpected22
+JOB Texpected23 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_expected/m2.3/toys.sub
+PARENT P23 CHILD Texpected23
+JOB Texpected24 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_expected/m2.4/toys.sub
+PARENT P24 CHILD Texpected24
+JOB Texpected25 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_expected/m2.5/toys.sub
+PARENT P25 CHILD Texpected25
+JOB Texpected26 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_expected/m2.6/toys.sub
+PARENT P26 CHILD Texpected26
+JOB Texpected27 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_expected/m2.7/toys.sub
+PARENT P27 CHILD Texpected27
+JOB Rexpected /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_quartic_expected/report.sub
+PARENT Texpected12 Texpected13 Texpected14 Texpected15 Texpected16 Texpected17 Texpected18 Texpected19 Texpected20 Texpected21 Texpected22 Texpected23 Texpected24 Texpected25 Texpected26 Texpected27 CHILD Rexpected

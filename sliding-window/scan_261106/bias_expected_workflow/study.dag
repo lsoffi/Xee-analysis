@@ -1,0 +1,11 @@
+JOB T4 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_expected_04_200/toys.sub
+JOB R4 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_expected_04_200/report.sub
+PARENT T4 CHILD R4
+JOB T5 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_expected_05_200/toys.sub
+JOB R5 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_expected_05_200/report.sub
+PARENT T5 CHILD R5
+JOB T6 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_expected_06_200/toys.sub
+JOB R6 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_expected_06_200/report.sub
+PARENT T6 CHILD R6
+JOB Plot plot.sub
+PARENT R4 R5 R6 CHILD Plot
