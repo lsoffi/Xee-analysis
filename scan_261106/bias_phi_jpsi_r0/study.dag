@@ -1,0 +1,157 @@
+JOB F12C2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.2/C2.sub
+JOB F12C3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.2/C3.sub
+JOB F12L2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.2/L2.sub
+JOB F12L3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.2/L3.sub
+JOB P12 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.2/prep.sub
+JOB T12 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.2/toys.sub
+JOB R12 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.2/report.sub
+PARENT P12 CHILD T12
+PARENT T12 CHILD R12
+PARENT F12C2 F12C3 F12L2 F12L3 CHILD P12
+JOB F13C2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.3/C2.sub
+JOB F13C3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.3/C3.sub
+JOB F13L2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.3/L2.sub
+JOB F13L3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.3/L3.sub
+JOB P13 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.3/prep.sub
+JOB T13 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.3/toys.sub
+JOB R13 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.3/report.sub
+PARENT P13 CHILD T13
+PARENT T13 CHILD R13
+PARENT F13C2 F13C3 F13L2 F13L3 CHILD P13
+JOB F14C2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.4/C2.sub
+JOB F14C3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.4/C3.sub
+JOB F14L2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.4/L2.sub
+JOB F14L3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.4/L3.sub
+JOB P14 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.4/prep.sub
+JOB T14 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.4/toys.sub
+JOB R14 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.4/report.sub
+PARENT P14 CHILD T14
+PARENT T14 CHILD R14
+PARENT F14C2 F14C3 F14L2 F14L3 CHILD P14
+JOB F15C2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.5/C2.sub
+JOB F15C3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.5/C3.sub
+JOB F15L2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.5/L2.sub
+JOB F15L3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.5/L3.sub
+JOB P15 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.5/prep.sub
+JOB T15 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.5/toys.sub
+JOB R15 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.5/report.sub
+PARENT P15 CHILD T15
+PARENT T15 CHILD R15
+PARENT F15C2 F15C3 F15L2 F15L3 CHILD P15
+JOB F16C2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.6/C2.sub
+JOB F16C3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.6/C3.sub
+JOB F16L2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.6/L2.sub
+JOB F16L3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.6/L3.sub
+JOB P16 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.6/prep.sub
+JOB T16 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.6/toys.sub
+JOB R16 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.6/report.sub
+PARENT P16 CHILD T16
+PARENT T16 CHILD R16
+PARENT F16C2 F16C3 F16L2 F16L3 CHILD P16
+JOB F17C2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.7/C2.sub
+JOB F17C3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.7/C3.sub
+JOB F17L2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.7/L2.sub
+JOB F17L3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.7/L3.sub
+JOB P17 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.7/prep.sub
+JOB T17 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.7/toys.sub
+JOB R17 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.7/report.sub
+PARENT P17 CHILD T17
+PARENT T17 CHILD R17
+PARENT F17C2 F17C3 F17L2 F17L3 CHILD P17
+JOB F18C2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.8/C2.sub
+JOB F18C3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.8/C3.sub
+JOB F18L2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.8/L2.sub
+JOB F18L3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.8/L3.sub
+JOB P18 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.8/prep.sub
+JOB T18 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.8/toys.sub
+JOB R18 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.8/report.sub
+PARENT P18 CHILD T18
+PARENT T18 CHILD R18
+PARENT F18C2 F18C3 F18L2 F18L3 CHILD P18
+JOB F19C2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.9/C2.sub
+JOB F19C3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.9/C3.sub
+JOB F19L2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.9/L2.sub
+JOB F19L3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.9/L3.sub
+JOB P19 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.9/prep.sub
+JOB T19 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.9/toys.sub
+JOB R19 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m1.9/report.sub
+PARENT P19 CHILD T19
+PARENT T19 CHILD R19
+PARENT F19C2 F19C3 F19L2 F19L3 CHILD P19
+JOB P20 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.0/prep.sub
+JOB T20 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.0/toys.sub
+JOB R20 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.0/report.sub
+PARENT P20 CHILD T20
+PARENT T20 CHILD R20
+JOB F21C2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.1/C2.sub
+JOB F21C3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.1/C3.sub
+JOB F21L2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.1/L2.sub
+JOB F21L3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.1/L3.sub
+JOB P21 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.1/prep.sub
+JOB T21 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.1/toys.sub
+JOB R21 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.1/report.sub
+PARENT P21 CHILD T21
+PARENT T21 CHILD R21
+PARENT F21C2 F21C3 F21L2 F21L3 CHILD P21
+JOB F22C2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.2/C2.sub
+JOB F22C3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.2/C3.sub
+JOB F22L2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.2/L2.sub
+JOB F22L3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.2/L3.sub
+JOB P22 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.2/prep.sub
+JOB T22 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.2/toys.sub
+JOB R22 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.2/report.sub
+PARENT P22 CHILD T22
+PARENT T22 CHILD R22
+PARENT F22C2 F22C3 F22L2 F22L3 CHILD P22
+JOB F23C2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.3/C2.sub
+JOB F23C3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.3/C3.sub
+JOB F23L2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.3/L2.sub
+JOB F23L3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.3/L3.sub
+JOB P23 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.3/prep.sub
+JOB T23 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.3/toys.sub
+JOB R23 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.3/report.sub
+PARENT P23 CHILD T23
+PARENT T23 CHILD R23
+PARENT F23C2 F23C3 F23L2 F23L3 CHILD P23
+JOB F24C2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.4/C2.sub
+JOB F24C3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.4/C3.sub
+JOB F24L2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.4/L2.sub
+JOB F24L3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.4/L3.sub
+JOB P24 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.4/prep.sub
+JOB T24 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.4/toys.sub
+JOB R24 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.4/report.sub
+PARENT P24 CHILD T24
+PARENT T24 CHILD R24
+PARENT F24C2 F24C3 F24L2 F24L3 CHILD P24
+JOB F25C2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.5/C2.sub
+JOB F25C3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.5/C3.sub
+JOB F25L2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.5/L2.sub
+JOB F25L3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.5/L3.sub
+JOB P25 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.5/prep.sub
+JOB T25 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.5/toys.sub
+JOB R25 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.5/report.sub
+PARENT P25 CHILD T25
+PARENT T25 CHILD R25
+PARENT F25C2 F25C3 F25L2 F25L3 CHILD P25
+JOB F26C2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.6/C2.sub
+JOB F26C3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.6/C3.sub
+JOB F26L2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.6/L2.sub
+JOB F26L3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.6/L3.sub
+JOB P26 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.6/prep.sub
+JOB T26 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.6/toys.sub
+JOB R26 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.6/report.sub
+PARENT P26 CHILD T26
+PARENT T26 CHILD R26
+PARENT F26C2 F26C3 F26L2 F26L3 CHILD P26
+JOB F27C2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.7/C2.sub
+JOB F27C3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.7/C3.sub
+JOB F27L2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.7/L2.sub
+JOB F27L3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.7/L3.sub
+JOB P27 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.7/prep.sub
+JOB T27 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.7/toys.sub
+JOB R27 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_phi_jpsi_r0/m2.7/report.sub
+PARENT P27 CHILD T27
+PARENT T27 CHILD R27
+PARENT F27C2 F27C3 F27L2 F27L3 CHILD P27
+JOB Plot plot.sub
+PARENT R12 R13 R14 R15 R16 R17 R18 R19 R20 R21 R22 R23 R24 R25 R26 R27 CHILD Plot

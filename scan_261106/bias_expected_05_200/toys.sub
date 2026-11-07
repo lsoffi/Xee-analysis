@@ -1,0 +1,13 @@
+executable = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_expected_05_200/both.sh
+arguments = $(mass) $(model) $(inj) $(seed)
+output = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_expected_05_200/logs/$(seed).out
+error = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_expected_05_200/logs/$(seed).err
+log = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_expected_05_200/logs/remaining.events.log
+request_cpus = 1
+request_memory = 1800MB
+request_disk = 1GB
++JobFlavour = "espresso"
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_output_files = ""
+queue mass,model,inj,seed from /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/bias_expected_05_200/all.txt
