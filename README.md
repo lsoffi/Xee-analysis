@@ -1,12 +1,17 @@
 # Xee: analisi simultanea SR + CR con CMS Combine
 
-Per lo **scan sliding window a 69 masse (0,4–9,0 GeV)**, vedere [workflow, input e istruzioni di riproduzione](sliding-window/README.md). La configurazione a regioni fisse è documentata qui sotto.
+## Branch e struttura del repository
 
-Codice, configurazioni e guida operativa dell'analisi dello spettro di massa 6-12 GeV, aggiornata al **2 novembre 2026**. Il repository conserva il codice degli studi precedenti e offre una procedura portabile per la configurazione piu recente con continuita C0.
+`main` è l’unico branch pubblicato in `lsoffi/Xee-analysis`. Contiene entrambi i workflow. La directory [sliding-window/](sliding-window/) conserva lo scan sviluppato sul branch storico `sliding-window` e integrato in `main`. Per eseguire entrambe le analisi basta il checkout di `main`.
 
-**[Guida PDF: configurazione, studi e verifiche mancanti](docs/Xee_guida_SR_CR.pdf)** · [Metodo in formato modificabile](docs/METODO.md) · [Istruzioni di riproduzione](docs/REPRODUCTION.md)
+| Workflow su `main` | Dove iniziare | Documentazione |
+|---|---|---|
+| **Sliding window**, 69 ipotesi da 0,4 a 9,0 GeV. La SR varia con la massa e il fit usa le CR selezionate per quel punto. | [Istruzioni per lxplus e Condor](sliding-window/README.md) · [Finestre e CR per massa](sliding-window/scan_261106/records.json) | [Nota di analisi in inglese (PDF)](sliding-window/docs/Xee_analysis_note.pdf). A pagina 6, il test sul bias di segnale e sull’efficienza del trigger a 1,4 GeV. |
+| **Regioni fisse**, spettro 6–12 GeV. Due analisi separate condividono la CR delle Υ. | [Workflow portabile](scripts/workflow.py) · [Istruzioni di riproduzione](docs/REPRODUCTION.md) | [Guida alle regioni fisse (PDF)](docs/Xee_guida_SR_CR.pdf) · [Metodo](docs/METODO.md) |
 
-## Configurazione di riferimento
+Nello sliding window, [cr_261106/](sliding-window/cr_261106/) contiene il codice dei fit delle risonanze SM, [scan_261106/](sliding-window/scan_261106/) contiene il fit simultaneo, i job Condor e gli studi di bias, e [provenance/](sliding-window/provenance/) contiene i checksum degli input.
+
+## Configurazione di riferimento a regioni fisse
 
 Si eseguono due analisi separate, ciascuna simultanea sulle quattro ere (2022, 2022EE, 2023, 2023BPix):
 
@@ -23,11 +28,12 @@ Si eseguono due analisi separate, ciascuna simultanea sulle quattro ere (2022, 2
 
 **Configurazione concordata non significa validazione conclusa.** Fit, limiti e p-value sono stati calcolati, con problemi numerici conservati e documentati. I precedenti bias e GoF con toy riguardano altri modelli; non validano automaticamente il C0. Il PDF termina ogni studio con le verifiche mancanti.
 
-## Contenuto
+## Cartelle del workflow a regioni fisse
 
 | Percorso | Uso |
 |---|---|
 | `scripts/workflow.py` | Entrata unica per importazione, build, fit, limiti, significanza, profili, rese e report |
+| [bin/](bin/) e [tests/](tests/) | Comandi per usare l’ambiente locale e test del workflow |
 | `analysis/` | Adattamento portabile dei moduli della configurazione C0 |
 | `configs/` | Griglia, checksum degli input, inizializzazioni e impostazioni numeriche riproducibili |
 | `environment/` | Versione Combine, ambiente Pixi e dipendenze dei grafici |
