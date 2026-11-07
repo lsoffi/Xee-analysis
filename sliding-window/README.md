@@ -1,5 +1,7 @@
 # Xee sliding-window scan
 
+Sliding windows and selected control regions by mass · [PDF](docs/tabella_SR_CR_5MeV.pdf) · [CSV](docs/tabella_SR_CR_5MeV.csv)
+
 Snapshot of the four-era CERN production scan for 69 mass hypotheses. The production worker sets Chebyshev degree 6, enables C0 at shared boundaries and leaves the slope free. The per-mass signal windows and selected control regions are in scan_261106/records.json.
 
 The scripts use the CERN production paths and CMSSW_14_1_0_pre4 with Combine. Observed event counts (bins.csv), signal cards and ROOT workspaces (signal/), and job outputs are external. Run from the configured production environment with those inputs available. The repository also includes the limit retry submission and the toy study workflows described below.

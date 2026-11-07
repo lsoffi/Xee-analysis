@@ -1,5 +1,7 @@
 # Xee: analisi simultanea SR + CR con CMS Combine
 
+Tabella delle sliding window e delle CR per massa · [PDF](sliding-window/docs/tabella_SR_CR_5MeV.pdf) · [CSV](sliding-window/docs/tabella_SR_CR_5MeV.csv)
+
 ## Branch e struttura del repository
 
 `main` è l’unico branch pubblicato in `lsoffi/Xee-analysis`. Contiene entrambi i workflow. I workflow si trovano nelle directory [fixed-regions/](fixed-regions/README.md) e [sliding-window/](sliding-window/README.md). La directory [sliding-window/](sliding-window/) conserva lo scan sviluppato sul branch storico `sliding-window` e integrato in `main`. Per eseguire entrambe le analisi basta il checkout di `main`.
