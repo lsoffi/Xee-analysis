@@ -4,7 +4,7 @@ Questa guida riguarda la configurazione corrente **C0**, con analisi separate SR
 
 ## 0. Ambiente e dati
 
-Eseguire dalla radice del repository. Ambiente originario verificato: Combine v11.1.0, commit `6c543b6c0a29df51d390652c2b0ff559c8a211f1`, ROOT 6.34.10, Python 3.12.13, numpy 2.4.6. Il lock Pixi originale è incluso; i grafici usano un ambiente separato, numpy 2.0.2, matplotlib 3.9.4, scipy 1.13.1. Il bootstrap su un computer nuovo richiede rete e un compilatore C++ compatibile; non viene eseguito automaticamente dal clone.
+Dalla radice del repository, entrare in `fixed-regions/` prima di eseguire i comandi. Ambiente originario verificato: Combine v11.1.0, commit `6c543b6c0a29df51d390652c2b0ff559c8a211f1`, ROOT 6.34.10, Python 3.12.13, numpy 2.4.6. Il lock Pixi originale è incluso; i grafici usano un ambiente separato, numpy 2.0.2, matplotlib 3.9.4, scipy 1.13.1. Il bootstrap su un computer nuovo richiede rete e un compilatore C++ compatibile; non viene eseguito automaticamente dal clone.
 
 ```bash
 bash environment/setup.sh

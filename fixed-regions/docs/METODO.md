@@ -148,7 +148,7 @@ workspace(mX) --> FitDiagnostics --> riferimento likelihood
 
 ![Ultimi limiti C0. Bande attese provvisorie; croci rosse sui punti non verificati.](figures/limits_c0.png)
 
-Fonti: [curva p0 completa con flag](https://github.com/lsoffi/Xee-analysis/blob/main/docs/figures/pvalues_c0.png); [profili sotto le Υ](https://github.com/lsoffi/Xee-analysis/blob/main/docs/figures/profiles_c0.png).
+Fonti: [curva p0 completa con flag](https://github.com/lsoffi/Xee-analysis/blob/main/fixed-regions/docs/figures/pvalues_c0.png); [profili sotto le Υ](https://github.com/lsoffi/Xee-analysis/blob/main/fixed-regions/docs/figures/profiles_c0.png).
 
 **Manca / da rifare:** risolvere i punti numerici, validare gli attesi e l'approssimazione asintotica vicino a bordi/degenerazioni. I p0 sono locali: la calibrazione della ricerca su molte masse, o look-elsewhere effect, non è inclusa.
 
