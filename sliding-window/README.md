@@ -33,3 +33,11 @@ For the 69-point production configuration, create the logs directory and run `co
 The bias workflow directories preserve the available generation, fit, submission and report scripts, including mass-specific job lists and injection manifests where present. For the quartic study between phi and J/psi, inspect `bias_phi_jpsi_quartic/study.dag` and the sibling `bias_phi_jpsi_quartic_r0` and `bias_phi_jpsi_quartic_expected` directories. The DAG orders background fits, snapshot preparation, toys and reports. The production design uses 200 toys per mass, generator and injection, with C4 and L4 fitted to each toy. The two branches carry the same score penalty of 16. Preserve the original seed lists and record exclusions when validating the bias.
 
 This is a source snapshot of an ongoing study. Generated snapshots, ROOT results, job receipts and published plots live in the CERN production area. The L4 prefit at 2.6 GeV was undergoing recovery when this snapshot was made. A complete replay from a fresh checkout has not yet been verified.
+
+## Fixed-trigger validation update, 9 November 2026
+
+The [analysis note](docs/Xee_analysis_note.pdf), section 5.2, includes the C4+L4 median-injection bias with `CMS_eff_trigger_e` fixed to zero across 1.2–2.7 GeV. All 6400 toys pass the existing two-branch validity criterion. Thirty of 32 central estimates satisfy |bias| <= 0.2. The [summary CSV](docs/data/bias_trigger_fixed_all_expected.csv) includes the bootstrap intervals and branch counts.
+
+Run `python3 bias_trigger_fixed_all_expected/plot.py` in the CERN production environment to aggregate the two fixed-trigger result directories and publish the plot. The script uses the recorded mass, generator, injection and seed manifests. Run `python3 docs/update_trigger_note.py` from this directory with pypdf, reportlab and Pillow installed to regenerate the final two PDF pages from the committed figures, preserving the first seven pages.
+
+The coverage workspace builder registers the discrete envelope category as a generic `discreteParams` RooArgSet, as required by Combine, and excludes that category from the continuous nuisance constraint set. The trigger remains profiled. Coverage results are pending validation.
