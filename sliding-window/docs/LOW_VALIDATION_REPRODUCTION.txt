@@ -1,0 +1,21 @@
+Low-SR validation note update, 10 November 2026
+
+Archived aggregate inputs and rendered figures: data/low_validation/.
+The six coverage groups each contain 200 toys; the three GoF groups each
+contain 500 toys. results.json includes the exact binomial intervals.
+
+PDF regeneration: run add_low_validation.py LAST, after legacy section
+builders and add_todos.py. It replaces its two pages idempotently and
+inserts them after the low-SR bias section. Legacy builders use fixed page
+positions; regenerate their original section sequence before this insertion.
+Do not run a legacy fixed-page builder on the expanded PDF without restoring
+that sequence.
+
+plot_low_validation.py is the archived CERN plotting script. It is intended
+to reside in scan_261106/task_monitor/, where it reads low_aggregate.json,
+gof_low_sr/results and gof_low_sr/observed, and publishes to the established
+EOS low_validation directory. It is not a standalone local-data plotter.
+
+The 0.6 GeV local GoF p-value is 0.006 (3/500). The coverage study tests
+specific generators and injected strengths; it does not establish adequacy
+of the background model on the observed data.
