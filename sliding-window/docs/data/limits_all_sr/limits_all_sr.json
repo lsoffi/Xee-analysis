@@ -1,0 +1,697 @@
+{
+  "updated": "10 Nov 2026, 17:53 CET",
+  "points": 69,
+  "missing": [],
+  "rows": [
+    {
+      "mass": 0.4,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/results/m0.4.json",
+      "observed": 17.349107615784238,
+      "minus2": 3.07635498046875,
+      "minus1": 4.538802623748779,
+      "median": 7.4296875,
+      "plus1": 13.411928176879883,
+      "plus2": 22.520870208740234
+    },
+    {
+      "mass": 0.5,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/results/m0.5.json",
+      "observed": 14.212317752522505,
+      "minus2": 3.622467041015625,
+      "minus1": 5.263637542724609,
+      "median": 8.5078125,
+      "plus1": 15.1546630859375,
+      "plus2": 25.787294387817383
+    },
+    {
+      "mass": 0.6,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/results/m0.6.json",
+      "observed": 7.103326582205074,
+      "minus2": 4.07373046875,
+      "minus1": 5.905494689941406,
+      "median": 9.65625,
+      "plus1": 17.431276321411133,
+      "plus2": 29.27002716064453
+    },
+    {
+      "mass": 1.2,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/results/m1.2.json",
+      "observed": 50.05905417153081,
+      "minus2": 10.58203125,
+      "minus1": 17.01470947265625,
+      "median": 32.25,
+      "plus1": 64.90167236328125,
+      "plus2": 97.80843353271484
+    },
+    {
+      "mass": 1.3,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/results/m1.3.json",
+      "observed": 7.789387356360915,
+      "minus2": 5.87548828125,
+      "minus1": 9.353130340576172,
+      "median": 17.90625,
+      "plus1": 36.035518646240234,
+      "plus2": 54.306427001953125
+    },
+    {
+      "mass": 1.4,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/results/m1.4.json",
+      "observed": 17.43915545105584,
+      "minus2": 3.633544921875,
+      "minus1": 5.862276077270508,
+      "median": 11.34375,
+      "plus1": 22.828784942626953,
+      "plus2": 34.40354537963867
+    },
+    {
+      "mass": 1.5,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/results/m1.5.json",
+      "observed": 6.082782617033001,
+      "minus2": 3.060791015625,
+      "minus1": 4.872442245483398,
+      "median": 9.328125,
+      "plus1": 18.772430419921875,
+      "plus2": 28.29051971435547
+    },
+    {
+      "mass": 1.6,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/results/m1.6.json",
+      "observed": 10.858303135755897,
+      "minus2": 2.40234375,
+      "minus1": 3.875885009765625,
+      "median": 7.5,
+      "plus1": 15.093411445617676,
+      "plus2": 22.74614715576172
+    },
+    {
+      "mass": 1.7,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/results/m1.7.json",
+      "observed": 8.508345007550226,
+      "minus2": 2.150482177734375,
+      "minus1": 3.4461557865142822,
+      "median": 6.6328125,
+      "plus1": 13.348236083984375,
+      "plus2": 20.11612319946289
+    },
+    {
+      "mass": 1.8,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/results/m1.8.json",
+      "observed": 3.4399222363637776,
+      "minus2": 1.86181640625,
+      "minus1": 3.0038108825683594,
+      "median": 5.8125,
+      "plus1": 11.697394371032715,
+      "plus2": 17.628263473510742
+    },
+    {
+      "mass": 1.9,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/results/m1.9.json",
+      "observed": 5.188833798986486,
+      "minus2": 1.711669921875,
+      "minus1": 2.761568069458008,
+      "median": 5.34375,
+      "plus1": 10.754055976867676,
+      "plus2": 16.206628799438477
+    },
+    {
+      "mass": 2.0,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/results/m2.0.json",
+      "observed": 8.457071162472998,
+      "minus2": 1.5615234375,
+      "minus1": 2.5193252563476562,
+      "median": 4.875,
+      "plus1": 9.810717582702637,
+      "plus2": 14.784995079040527
+    },
+    {
+      "mass": 2.1,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/results/m2.1.json",
+      "observed": 1.4823897256582632,
+      "minus2": 1.07281494140625,
+      "minus1": 1.6457219123840332,
+      "median": 2.953125,
+      "plus1": 5.943030834197998,
+      "plus2": 8.956295013427734
+    },
+    {
+      "mass": 2.2,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/results/m2.2.json",
+      "observed": 2.27407572960654,
+      "minus2": 0.6368637084960938,
+      "minus1": 0.937383770942688,
+      "median": 1.552734375,
+      "plus1": 2.877237319946289,
+      "plus2": 4.707229137420654
+    },
+    {
+      "mass": 2.3,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/results/m2.3.json",
+      "observed": 1.4639807192109673,
+      "minus2": 0.4127197265625,
+      "minus1": 0.5909814834594727,
+      "median": 0.943359375,
+      "plus1": 1.6427698135375977,
+      "plus2": 2.859041213989258
+    },
+    {
+      "mass": 2.4,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/results/m2.4.json",
+      "observed": 0.7109945916048656,
+      "minus2": 0.3146553039550781,
+      "minus1": 0.443156361579895,
+      "median": 0.6884765625,
+      "plus1": 1.160495638847351,
+      "plus2": 1.991503119468689
+    },
+    {
+      "mass": 2.5,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/results/m2.5.json",
+      "observed": 0.5124287819903061,
+      "minus2": 0.265045166015625,
+      "minus1": 0.3683023452758789,
+      "median": 0.5654296875,
+      "plus1": 0.9350572824478149,
+      "plus2": 1.572326898574829
+    },
+    {
+      "mass": 2.6,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/results/m2.6.json",
+      "observed": 0.5595481154363976,
+      "minus2": 0.22821807861328125,
+      "minus1": 0.3220497965812683,
+      "median": 0.4951171875,
+      "plus1": 0.8227278590202332,
+      "plus2": 1.3722096681594849
+    },
+    {
+      "mass": 2.7,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/results/m2.7.json",
+      "observed": 1.5191413932101683,
+      "minus2": 0.3589439392089844,
+      "minus1": 0.49539461731910706,
+      "median": 0.7470703125,
+      "plus1": 1.2116155624389648,
+      "plus2": 1.9818562269210815
+    },
+    {
+      "mass": 4.1,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m4.1.json",
+      "observed": 0.4802216067701526,
+      "minus2": 0.10320281982421875,
+      "minus1": 0.15071314573287964,
+      "median": 0.24462890625,
+      "plus1": 0.44159936904907227,
+      "plus2": 0.7415192127227783
+    },
+    {
+      "mass": 4.2,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m4.2.json",
+      "observed": 0.5471991190632466,
+      "minus2": 0.1025848388671875,
+      "minus1": 0.1487123966217041,
+      "median": 0.2431640625,
+      "plus1": 0.4428321123123169,
+      "plus2": 0.7371092438697815
+    },
+    {
+      "mass": 4.3,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m4.3.json",
+      "observed": 0.45833024416181334,
+      "minus2": 0.101898193359375,
+      "minus1": 0.14921236038208008,
+      "median": 0.24609375,
+      "plus1": 0.4540530741214752,
+      "plus2": 0.7460360527038574
+    },
+    {
+      "mass": 4.4,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m4.4.json",
+      "observed": 0.3862409649105194,
+      "minus2": 0.0922393798828125,
+      "minus1": 0.13594776391983032,
+      "median": 0.22705078125,
+      "plus1": 0.42434823513031006,
+      "plus2": 0.6883494853973389
+    },
+    {
+      "mass": 4.5,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m4.5.json",
+      "observed": 0.42660005532164813,
+      "minus2": 0.07791709899902344,
+      "minus1": 0.11559851467609406,
+      "median": 0.195556640625,
+      "plus1": 0.3717229962348938,
+      "plus2": 0.5929175019264221
+    },
+    {
+      "mass": 4.6,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m4.6.json",
+      "observed": 0.22476601431821414,
+      "minus2": 0.0693511962890625,
+      "minus1": 0.10344207286834717,
+      "median": 0.17578125,
+      "plus1": 0.3383370637893677,
+      "plus2": 0.5329923629760742
+    },
+    {
+      "mass": 4.7,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m4.7.json",
+      "observed": 0.10056494181473491,
+      "minus2": 0.0652313232421875,
+      "minus1": 0.0970315933227539,
+      "median": 0.1669921875,
+      "plus1": 0.3254140317440033,
+      "plus2": 0.506373941898346
+    },
+    {
+      "mass": 4.8,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m4.8.json",
+      "observed": 0.47309207031781586,
+      "minus2": 0.06608963012695312,
+      "minus1": 0.09830832481384277,
+      "median": 0.169189453125,
+      "plus1": 0.3323933780193329,
+      "plus2": 0.5130578875541687
+    },
+    {
+      "mass": 4.9,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m4.9.json",
+      "observed": 0.41294697621671744,
+      "minus2": 0.06627845764160156,
+      "minus1": 0.09912478923797607,
+      "median": 0.17138671875,
+      "plus1": 0.3408091068267822,
+      "plus2": 0.5197529792785645
+    },
+    {
+      "mass": 5.0,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m5.0.json",
+      "observed": 0.10707966629403265,
+      "minus2": 0.063720703125,
+      "minus1": 0.0969085693359375,
+      "median": 0.169921875,
+      "plus1": 0.3419601023197174,
+      "plus2": 0.5153424143791199
+    },
+    {
+      "mass": 5.1,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m5.1.json",
+      "observed": 0.22832834918268266,
+      "minus2": 0.06305980682373047,
+      "minus1": 0.0975986123085022,
+      "median": 0.173583984375,
+      "plus1": 0.34932994842529297,
+      "plus2": 0.5264489054679871
+    },
+    {
+      "mass": 5.2,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m5.2.json",
+      "observed": 0.4076911241641832,
+      "minus2": 0.064544677734375,
+      "minus1": 0.09843707084655762,
+      "median": 0.17578125,
+      "plus1": 0.3537518382072449,
+      "plus2": 0.5331128239631653
+    },
+    {
+      "mass": 5.3,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m5.3.json",
+      "observed": 0.18136890761840532,
+      "minus2": 0.06369781494140625,
+      "minus1": 0.09829455614089966,
+      "median": 0.17724609375,
+      "plus1": 0.35669976472854614,
+      "plus2": 0.5375553965568542
+    },
+    {
+      "mass": 5.4,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m5.4.json",
+      "observed": 0.19037083410317843,
+      "minus2": 0.06838130950927734,
+      "minus1": 0.10489844530820847,
+      "median": 0.188232421875,
+      "plus1": 0.37880924344062805,
+      "plus2": 0.5708749890327454
+    },
+    {
+      "mass": 5.5,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m5.5.json",
+      "observed": 0.23197187123031368,
+      "minus2": 0.06508827209472656,
+      "minus1": 0.10104663670063019,
+      "median": 0.18310546875,
+      "plus1": 0.3684915006160736,
+      "plus2": 0.5553258657455444
+    },
+    {
+      "mass": 5.6,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m5.6.json",
+      "observed": 0.19501761595594663,
+      "minus2": 0.06586933135986328,
+      "minus1": 0.10179266333580017,
+      "median": 0.185302734375,
+      "plus1": 0.3729133903980255,
+      "plus2": 0.5619897842407227
+    },
+    {
+      "mass": 5.7,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m5.7.json",
+      "observed": 0.28879090544292735,
+      "minus2": 0.06488800048828125,
+      "minus1": 0.1013537049293518,
+      "median": 0.1845703125,
+      "plus1": 0.3714394271373749,
+      "plus2": 0.5597684383392334
+    },
+    {
+      "mass": 5.8,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m5.8.json",
+      "observed": 0.30501501966857325,
+      "minus2": 0.0705413818359375,
+      "minus1": 0.10885512828826904,
+      "median": 0.1962890625,
+      "plus1": 0.3950228691101074,
+      "plus2": 0.595309317111969
+    },
+    {
+      "mass": 5.9,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m5.9.json",
+      "observed": 0.22014033395011473,
+      "minus2": 0.06076812744140625,
+      "minus1": 0.09404289722442627,
+      "median": 0.1728515625,
+      "plus1": 0.34785598516464233,
+      "plus2": 0.5242276191711426
+    },
+    {
+      "mass": 6.0,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m6.0.json",
+      "observed": 0.32696878184318623,
+      "minus2": 0.06317138671875,
+      "minus1": 0.10768747329711914,
+      "median": 0.2021484375,
+      "plus1": 0.4068146049976349,
+      "plus2": 0.6130797266960144
+    },
+    {
+      "mass": 6.1,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m6.1.json",
+      "observed": 0.30627852258869837,
+      "minus2": 0.05484580993652344,
+      "minus1": 0.08487769961357117,
+      "median": 0.156005859375,
+      "plus1": 0.31395474076271057,
+      "plus2": 0.47313761711120605
+    },
+    {
+      "mass": 6.2,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m6.2.json",
+      "observed": 0.20132572472779312,
+      "minus2": 0.046863555908203125,
+      "minus1": 0.07286225259304047,
+      "median": 0.13330078125,
+      "plus1": 0.2682618200778961,
+      "plus2": 0.4042772054672241
+    },
+    {
+      "mass": 6.3,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m6.3.json",
+      "observed": 0.06569234518673439,
+      "minus2": 0.040683746337890625,
+      "minus1": 0.0629609227180481,
+      "median": 0.11572265625,
+      "plus1": 0.23288662731647491,
+      "plus2": 0.3509659469127655
+    },
+    {
+      "mass": 6.4,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m6.4.json",
+      "observed": 0.045290478737145416,
+      "minus2": 0.033473968505859375,
+      "minus1": 0.05180329084396362,
+      "median": 0.09521484375,
+      "plus1": 0.19161558151245117,
+      "plus2": 0.2887694537639618
+    },
+    {
+      "mass": 6.5,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m6.5.json",
+      "observed": 0.05654290711498484,
+      "minus2": 0.027551651000976562,
+      "minus1": 0.043035104870796204,
+      "median": 0.078369140625,
+      "plus1": 0.1577143669128418,
+      "plus2": 0.23767946660518646
+    },
+    {
+      "mass": 6.6,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m6.6.json",
+      "observed": 0.08589846075138838,
+      "minus2": 0.023560523986816406,
+      "minus1": 0.03646154701709747,
+      "median": 0.0670166015625,
+      "plus1": 0.13486789166927338,
+      "plus2": 0.2032492607831955
+    },
+    {
+      "mass": 6.7,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m6.7.json",
+      "observed": 0.11578387349542223,
+      "minus2": 0.019698143005371094,
+      "minus1": 0.03076808899641037,
+      "median": 0.0560302734375,
+      "plus1": 0.11275839805603027,
+      "plus2": 0.16992971301078796
+    },
+    {
+      "mass": 6.8,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m6.8.json",
+      "observed": 0.06994422980317905,
+      "minus2": 0.017638206481933594,
+      "minus1": 0.027550511062145233,
+      "median": 0.0501708984375,
+      "plus1": 0.1009666696190834,
+      "plus2": 0.15215928852558136
+    },
+    {
+      "mass": 6.9,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m6.9.json",
+      "observed": 0.07118043964176643,
+      "minus2": 0.015320777893066406,
+      "minus1": 0.023709967732429504,
+      "median": 0.0435791015625,
+      "plus1": 0.0877009779214859,
+      "plus2": 0.13216754794120789
+    },
+    {
+      "mass": 7.0,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m7.0.json",
+      "observed": 0.13885093927049064,
+      "minus2": 0.01686573028564453,
+      "minus1": 0.02610088884830475,
+      "median": 0.0479736328125,
+      "plus1": 0.0965447723865509,
+      "plus2": 0.14549537003040314
+    },
+    {
+      "mass": 7.1,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m7.1.json",
+      "observed": 0.10232050715058616,
+      "minus2": 0.017380714416503906,
+      "minus1": 0.026647411286830902,
+      "median": 0.0494384765625,
+      "plus1": 0.09949270635843277,
+      "plus2": 0.1499379724264145
+    },
+    {
+      "mass": 7.2,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m7.2.json",
+      "observed": 0.09636822298906773,
+      "minus2": 0.018410682678222656,
+      "minus1": 0.028491809964179993,
+      "median": 0.0523681640625,
+      "plus1": 0.1053885668516159,
+      "plus2": 0.1588231921195984
+    },
+    {
+      "mass": 7.3,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m7.3.json",
+      "observed": 0.07548471748218824,
+      "minus2": 0.020341873168945312,
+      "minus1": 0.03148046135902405,
+      "median": 0.057861328125,
+      "plus1": 0.11644331365823746,
+      "plus2": 0.17548297345638275
+    },
+    {
+      "mass": 7.4,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m7.4.json",
+      "observed": 0.047116947246692756,
+      "minus2": 0.023162841796875,
+      "minus1": 0.036290645599365234,
+      "median": 0.0673828125,
+      "plus1": 0.1356048732995987,
+      "plus2": 0.20435991883277893
+    },
+    {
+      "mass": 7.5,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m7.5.json",
+      "observed": 0.0579149809553672,
+      "minus2": 0.0281982421875,
+      "minus1": 0.04417991638183594,
+      "median": 0.08203125,
+      "plus1": 0.16508418321609497,
+      "plus2": 0.24878597259521484
+    },
+    {
+      "mass": 7.6,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m7.6.json",
+      "observed": 0.11979546787348805,
+      "minus2": 0.035967350006103516,
+      "minus1": 0.05670929700136185,
+      "median": 0.1058349609375,
+      "plus1": 0.21298807859420776,
+      "plus2": 0.3209783434867859
+    },
+    {
+      "mass": 7.7,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m7.7.json",
+      "observed": 0.23780100263347,
+      "minus2": 0.0492095947265625,
+      "minus1": 0.07808804512023926,
+      "median": 0.146484375,
+      "plus1": 0.29479318857192993,
+      "plus2": 0.44426068663597107
+    },
+    {
+      "mass": 7.8,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m7.8.json",
+      "observed": 0.3665966328534154,
+      "minus2": 0.0663299560546875,
+      "minus1": 0.10665106773376465,
+      "median": 0.2021484375,
+      "plus1": 0.4068146049976349,
+      "plus2": 0.6130797266960144
+    },
+    {
+      "mass": 7.9,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m7.9.json",
+      "observed": 0.31775658495172515,
+      "minus2": 0.09853363037109375,
+      "minus1": 0.1589718461036682,
+      "median": 0.3076171875,
+      "plus1": 0.6190657019615173,
+      "plus2": 0.9329473972320557
+    },
+    {
+      "mass": 8.0,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m8.0.json",
+      "observed": 0.31101248964443023,
+      "minus2": 0.12451171875,
+      "minus1": 0.20369338989257812,
+      "median": 0.3984375,
+      "plus1": 0.8018375039100647,
+      "plus2": 1.2083890438079834
+    },
+    {
+      "mass": 8.1,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m8.1.json",
+      "observed": 0.4143295958641291,
+      "minus2": 0.14739990234375,
+      "minus1": 0.24113702774047852,
+      "median": 0.4716796875,
+      "plus1": 0.9492340683937073,
+      "plus2": 1.4305193424224854
+    },
+    {
+      "mass": 8.2,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m8.2.json",
+      "observed": 0.3831164498206105,
+      "minus2": 0.16387939453125,
+      "minus1": 0.26527976989746094,
+      "median": 0.5244140625,
+      "plus1": 1.0553596019744873,
+      "plus2": 1.5904532670974731
+    },
+    {
+      "mass": 8.3,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m8.3.json",
+      "observed": 0.40145685032967166,
+      "minus2": 0.17900848388671875,
+      "minus1": 0.29337599873542786,
+      "median": 0.580078125,
+      "plus1": 1.1673810482025146,
+      "plus2": 1.7592723369598389
+    },
+    {
+      "mass": 8.4,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m8.4.json",
+      "observed": 0.2756479024105619,
+      "minus2": 0.17852783203125,
+      "minus1": 0.29470324516296387,
+      "median": 0.5859375,
+      "plus1": 1.1791727542877197,
+      "plus2": 1.7770427465438843
+    },
+    {
+      "mass": 8.5,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m8.5.json",
+      "observed": 0.2877661836292028,
+      "minus2": 0.228515625,
+      "minus1": 0.37518310546875,
+      "median": 0.75,
+      "plus1": 1.5093411207199097,
+      "plus2": 2.2746145725250244
+    },
+    {
+      "mass": 8.6,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m8.6.json",
+      "observed": 34.81061305661975,
+      "minus2": 0.2432098388671875,
+      "minus1": 0.402224063873291,
+      "median": 0.80859375,
+      "plus1": 1.6272584199905396,
+      "plus2": 2.4523189067840576
+    },
+    {
+      "mass": 8.7,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m8.7.json",
+      "observed": 4.525081866194247,
+      "minus2": 0.384429931640625,
+      "minus1": 0.6405057907104492,
+      "median": 1.294921875,
+      "plus1": 2.6059718132019043,
+      "plus2": 3.927264451980591
+    },
+    {
+      "mass": 8.8,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m8.8.json",
+      "observed": 5.040724639467071,
+      "minus2": 0.26092529296875,
+      "minus1": 0.43473243713378906,
+      "median": 0.87890625,
+      "plus1": 1.7687591314315796,
+      "plus2": 2.6655640602111816
+    },
+    {
+      "mass": 8.9,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m8.9.json",
+      "observed": 5.806938705254265,
+      "minus2": 0.403106689453125,
+      "minus1": 0.6741993427276611,
+      "median": 1.39453125,
+      "plus1": 2.806431293487549,
+      "plus2": 4.229361534118652
+    },
+    {
+      "mass": 9.0,
+      "source": "/afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/limits/m9.0.json",
+      "observed": 113.95275778936514,
+      "minus2": 0.39933013916015625,
+      "minus1": 0.6730576157569885,
+      "median": 1.400390625,
+      "plus1": 2.818222999572754,
+      "plus2": 4.247132301330566
+    }
+  ]
+}
