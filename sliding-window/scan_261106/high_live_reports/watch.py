@@ -9,6 +9,12 @@ try:fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
 except BlockingIOError:raise SystemExit('Updater already active on this host')
 web.mkdir(parents=True,exist_ok=True)
 state={};active={};due={k:0 for k in ['bias','coverage','gof']}
+for name in due:
+ f=web/name/'status.json'
+ if f.exists():
+  state[name]={'result':json.loads(f.read_text()),'published_utc':datetime.datetime.fromtimestamp(f.stat().st_mtime,datetime.timezone.utc).isoformat(),'running':False,'warning':None}
+  due[name]=time.time()+300
+
 def stamp():return datetime.datetime.now(datetime.timezone.utc).isoformat()
 def atomic(p,text):
  t=p.with_suffix('.tmp');t.write_text(text);t.replace(p)
