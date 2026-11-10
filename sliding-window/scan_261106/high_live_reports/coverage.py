@@ -1,3 +1,6 @@
+import fcntl
+coverage_lock=open('/tmp/xee_live_coverage.lock','w')
+fcntl.flock(coverage_lock,fcntl.LOCK_EX)
 import csv,json,math
 from pathlib import Path
 import numpy as np
@@ -10,10 +13,13 @@ import os,datetime
 stamp=datetime.datetime.now(datetime.timezone.utc).isoformat()
 out=Path(os.environ['PLOT_OUTPUT']);out.mkdir(parents=True,exist_ok=True)
 med={p.parent.name[1:]:json.loads(p.read_text())['injection'] for p in base.glob('m*/injection.json')};summary=[];toys=[];seen=set()
+from concurrent.futures import ThreadPoolExecutor
+pool=ThreadPoolExecutor(max_workers=16)
+def read_result(p):return json.loads(p.read_text())
 for m,inj in med.items():
  rows=[]
- for p in (base/('m'+m)/'results').glob('*.json'):
-  r=json.loads(p.read_text());assert r['seed'] not in seen;seen.add(r['seed'])
+ for r in pool.map(read_result,(base/('m'+m)/'results').glob('*.json')):
+  assert r['seed'] not in seen;seen.add(r['seed'])
   assert r['injection']==inj and math.isfinite(r['CLs']) and 0<=r['CLs']<=1
   assert r['excluded']==(r['CLs']<.05)
   r={'mass':float(m),**r};rows.append(r);toys.append(r)
