@@ -1,0 +1,48 @@
+JOB B1_2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m1.2/build.sub
+JOB G1_2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m1.2/gof.sub
+PARENT B1_2 CHILD G1_2
+JOB B1_3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m1.3/build.sub
+JOB G1_3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m1.3/gof.sub
+PARENT B1_3 CHILD G1_3
+JOB B1_4 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m1.4/build.sub
+JOB G1_4 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m1.4/gof.sub
+PARENT B1_4 CHILD G1_4
+JOB B1_5 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m1.5/build.sub
+JOB G1_5 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m1.5/gof.sub
+PARENT B1_5 CHILD G1_5
+JOB B1_6 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m1.6/build.sub
+JOB G1_6 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m1.6/gof.sub
+PARENT B1_6 CHILD G1_6
+JOB B1_7 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m1.7/build.sub
+JOB G1_7 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m1.7/gof.sub
+PARENT B1_7 CHILD G1_7
+JOB B1_8 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m1.8/build.sub
+JOB G1_8 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m1.8/gof.sub
+PARENT B1_8 CHILD G1_8
+JOB B1_9 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m1.9/build.sub
+JOB G1_9 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m1.9/gof.sub
+PARENT B1_9 CHILD G1_9
+JOB B2_0 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m2.0/build.sub
+JOB G2_0 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m2.0/gof.sub
+PARENT B2_0 CHILD G2_0
+JOB B2_1 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m2.1/build.sub
+JOB G2_1 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m2.1/gof.sub
+PARENT B2_1 CHILD G2_1
+JOB B2_2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m2.2/build.sub
+JOB G2_2 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m2.2/gof.sub
+PARENT B2_2 CHILD G2_2
+JOB B2_3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m2.3/build.sub
+JOB G2_3 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m2.3/gof.sub
+PARENT B2_3 CHILD G2_3
+JOB B2_4 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m2.4/build.sub
+JOB G2_4 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m2.4/gof.sub
+PARENT B2_4 CHILD G2_4
+JOB B2_5 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m2.5/build.sub
+JOB G2_5 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m2.5/gof.sub
+PARENT B2_5 CHILD G2_5
+JOB B2_6 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m2.6/build.sub
+JOB G2_6 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m2.6/gof.sub
+PARENT B2_6 CHILD G2_6
+JOB B2_7 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m2.7/build.sub
+JOB G2_7 /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m2.7/gof.sub
+PARENT B2_7 CHILD G2_7

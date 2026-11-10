@@ -1,0 +1,11 @@
+universe = vanilla
+executable = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_diagnostics/worker.sh
+arguments = $(mass)
+output = logs/$(mass).out
+error = logs/$(mass).err
+log = logs/$(mass).log
+request_cpus = 1
+request_memory = 4000
+request_disk = 4000000
++JobFlavour = "workday"
+queue mass from masses.txt

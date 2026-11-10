@@ -1,0 +1,11 @@
+universe = vanilla
+request_cpus = 1
+request_memory = 4000
+request_disk = 2000000
++JobFlavour = "workday"
+log = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/events.log
+executable = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/prepare.sh
+arguments = 6.1
+output = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/logs/P_6.1.out
+error = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/high_c4l4_limits_bias/logs/P_6.1.err
+queue

@@ -1,0 +1,14 @@
+executable = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/build.sh
+arguments = 1.4
+output = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m1.4/build.out
+error = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m1.4/build.err
+log = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m1.4/build.events
+
+request_cpus = 1
+request_memory = 3000MB
+request_disk = 2GB
++JobFlavour = "workday"
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_output_files = ""
+queue 1

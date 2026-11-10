@@ -1,0 +1,14 @@
+executable = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/worker.sh
+arguments = 1.3 $(kind)
+output = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/logs/1.3_$(kind).out
+error = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/logs/1.3_$(kind).err
+log = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_only/m1.3/gof.events
+
+request_cpus = 1
+request_memory = 3000MB
+request_disk = 2GB
++JobFlavour = "workday"
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_output_files = ""
+queue kind in observed,toys

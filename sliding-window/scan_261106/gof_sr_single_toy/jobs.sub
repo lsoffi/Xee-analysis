@@ -1,0 +1,11 @@
+universe = vanilla
+executable = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/gof_sr_single_toy/worker.sh
+arguments = $(mass) $(seed)
+output = logs/$(mass)_$(seed).out
+error = logs/$(mass)_$(seed).err
+log = events.log
+request_cpus = 1
+request_memory = 3000
+request_disk = 2000000
++JobFlavour = "workday"
+queue mass,seed from rows.txt

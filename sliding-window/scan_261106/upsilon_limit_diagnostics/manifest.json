@@ -1,0 +1,13 @@
+{
+  "purpose": "Diagnose observed limits at 8.6 and 9.0; no replacement of original results",
+  "profile_starts": [
+    1.3,
+    30
+  ],
+  "r_range": [
+    0,
+    200
+  ],
+  "jobs": 108,
+  "conditional_status_note": "Inspect logs and independent-start agreement; fit_mdf can be unconditional."
+}

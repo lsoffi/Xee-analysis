@@ -41,3 +41,12 @@ The [analysis note](docs/Xee_analysis_note.pdf), section 5.2, includes the C4+L4
 Run `python3 bias_trigger_fixed_all_expected/plot.py` in the CERN production environment to aggregate the two fixed-trigger result directories and publish the plot. The script uses the recorded mass, generator, injection and seed manifests. Run `python3 docs/update_trigger_note.py` from this directory with pypdf, reportlab and Pillow installed to regenerate the final two PDF pages from the committed figures, preserving the first seven pages.
 
 The coverage workspace builder registers the discrete envelope category as a generic `discreteParams` RooArgSet, as required by Combine, and excludes that category from the continuous nuisance constraint set. The trigger remains profiled. Coverage results are pending validation.
+
+
+## Status — 10 November 2026
+
+The middle-region C4+L4 GoF calculation is complete: 8,000 toys, one Condor job per toy. See [method, commands and reproduction](scan_261106/gof_sr_single_toy/README.md), [results](docs/data/gof_middle_sr.csv), and section 5.4 of the [analysis note](docs/Xee_analysis_note.pdf). Thirteen of sixteen masses have local p ≥ 0.05; the qualifications at 2.2, 2.6 and 2.7 GeV remain documented. No additional middle-region production is scheduled by this update.
+
+The active work is the **high region (4.1–9.0 GeV)**: `high_c4l4_diagnostics` (fits), `high_c4l4_limits_bias` (limits and 40,000 planned bias toys), and `upsilon_limit_diagnostics` (profiles and CLs checks at 8.6/9.0). These workflows remain provisional, with missing results and fit-quality flags. Native envelope FitDiagnostics uses `--cminRunAllDiscreteCombinations` in addition to the original settings to avoid the reproduced iterative-minimizer crash. `partial_reports/report.py` publishes available results without replacing missing points with zeros. `task_monitor/monitor.py` is a run-specific read-only dashboard, not a general scheduler.
+
+Persistent execution rule: one Condor job per toy, unique reproducible seeds, immediate result and exit receipts. Reuse completed results and never duplicate active seeds. ROOT run products are not committed. The historical `high_c4l4_diagnostics/worker.sh` records the failed first attempt; `retry.sh` is the recovery command. Site paths and cluster IDs in monitoring scripts describe this production and must be updated for a new campaign.

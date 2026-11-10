@@ -1,0 +1,12 @@
+universe = vanilla
+executable = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/upsilon_limit_diagnostics/worker.sh
+arguments = $(mass) $(kind) $(point) $(start) $(tag)
+output = logs/$(tag).out
+error = logs/$(tag).err
+log = events.log
+transfer_output_files = ""
+request_cpus = 1
+request_memory = 4000
+request_disk = 3000000
++JobFlavour = "workday"
+queue mass,kind,point,start,tag from rows.txt

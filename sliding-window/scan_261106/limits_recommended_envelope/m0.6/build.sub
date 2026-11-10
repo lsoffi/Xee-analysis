@@ -1,0 +1,14 @@
+executable = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/build_low.sh
+arguments = 0.6
+output = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/m0.6/build.out
+error = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/m0.6/build.err
+log = /afs/cern.ch/work/s/soffi/DIELE-WORK/Analisi-statistica-Xee/scan_261106/limits_recommended_envelope/m0.6/build.events
+
+request_cpus = 1
+request_memory = 3000MB
+request_disk = 2GB
++JobFlavour = "workday"
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_output_files = ""
+queue 1
