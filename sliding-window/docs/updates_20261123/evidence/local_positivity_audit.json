@@ -1,0 +1,226 @@
+[
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "CR_upsilon_2022",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "CR_upsilon_2022EE",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "CR_upsilon_2023",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "CR_upsilon_2023BPix",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "SR0_2022",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "SR0_2022EE",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "SR0_2023",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "SR0_2023BPix",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "CR_upsilon_2022",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "CR_upsilon_2022EE",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "CR_upsilon_2023",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "CR_upsilon_2023BPix",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "SR0_2022",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "SR0_2022EE",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "SR0_2023",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "SR0_2023BPix",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "CR_upsilon_2022",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "CR_upsilon_2022EE",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "CR_upsilon_2023",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "CR_upsilon_2023BPix",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "SR0_2022",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "SR0_2022EE",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "SR0_2023",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "SR0_2023BPix",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "CR_upsilon_2022",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "CR_upsilon_2022EE",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "CR_upsilon_2023",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "CR_upsilon_2023BPix",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "SR0_2022",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "SR0_2022EE",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "SR0_2023",
+    "max_relative": 0.0
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "SR0_2023BPix",
+    "max_relative": 0.0
+  }
+]

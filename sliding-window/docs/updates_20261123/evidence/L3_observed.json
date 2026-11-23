@@ -1,0 +1,10 @@
+{
+  "mass": 9.0,
+  "mode": "observed",
+  "quantiles": [
+    {
+      "quantile": -1.0,
+      "limit": 5.252282642379788
+    }
+  ]
+}

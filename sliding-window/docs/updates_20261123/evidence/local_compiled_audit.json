@@ -1,0 +1,226 @@
+[
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "CR_upsilon_2022",
+    "max_relative": 3.9177207450642765e-16
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "CR_upsilon_2022EE",
+    "max_relative": 4.459770791454722e-16
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "CR_upsilon_2023",
+    "max_relative": 3.7025280305291275e-16
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "CR_upsilon_2023BPix",
+    "max_relative": 3.8202879034243267e-16
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "SR0_2022",
+    "max_relative": 1.6458023474782693e-15
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "SR0_2022EE",
+    "max_relative": 2.771956246787498e-15
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "SR0_2023",
+    "max_relative": 2.274795762240272e-15
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "SR0_2023BPix",
+    "max_relative": 2.2100587278975513e-15
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "CR_upsilon_2022",
+    "max_relative": 3.9177207450642765e-16
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "CR_upsilon_2022EE",
+    "max_relative": 4.459770791454722e-16
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "CR_upsilon_2023",
+    "max_relative": 3.7025280305291275e-16
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "CR_upsilon_2023BPix",
+    "max_relative": 3.8202879034243267e-16
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "SR0_2022",
+    "max_relative": 1.6458023474782693e-15
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "SR0_2022EE",
+    "max_relative": 2.771956246787498e-15
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "SR0_2023",
+    "max_relative": 2.274795762240272e-15
+  },
+  {
+    "branch": 0,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "SR0_2023BPix",
+    "max_relative": 2.2100587278975513e-15
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "CR_upsilon_2022",
+    "max_relative": 3.9177207450642765e-16
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "CR_upsilon_2022EE",
+    "max_relative": 4.459770791454722e-16
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "CR_upsilon_2023",
+    "max_relative": 3.7025280305291275e-16
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "CR_upsilon_2023BPix",
+    "max_relative": 3.8202879034243267e-16
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "SR0_2022",
+    "max_relative": 8.627950862948745e-15
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "SR0_2022EE",
+    "max_relative": 6.3646360341043375e-15
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "SR0_2023",
+    "max_relative": 9.8211552663872e-15
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig",
+    "channel": "SR0_2023BPix",
+    "max_relative": 4.66632704819328e-15
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "CR_upsilon_2022",
+    "max_relative": 3.9177207450642765e-16
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "CR_upsilon_2022EE",
+    "max_relative": 4.459770791454722e-16
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "CR_upsilon_2023",
+    "max_relative": 3.7025280305291275e-16
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "CR_upsilon_2023BPix",
+    "max_relative": 3.8202879034243267e-16
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "SR0_2022",
+    "max_relative": 8.627950862948745e-15
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "SR0_2022EE",
+    "max_relative": 6.3646360341043375e-15
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "SR0_2023",
+    "max_relative": 9.8211552663872e-15
+  },
+  {
+    "branch": 1,
+    "step": null,
+    "stage": "ModelConfig_bonly",
+    "channel": "SR0_2023BPix",
+    "max_relative": 4.66632704819328e-15
+  }
+]
